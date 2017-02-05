@@ -1,0 +1,1 @@
+cmd_bsp/libbsp.a := rm -f bsp/libbsp.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD bsp/libbsp.a bsp/dragonfly/AmbaLinkMemoryCfg.o bsp/dragonfly/AmbaMmuMemMap.o bsp/dragonfly/bsp.o bsp/dragonfly/buttons.o bsp/AmbaVer.o

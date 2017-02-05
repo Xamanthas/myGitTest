@@ -1,0 +1,1 @@
+cmd_comsvc/image/libcomsvc_image.a := rm -f comsvc/image/libcomsvc_image.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD comsvc/image/libcomsvc_image.a comsvc/image/AmbaVer_comsvcimage.o

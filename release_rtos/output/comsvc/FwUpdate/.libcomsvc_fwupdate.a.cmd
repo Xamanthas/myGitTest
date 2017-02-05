@@ -1,0 +1,1 @@
+cmd_comsvc/FwUpdate/libcomsvc_fwupdate.a := rm -f comsvc/FwUpdate/libcomsvc_fwupdate.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD comsvc/FwUpdate/libcomsvc_fwupdate.a comsvc/FwUpdate/AmbaFwUpdaterSD.o comsvc/FwUpdate/AmbaVer.o

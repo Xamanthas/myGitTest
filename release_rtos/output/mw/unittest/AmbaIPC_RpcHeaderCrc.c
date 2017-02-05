@@ -1,0 +1,3 @@
+unsigned int crc_result[] = {0xe532ceadU, 0xfb36a70eU, 0x4a7e1292U, 0x68560ba5U, 0x93481fb9U};
+int rpc_prog_id[] = {0x20000008, 0x20000003, 0x20000001, 0x10000007, 0x10000001};
+int rpc_num = 5;

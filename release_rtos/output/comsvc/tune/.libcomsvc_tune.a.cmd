@@ -1,0 +1,1 @@
+cmd_comsvc/tune/libcomsvc_tune.a := rm -f comsvc/tune/libcomsvc_tune.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD comsvc/tune/libcomsvc_tune.a comsvc/tune/AmbaVer_comsvctune.o comsvc/tune/AmbaTUNE_HdlrManager.o comsvc/tune/AmbaTUNE_TextHdlr.o comsvc/tune/AmbaTUNE_USBHdlr.o

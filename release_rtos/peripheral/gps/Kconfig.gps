@@ -1,0 +1,7 @@
+menu "GPS Driver"
+
+config GPS_UBLOX6_GM6XX
+        bool "GPS_GM6XX"
+        default n
+endmenu
+

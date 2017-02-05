@@ -1,0 +1,1 @@
+cmd_ssp/fwprog/libfwprog.a := rm -f ssp/fwprog/libfwprog.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD ssp/fwprog/libfwprog.a ssp/fwprog/AmbaMEMFWPROG.o ssp/fwprog/AmbaFwLoader_RegionInfo.o ssp/fwprog/AmbaVer.o

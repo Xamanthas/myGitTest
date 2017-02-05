@@ -1,0 +1,180 @@
+Archive member included because of file (symbol)
+
+/home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+                              (__vector)
+/home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o)
+                              /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o) (__AmbaCortexProgramStart2)
+/home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapNAND.o)
+                              /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o) (__AmbaCortexWarmBoot)
+/home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexInitDDR3.o)
+                              /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o) (__AmbaCortexDramInit)
+/home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexDDR3_K4B4G1646BHCK0_32B_600MHz.o)
+                              /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexInitDDR3.o) (PLL_DdrCtrlParam)
+/home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexNAND_S34MLxG1.o)
+                              /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o) (AmbaWarmBootMagicCode)
+
+Discarded input sections
+
+ .ARM.attributes
+                0x00000000       0x29 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+ .ARM.attributes
+                0x00000000       0x29 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o)
+ .ARM.attributes
+                0x00000000       0x29 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapNAND.o)
+ .ARM.attributes
+                0x00000000       0x29 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexInitDDR3.o)
+ .ARM.attributes
+                0x00000000       0x29 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexDDR3_K4B4G1646BHCK0_32B_600MHz.o)
+ .ARM.attributes
+                0x00000000       0x29 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexNAND_S34MLxG1.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                DRAM_START_ADDR = 0x0
+                0x01000000                MIN_DRAM_SIZE = 0x1000000
+                0x00000000                AMBOOT_BST_RAM_START = DRAM_START_ADDR
+                0xffff0000                NAND_BST_START = 0xffff0000
+                0xffff0000                . = NAND_BST_START
+
+.bst_stage1     0xffff0000      0x34c
+ *AmbaCortexBootstrapPreboot.o(.text)
+ .text          0xffff0000       0x18 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+                0xffff0000                __vector
+                0xffff0004                __AmbaCortexProgramStart
+ *AmbaCortexBootstrap.o(.text)
+ .text          0xffff0018       0x9c /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o)
+                0xffff0018                __AmbaCortexProgramStart2
+ *AmbaCortexInit*.o(.text)
+ .text          0xffff00b4      0x298 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexInitDDR3.o)
+                0xffff00b4                __AmbaCortexDramInit
+ *AmbaCortexBootstrap.o(.rodata)
+ *AmbaCortexInit*.o(.rodata)
+
+.bst_stage2     0x00000000      0x320 load address 0xffff034c
+                0x00000000                __postreloc_ram_start = .
+ *AmbaCortexBootstrapNAND*(.text)
+ .text          0x00000000      0x314 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapNAND.o)
+                0x00000000                __AmbaCortexBootStrapStage2
+                0x00000000                __AmbaCortexWarmBoot
+ *fill*         0x00000314        0x4 
+ .text.__stub   0x00000318        0x8 linker stubs
+                0x00000320                __postreloc_ram_end = .
+
+.glue_7         0x00000320        0x0 load address 0xffff066c
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00000320        0x0 load address 0xffff066c
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000320        0x0 load address 0xffff066c
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000320        0x0 load address 0xffff066c
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000320        0x0 load address 0xffff066c
+ .iplt          0x00000000        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+
+.text           0x00000320        0x0 load address 0xffff066c
+ .text          0x00000320        0x0 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexDDR3_K4B4G1646BHCK0_32B_600MHz.o)
+ .text          0x00000320        0x0 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexNAND_S34MLxG1.o)
+
+.rel.dyn        0x00000320        0x0 load address 0xffff066c
+ .rel.iplt      0x00000000        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+
+.data           0xffff066c      0x194
+                0xffff066c                __table_start = .
+ *(BstNandParam)
+ BstNandParam   0xffff066c       0x28 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexNAND_S34MLxG1.o)
+                0xffff066c                AmbaWarmBootMagicCode
+                0xffff067c                AmbaNandTiming
+ *(BstDramParam)
+ BstDramParam   0xffff0694       0x9c /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexDDR3_K4B4G1646BHCK0_32B_600MHz.o)
+                0xffff0694                PLL_ProgramDelay
+                0xffff0698                PLL_DdrCtrlParam
+                0xffff069c                PLL_DdrCtrl2Param
+                0xffff06a0                PLL_DdrCtrl3Param
+                0xffff06a4                DLL_ProgramDelay
+                0xffff06a8                DLL_ResetDelay
+                0xffff06ac                DLL_Setting0Param
+                0xffff06b0                DLL_Setting1Param
+                0xffff06b4                DLL_Setting2Param
+                0xffff06b8                DLL_Setting3Param
+                0xffff06bc                DLL_CtrlSel0Param
+                0xffff06c0                DLL_CtrlSel1Param
+                0xffff06c4                DLL_CtrlSel2Param
+                0xffff06c8                DLL_CtrlSel3Param
+                0xffff06cc                DLL_CtrlSelMiscParam
+                0xffff06d0                DRAM_PorDelay
+                0xffff06d4                DRAM_Delay1
+                0xffff06d8                DRAM_Delay2
+                0xffff06dc                DRAM_RsvdSpaceParam
+                0xffff06e0                DRAM_ConfigParam
+                0xffff06e4                DRAM_Timing1Param
+                0xffff06e8                DRAM_Timing2Param
+                0xffff06ec                DRAM_Timing3Param
+                0xffff06f0                DRAM_ByteMapParam
+                0xffff06f4                DRAM_DqsSyncPreRttParam
+                0xffff06f8                DRAM_ZqCalibPreRttParam
+                0xffff06fc                DRAM_DqsSyncParam
+                0xffff0700                DRAM_ZqCalibParam
+                0xffff0704                PLL_CortexProgramDelay
+                0xffff0708                DRAM_PadTermParam
+                0xffff070c                DDR3_Delay3
+                0xffff0710                DDR3_ModeReg0Param
+                0xffff0714                DDR3_ModeReg1Param
+                0xffff0718                DDR3_ModeReg2Param
+                0xffff071c                DDR3_ModeReg3Param
+                0xffff0720                PLL_DdrCtrlParam_1
+                0xffff0724                DRAM_Timing1Param_1
+                0xffff0728                DRAM_Timing2Param_1
+                0xffff072c                DRAM_Timing3Param_1
+                0xffff0730                __table_end = .
+                0xffff0800                . = (. + (0x800 - (((SIZEOF (.bst_stage1) + SIZEOF (.bst_stage2)) + __table_end) - __table_start)))
+ *fill*         0xffff0730       0xd0 
+                0xffff034c                __postreloc_start = LOADADDR (.bst_stage2)
+                0xffff066c                __postreloc_end = ((__postreloc_start + __postreloc_ram_end) - __postreloc_ram_start)
+
+.data           0xffff0800        0x0
+ .data          0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+ .data          0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o)
+ .data          0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapNAND.o)
+ .data          0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexInitDDR3.o)
+ .data          0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexDDR3_K4B4G1646BHCK0_32B_600MHz.o)
+ .data          0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexNAND_S34MLxG1.o)
+
+.igot.plt       0xffff0800        0x0
+ .igot.plt      0x00000000        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+
+.bss            0xffff0800        0x0
+ .bss           0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapPreboot.o)
+ .bss           0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrap.o)
+ .bss           0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexBootstrapNAND.o)
+ .bss           0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a(AmbaCortexInitDDR3.o)
+ .bss           0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexDDR3_K4B4G1646BHCK0_32B_600MHz.o)
+ .bss           0xffff0800        0x0 /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a(AmbaCortexNAND_S34MLxG1.o)
+
+/DISCARD/
+ *(.ARM.exidx.exit.text)
+ *(.ARM.extab.exit.text)
+ *(.ARM.exidx.cpuexit.text)
+ *(.ARM.extab.cpuexit.text)
+ *(.ARM.exidx.devexit.text)
+ *(.ARM.extab.devexit.text)
+ *(.ARM*)
+ *(.debug*)
+ *(.discard*)
+START GROUP
+LOAD /home/bingo/RD_A12/release_rtos/vendors/ambarella/lib/libsoc_bst_ddr3.a
+LOAD /home/bingo/RD_A12/release_rtos/output/peripheral/libperipheral.a
+END GROUP
+START GROUP
+LOAD /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/libgcc.a
+LOAD /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+OUTPUT(/home/bingo/RD_A12/release_rtos/output/ssp/amboot/bst/amba_bst_ddr3.elf elf32-littlearm)

@@ -1,0 +1,215 @@
+; A12 BUB startup macro for the Signum Chameleon Debugger Interfacea
+;refresh_mode_disable ; Disable display of windows
+if __CPU_STATE__ == "Unknown"
+    echo off
+    echo
+    echo Error: cannot access the CPU
+    echo
+    echo on
+    exit
+endif
+
+if __CPU_STATE__ == "NoPower"
+    echo off
+    echo
+    echo Error: target has no power!
+    echo Please connect power to the target now...
+    echo
+    while __CPU_STATE__ == "NoPower"
+    endwhile
+    echo on
+    pause 2000
+endif
+
+if __CPU_STATE__ == "InReset"
+    echo off
+    echo
+    echo CPU is resetting!
+    echo Waiting for release from reset...
+    echo
+    while __CPU_STATE__ == "InReset"
+    endwhile
+    echo on
+endif
+
+if __CPU_STATE__ == "Running"
+    echo off
+    echo
+    echo Stopping the CPU...
+    echo
+    stop
+    echo on
+endif
+
+;
+; Load definition file of registers for A7Ln
+;
+
+loadreg Ambarella-A12.def
+
+;
+; Initialize the board
+;
+
+map    all    none                ; Clear old mapping
+
+map 0x00000000 0xDFFFFFFF   user
+map 0xE0000000 0xE7FFFFFF   user volatile
+map 0xE8000000 0xEFFFFFFF   user volatile
+map 0xF0000000 0xFFFFFFFF   user
+
+map                        ; Display current mapping
+
+;dram pll setting
+PLL_DDR_CTRL_REG = 0x31100000
+
+PLL_DDR_CTRL2_REG = 0x3f770000
+
+PLL_DDR_CTRL3_REG = 0x00068304
+
+PLL_DDR_CTRL_REG = 0x31100001
+
+PLL_DDR_CTRL_REG = 0x31100000
+
+;setup dram dll
+DDRIO0_DLL0_REG = 0x00202020
+DDRIO0_DLL1_REG = 0x00202020
+DDRIO0_DLL2_REG = 0x00202020
+DDRIO0_DLL3_REG = 0x00202020
+
+DDRIO0_DLL_CTRL_SEL_0_REG = 0x8001
+DDRIO0_DLL_CTRL_SEL_1_REG = 0x8001
+DDRIO0_DLL_CTRL_SEL_2_REG = 0x8001
+DDRIO0_DLL_CTRL_SEL_3_REG = 0x8001
+
+DDRIO0_DLL_CTRL_SEL_MISC_REG = 0x12e50000
+
+pause 1
+
+;set ddrio in lpddr3 init mode
+CG_DDR_INIT_REG = 0x10a
+pause 1
+
+DRAM_INIT_CTL_REG = 0x8
+
+;write to DRAM_CFG_REG step 2 (disable sync and zq_clbr)
+DRAM_CFG_REG = 0x20260098
+
+;write to DRAM_TIMING1 reg step 3
+DRAM_TIMING1_REG = 0x1d892e65
+
+;write to DRAM_TIMING2 reg step 3
+DRAM_TIMING2_REG = 0x70a4f8e3
+
+;write to DRAM_TIMING3 reg step 3
+DRAM_TIMING3_REG = 0x60000092
+
+DRAM_DLL_CALIB_REG = 0x3204
+
+;disable DQS
+DRAM_DQS_SYNC_REG = 0xa0
+
+;disable ZQ calibration
+DRAM_ZQ_CALIB = 0x60
+
+;write to PAD TERM to set RESET high
+DRAM_PAD_TERM = 0x00020034
+
+DRAM_POWER_DOWN_REG = 0x321
+
+;Wait 100ns for cke high
+pause 1
+;set DRAM_CKE bit step 6
+DRAM_CTL_REG = 0x4
+
+pause 1
+
+;Write to DRAM_MODE_REG Reset
+DRAM_MODE_REG = 0x013f0001
+
+; tINIT5: 10us at most per die
+pause 1
+
+DRAM_MODE_REG = 0x010a00ff
+
+while (DRAM_MODE_REG & 0x80000000) != 0x00000000
+endwhile
+
+DRAM_MODE_REG = 0x01030001
+
+while (DRAM_MODE_REG & 0x80000000) != 0x00000000
+endwhile
+
+DRAM_MODE_REG = 0x01020007
+
+while (DRAM_MODE_REG & 0x80000000) != 0x00000000
+endwhile
+
+DRAM_MODE_REG = 0x010100e3
+
+while (DRAM_MODE_REG & 0x80000000) != 0x00000000
+endwhile
+
+DRAM_MODE_REG = 0x10b0000
+
+while (DRAM_MODE_REG & 0x80000000) != 0x00000000
+endwhile
+
+;set DRAM_AUTO_REF_EN step 18
+DRAM_CTL_REG = 0x6
+
+;Putting in power down mode for clock change
+DRAM_CTL_REG = 0x42
+pause 1
+
+;Come out of slow clock mode
+CG_DDR_INIT_REG = 0xa
+
+pause 1
+
+;DLL_RST_EN  to reset on-chip DLL
+DRAM_INIT_CTL_REG = 0x8
+
+while (DRAM_INIT_CTL_REG & 0x00000008) != 0x00000000
+endwhile
+
+;Wake up from power down after clock change
+DRAM_CTL_REG = 0x46
+
+;set DRAM_AUTO_REF_EN step 18
+DRAM_CTL_REG = 0x6
+
+;set PAD_CLB_EN bit step 20.5
+DRAM_INIT_CTL_REG = 0x20
+
+;wait for PAD Calibration to finish step 20.5
+while (DRAM_INIT_CTL_REG & 0x00000020) != 0x00000000
+endwhile
+
+;set GET_RTT_EN bit step 21
+DRAM_INIT_CTL_REG = 0x4
+
+;wait for GET_RTT to finish step 21
+while (DRAM_INIT_CTL_REG & 0x00000004) != 0x00000000
+endwhile
+
+;set DQS ON
+DRAM_DQS_SYNC_REG = 0x40
+
+;set ZQ calibration ON
+DRAM_ZQ_CALIB = 0x26
+
+DRAM_DLL_CALIB_REG = 0x3204
+
+;Initiate read of MR0
+;DRAM_MODE_REG = 0x00000000
+
+;wait for DAI bit to clear
+;while (DRAM_MODE_REG & 0x80000001) != 0x00000000
+;endwhile
+
+;setting DRAM_ENABLE
+DRAM_CTL_REG = 0x7
+
+pause 1
+;DRAM controller is initialized...

@@ -1,0 +1,9 @@
+GPSPATH=gps
+
+ifdef CONFIG_GPS_UBLOX6_GM6XX
+ccflags-y +=    -I$(srctree)/vendors/foss/gps
+ccflags-y +=    -I$(src)/gps/inc
+libperipheral-objs += $(GPSPATH)/gps_drv.o
+libperipheral-objs += $(GPSPATH)/gps_drv_ublox6_gm6xx.o
+endif
+

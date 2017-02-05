@@ -1,0 +1,1 @@
+cmd_app/fwupdater/libpba.a := rm -f app/fwupdater/libpba.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD app/fwupdater/libpba.a app/fwupdater/AmbaSSPSystemInfo.o app/fwupdater/AmbaBuffers.o app/fwupdater/AmbaUserSysCtrl.o app/fwupdater/AmbaFirmwareUpdater.o

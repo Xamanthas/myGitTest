@@ -1,0 +1,1 @@
+cmd_comsvc/AmbaTest/libcomsvc_test.a := rm -f comsvc/AmbaTest/libcomsvc_test.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD comsvc/AmbaTest/libcomsvc_test.a comsvc/AmbaTest/AmbaTest.o comsvc/AmbaTest/AmbaTest_Fio.o comsvc/AmbaTest/AmbaTest_PIO.o comsvc/AmbaTest/AmbaTest_cpp.o comsvc/AmbaTest/AmbaTest_cpp_case.o comsvc/AmbaTest/AmbaVer.o

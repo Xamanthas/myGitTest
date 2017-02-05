@@ -1,0 +1,8 @@
+GSENSORPATH=g_sensor
+
+ifdef CONFIG_G_SENSOR_ST_LIS3DE
+ccflags-y += -I$(src)/g_sensor/inc
+libperipheral-objs += $(GSENSORPATH)/AmbaGSensor.o
+libperipheral-objs += $(GSENSORPATH)/AmbaGSensor_ST_LIS3DE.o
+endif
+

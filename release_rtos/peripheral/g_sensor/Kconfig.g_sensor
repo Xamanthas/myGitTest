@@ -1,0 +1,7 @@
+menu "G-SENSOR Driver"
+
+config G_SENSOR_ST_LIS3DE
+        bool "G_SENSOR_ST_LIS3DE"
+        default n
+endmenu
+

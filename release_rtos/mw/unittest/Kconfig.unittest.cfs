@@ -1,0 +1,4 @@
+config MW_UT_CFS_DTA_AMOUNT
+	depends on BUILD_MW_UNITTEST && BUILD_MW_CFS
+	int "Max Number of CFS DTA"
+	default 2

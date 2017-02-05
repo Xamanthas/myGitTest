@@ -1,0 +1,3340 @@
+         U AmbaB5F_RegWrite
+         U AmbaB5N_RegRead
+         U AmbaB5N_RegWrite
+         U AmbaB5_Enable
+         U AmbaB5_GetNumActiveChannel
+         U AmbaB5_GetPwmBrokenFlag
+         U AmbaB5_I2cBurstWrite
+         U AmbaB5_I2cReadAfterWrite
+         U AmbaB5_Init
+         U AmbaB5_PllGetSwPllSem
+         U AmbaB5_PllSetSensorClk
+         U AmbaB5_PllSwPllConfig
+         U AmbaB5_PllSwPllDisable
+         U AmbaB5_PllSwPllEnable
+         U AmbaB5_PllSwPllShowMsg
+         U AmbaB5_PrescalerInit
+         U AmbaB5_RegRead
+         U AmbaB5_SetPwmBrokenFlag
+         U AmbaB5_VinCaptureConfig
+         U AmbaB5_VinConfigMIPI
+         U AmbaB5_VinConfigSLVS
+         U AmbaB5_VinPhySetMIPI
+         U AmbaB5_VinPhySetSLVS
+         U AmbaB5_VinReset
+         U AmbaB5_VoutConfig
+         U AmbaB5_VoutEnable
+         U AmbaB5_VoutReset
+         U AmbaBoss_PostStart
+         U AmbaBoss_PostWipeout
+         U AmbaBoss_PreStart
+         U AmbaBoss_PreWipeout
+         U AmbaDSP_Img3aTransferCFAAaaStatData
+         U AmbaDSP_Img3aTransferRGBAaaStatData
+         U AmbaDSP_Img3aTransferVideoHdrCFAAaaHdrStatData
+         U AmbaDSP_Img3aTransferVideoHdrCFAAaaMainStatData
+         U AmbaDSP_ImgCalcCawarpCompensation
+         U AmbaDSP_ImgCalcWarpCompensation
+         U AmbaDSP_ImgGetCfgStatus
+         U AmbaDSP_ImgGetHdrCfgStatus
+         U AmbaDSP_ImgGetHdrDspBlendInfoCallBackFunction
+         U AmbaDSP_ImgGetVinSensorInfo
+         U AmbaDSP_ImgGetWarpCompensation
+         U AmbaDSP_ImgInitCfg
+         U AmbaDSP_ImgPostExeCfg
+         U AmbaDSP_ImgSetCawarpCompensation
+         U AmbaDSP_ImgSetHdrPostExe
+         U AmbaDSP_ImgSetHdrRawSize
+         U AmbaDSP_ImgSetIsoCfgTag
+         U AmbaDSP_ImgSetSizeInfo
+         U AmbaDSP_ImgSetVinSensorInfo
+         U AmbaDSP_ImgSetWarpCompensation
+         U AmbaRTSL_PllGetFaceDetectClk
+         U AmbaRTSL_PllSetArmClk
+         U AmbaTest_SPI
+         U AmbaTest_Timer
+         w AmbaUserSDIO_PowerCtrl
+         w AmbaUserSDIO_VoltageCtrl
+         w AmbaVer_SetAmbootBld
+         w AmbaVer_SetApp
+         w AmbaVer_SetAppLib
+         w AmbaVer_SetAudio
+         w AmbaVer_SetAudio_sys
+         w AmbaVer_SetComsvcTune
+         w AmbaVer_SetDspImgKernel
+         w AmbaVer_SetFwprog
+         w AmbaVer_SetImgAdj
+         w AmbaVer_SetImgAe
+         w AmbaVer_SetImgAwb
+         w AmbaVer_SetImgCalib
+         w AmbaVer_SetImgEncMonitor
+         w AmbaVer_SetImgItuner
+         w AmbaVer_SetImgProc
+         w AmbaVer_SetImgSchdlr
+         w AmbaVer_SetImgUtils
+         w AmbaVer_SetMwCfs
+         w AmbaVer_SetMwDataFlow
+         w AmbaVer_SetMwDspFlow
+         w AmbaVer_SetMwNet
+         w AmbaVer_SetMwUnitTest
+         w AmbaVer_SetSocBld
+         w AmbaVer_SetSocBstDdr3
+         w AmbaVer_SetSocBstLpddr2
+         w AmbaVer_SetSocNonOs
+         w AmbaVer_SetSocTest
+         w AmbaVer_SetSspUnitTest
+         w AmbaVer_SetUsbDeviceClassCdcAcm
+         w AmbaVer_SetUsbDeviceClassDfu
+         w AmbaVer_SetUsbDeviceClassHid
+         w AmbaVer_SetUsbDeviceClassMsc
+         w AmbaVer_SetUsbDeviceClassMtp
+         w AmbaVer_SetUsbDeviceClassSimple
+         w AmbaVer_SetUsbDeviceClassStream
+         w AmbaVer_SetUsbDeviceClassUvc
+         w AmbaVer_SetUsbPictbridge
+         U Amp_NetFifo_GetMemInfo
+         U AppButtonOp_UpdateStatus
+         U ShowAAAHeader
+         U _AmbaReleaseOtherCoreFlag
+         U _ZNKSs7compareEPKc
+         U _ZNSs4_Rep10_M_destroyERKSaIcE
+         U _ZNSs4_Rep20_S_empty_rep_storageE
+         U _ZNSsC1EPKcRKSaIcE
+         U _ZNSt8ios_base4InitC1Ev
+         U _ZNSt8ios_base4InitD1Ev
+         U __tx_fiq_processing_return
+         U _udc_mtp_set_supported_events
+         U _ux_device_class_cdc_acm_entry
+         U _ux_device_class_cdc_acm_read
+         U _ux_device_class_cdc_acm_write
+         U _ux_device_class_hid_entry
+         U _ux_device_class_hid_event_set
+         U _ux_device_class_pima_entry
+         U _ux_device_class_pima_event_set
+         U _ux_device_class_pima_response_send
+         U _ux_device_class_simple_entry
+         U _ux_device_class_simple_read
+         U _ux_device_class_simple_write
+         U _ux_device_class_storage_entry
+         U _ux_device_class_stream_entry
+         U _ux_device_class_stream_entry_native
+         U _ux_device_class_stream_read
+         U _ux_device_class_stream_write
+         U _ux_device_class_uvc_entry
+         U _ux_device_class_uvc_payload_send
+         U _ux_pictbridge_ddiscovery_name
+         U _ux_pictbridge_dpsclient_api_abort_job
+         U _ux_pictbridge_dpsclient_api_capability
+         U _ux_pictbridge_dpsclient_api_configure_print_service
+         U _ux_pictbridge_dpsclient_api_continue_job
+         U _ux_pictbridge_dpsclient_api_device_status
+         U _ux_pictbridge_dpsclient_api_start_job
+         U _ux_pictbridge_dpsclient_register_event_callback_function
+         U _ux_pictbridge_dpsclient_reset
+         U _ux_pictbridge_dpsclient_start
+         U crc_result
+         U priv_crc_result
+         U priv_rpc_num
+         U priv_rpc_prog_id
+         U rpc_num
+         U rpc_prog_id
+         U sigprint
+         U test_chk_low_spd
+         U test_fioprf_randvrfy
+         U test_fioprf_thruput
+         U test_gpio
+         U test_i2c
+         U test_nand_op
+         U test_nor_op
+         U test_sd
+         U test_sd_shmoo
+         U udc_cdc_acm_clear_control_bitmap
+         U udc_cdc_acm_get_control_bitmap
+         U udc_msc_get_context
+         U udc_msc_mutex_get
+         U udc_msc_mutex_put
+         U udc_msc_recv_bulkout_data
+         U udc_msc_send_bulkin_data
+         U udc_msc_setcbk_processcbw
+         U udc_mtp_disable_protocol_debug
+         U udc_mtp_enable_protocol_debug
+         U udc_mtp_get_context
+         U udc_mtp_is_protocol_debug_enabled
+         U udc_uvc_get_brightness_setting
+         U udc_uvc_get_contrast_setting
+         U udc_uvc_get_host_config
+         U udc_uvc_get_hue_setting
+         U udc_uvc_get_powerline_setting
+         U udc_uvc_get_saturation_setting
+         U udc_uvc_get_sharpness_setting
+         U udc_uvc_notify_encode_stop
+         U udc_uvc_register_callback
+         U udc_uvc_set_brightness_setting
+         U udc_uvc_set_contrast_setting
+         U udc_uvc_set_extension_unit_id
+         U udc_uvc_set_hue_setting
+         U udc_uvc_set_input_terminal_id
+         U udc_uvc_set_powerline_setting
+         U udc_uvc_set_processing_unit_id
+         U udc_uvc_set_saturation_setting
+         U udc_uvc_set_sharpness_setting
+00000000 a shift
+00000000 a shift
+00000002 a IRQ_MODE
+00000003 a SVC_MODE
+00000013 a SVC_MODE
+00000013 a SVC_MODE_BITS
+0000001f a MODE_MASK
+00000020 a THUMB_MASK
+00000080 a DISABLE_INTS
+00000080 a DISABLE_INTS
+00000080 a DISABLE_INTS
+00000080 a DISABLE_INTS
+00000080 a DISABLE_INTS
+0000009f a CPSR_MASK
+000000d1 a FIQ_MODE
+000000d2 a IRQ_MODE
+000000d3 a SVC_MODE
+000000df a SYS_MODE
+a0000000 T __ddr_resv_start
+a0000000 t __ddr_start
+a0001000 T __ddr_region0_ro_start
+a0001000 T __ddr_resv_end
+a0001000 T __vector
+a0001020 t Undefined_Handler
+a0001064 t SWI_Handler
+a0001068 t Prefetch_Handler
+a00010ac t DataAbort_Handler
+a00010f0 t IRQ_Handler
+a00010fc t IRQ_IsrAddr
+a0001100 t FIQ_IsrAddr
+a0001104 t Exception_HandlerAddr
+a0001108 t __AmbaProgramStart
+a00011c0 t BssZeroInit
+a00011d8 t BssZeroInitRemain
+a00011e4 t BssInitDone
+a00011e8 t init_vfpv3
+a0001210 t BSS_START
+a0001214 t BSS_END
+a0001234 T _pAmbaHwStackSVC
+a0001238 T _pAmbaHwStackUND
+a000123c T _pAmbaHwStackIRQ
+a0001240 T _pAmbaHwStackABT
+a0001244 T _pAmbaHwStackFIQ
+a0001248 T _pAmbaHwStackSYS
+a000124c T AmbaLink_LinkCtrlCfg	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaLinkMemoryCfg.c:275
+a0001414 t MMU_RamMapInit	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaMmuMemMap.c:99
+a00016c8 T AmbaUserExpGPIO_Init	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:200
+a00016cc W AmbaUserSD_VoltageCtrl	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:252
+a00016e0 W AmbaUserSD_PowerCtrl	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:273
+a00016ec T AmbaUserConsole_Write	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:307
+a0001714 T AmbaUserConsole_Read	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:327
+a000172c T AmbaUserSD_Adjust	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:372
+a0001730 T AmbaVer_SetBsp	/home/bingo/RD_A12/release_rtos/bsp/AmbaVer.c:16
+a0001768 T AmbaFwUpdaterSD_SetMagicCode	/home/bingo/RD_A12/release_rtos/comsvc/FwUpdate/AmbaFwUpdaterSD.c:46
+a00017b0 T AmbaFwUpdaterSD_ClearMagicCode	/home/bingo/RD_A12/release_rtos/comsvc/FwUpdate/AmbaFwUpdaterSD.c:95
+a00017f0 T AmbaVer_SetComsvcFwupdate	/home/bingo/RD_A12/release_rtos/comsvc/FwUpdate/AmbaVer.c:21
+a0001828 T w_strlen
+a0001858 T w_strcpy	/home/bingo/RD_A12/release_rtos/comsvc/misc/wchar.c:44
+a0001870 T w_strcat	/home/bingo/RD_A12/release_rtos/comsvc/misc/wchar.c:169
+a00018b4 t AmbaVer_InitSingle	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:173
+a0001924 T AmbaVer_Init	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:206
+a0001d78 T AmbaVer_GetCount	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:274
+a0001d80 T AmbaVer_GetKey	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:279
+a0001d98 T AmbaVer_GetVerInfo	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:284
+a0001df8 T AmbaVer_ShowVerCompactInfo	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:309
+a0001e6c T AmbaVer_ShowAllVerCompactInfo	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:332
+a0001eac T AmbaVer_ShowLinkVerInfo	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:343
+a0001edc T AmbaVer_GetLinkVerInfo	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:348
+a0001f14 T AmbaVer_SetComsvcMisc	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVer.c:21
+a0001f4c t AmbaMonitor_SDEjectDispatch	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaMonitor_SD.c:214
+a0001f84 t AmbaMonitor_SDInsertDispatch	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaMonitor_SD.c:191
+a0001fbc t Monitor_SDTaskEntry	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaMonitor_SD.c:153
+a0002268 T AmbaMonitor_SDInit	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaMonitor_SD.c:257
+a0002380 T memcpy	/home/bingo/RD_A12/release_rtos/comsvc/misc/memcpy.asm:159
+a0002388 t memcpy_arm	/home/bingo/RD_A12/release_rtos/comsvc/misc/memcpy.asm:165
+a0002880 t DumpIoStatDiagram	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Cardmgr.c:80
+a0002948 T GetFsFormat	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Cardmgr.c:52
+a0002a28 T ambsh_cardmgr	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Cardmgr.c:109
+a00033a0 T ambsh_cat	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Cat.c:29
+a0003634 T ambsh_cd	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Chdir.c:29
+a0003998 t do_chmod	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Chmod.c:75
+a0003ebc T do_chmoddir	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Chmod.c:183
+a00042dc T ambsh_chmod	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Chmod.c:263
+a0004398 T ambsh_cleandir	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Cleandir.c:31
+a00043e4 T ambsh_date	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Date.c:66
+a0004674 t DoPrintDsp	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Dmesg.c:33
+a00046dc t Usage.isra.1	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Dmesg.c:25
+a0004724 T ambsh_dmesg	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Dmesg.c:76
+a0004a9c T ambsh_echo	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Echo.c:20
+a0004b04 T ambsh_format	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Format.c:35
+a0004c44 t BackUpMediaPartition	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:40
+a0004da0 t firmfl_prepro	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:194
+a0004e68 t BackUpMediaPartitionEmmc	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:84
+a0004fb0 t BackUpMediaPartitionNor	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:122
+a00050fc t firmfl_prog	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:162
+a0005214 t usage.isra.0	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:225
+a000526c T ambsh_firmfl	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:239
+a000530c T ambsh_help	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Help.c:20
+a00053c4 T ambsh_hotboot	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Hotboot.c:27
+a0005420 t yy_get_previous_state	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1181
+a0005548 t yy_load_buffer_state	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1392
+a00055bc T yy_flush_buffer	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1481
+a0005620 t yy_init_buffer	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1453
+a0005690 T MyMalloc	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1904
+a00056c0 T MyFree
+a00056c4 T my_yyinput	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1939
+a0005738 T reset_lexer	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1958
+a0005764 T my_fatal_error	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1969
+a0005790 t yyensure_buffer_stack
+a0005838 T yy_create_buffer	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1406
+a0005894 T yyrestart	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1345
+a0005928 t yy_get_next_buffer	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1055
+a0005b5c T yylex	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:754
+a0006568 T ambsh_lex_load_file	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1975
+a00066c0 T ambsh_lex_load_text	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:2090
+a0006734 t ls_current_dir	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ls.c:47
+a0006a44 t ls_recursive.constprop.1	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ls.c:121
+a0006bcc T ambsh_ls	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ls.c:176
+a0006e08 T ambsh_mkdir	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Mkdir.c:28
+a0006fa8 T AmbaFS_strncpy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:36
+a0006fe0 T AmbaFS_strcpy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:45
+a0007010 T AmbaFS_strcat	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:53
+a0007040 T AmbaFS_strcmp	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:61
+a0007070 T AmbaFS_Copy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:70
+a0007390 T AMBA_FS_remove_wildcard	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:218
+a00074a4 T AmbaFS_MoveWildcard
+a000754c T ambsh_mv	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Move.c:308
+a000791c T ambsh_nftl_read_sector	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:51
+a0007d30 T ambsh_nftl_write_sector	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:184
+a0008064 T ambsh_nftl_verify_sector	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:287
+a00085e0 T ambsh_nftl_pread	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:453
+a0008ae8 T ambsh_nftl_pwrite	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:608
+a0008f3c T ambsh_nftl_erase	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:735
+a000903c T ambsh_nftl_thruput	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:841
+a000958c T ambsh_nftl_init	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1046
+a0009730 T ambsh_nftl_deinit	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1111
+a0009884 T ambsh_nftl_get_status	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1158
+a0009b2c T ambsh_nftl_reclaim_bb	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1234
+a0009d34 T ambsh_nftl_bbm	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1467
+a000a1e4 T ambsh_nftl_log2phy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1599
+a000a514 T ambsh_nftl_phy2log	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1699
+a000a840 T ambsh_nftl_used_lba	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1797
+a000aa50 T ambsh_nftl_unused_pba	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:1864
+a000ac7c t erase_lba_usage.isra.6	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:773
+a000acc0 T ambsh_nftl_erase_lba	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:780
+a000adf8 t usage.isra.17	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:2039
+a000ae50 T ambsh_nftl	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:2057
+a000aef0 t SHELL_Print	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ps.c:28
+a000af5c t SHELL_PsUsage.isra.0	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ps.c:59
+a000b034 T ambsh_ps	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ps.c:90
+a000b2b8 T ambsh_pwd	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Pwd.c:22
+a000b2d8 T ambsh_reboot	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Reboot.c:27
+a000b334 T ambsh_poweroff	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Poweroff.c:27
+a000b390 T ambsh_rm	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rm.c:29
+a000b5d4 t __ambsh_write
+a000b670 T ambsh_writeb	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rw.c:85
+a000b678 T ambsh_writew	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rw.c:90
+a000b680 T ambsh_writel	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rw.c:95
+a000b688 T ambsh_readb	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rw.c:100
+a000b6e0 T ambsh_readw	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rw.c:105
+a000b738 T ambsh_readl	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Rw.c:110
+a000b790 T ambsh_savebin	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Savebin.c:32
+a000b970 T ambsh_sleep	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Sleep.c:25
+a000b9b8 T ambsh_suspend	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Suspend.c:29
+a000ba40 t AmbaShell_CmdStripQuote.part.1	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1998
+a000ba6c T yyerror	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1790
+a000bac8 T ambsh_yyparse_err	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1895
+a000bad4 T AmbaShell_CmdMalloc
+a000bbb8 T AmbaShell_CmdFree	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1929
+a000bc74 T AmbaShell_CmdAddArg	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:2016
+a000bcec T AmbaShell_CmdAddv	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1988
+a000bd28 T ambsh_cmd_set_infile	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:2028
+a000bd8c T ambsh_cmd_set_outfile	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:2039
+a000bdf0 T ambsh_cmd_set_apdfile	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:2050
+a000be54 T yyparse	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1141
+a000c4dc T ambsh_yyparse_file	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1798
+a000c5c4 T ambsh_yyparse_text	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1862
+a000c6b4 T ambsh_true	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_True.c:20
+a000c6bc T AmbaShell_MemAlloc	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Utility.c:25
+a000c700 T AmbaShell_MemFree	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Utility.c:38
+a000c704 T AmbaShell_Ascii2Unicode	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Utility.c:43
+a000c73c T AmbaShell_Unicode2Ascii	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Utility.c:52
+a000c774 t SHELL_ConsoleGetChar	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:90
+a000c798 t SHELL_ConsolePutChar	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:115
+a000c7d0 t SHELL_ConsoleFlush	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:136
+a000c7d8 t SHELL_Destroy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:435
+a000c928 T ambsh_env_force_kill_child	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:507
+a000c984 T AmbaShell_FindProcImage	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1230
+a000c9c8 T AmbaShell_GetEnv	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1465
+a000ca30 T AmbaShell_ReadTimeout	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1590
+a000cb64 T AmbaShell_Write	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1647
+a000cd30 T AmbaShell_Print	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1494
+a000cdac T AmbaShell_EnvTryFreeChild	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:469
+a000cf64 t SHELL_IoRedirectInit	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:159
+a000d180 t SHELL_Create	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:285
+a000d688 T AmbaShell_Printf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1523
+a000d704 T AmbaShell_GetFsError	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1708
+a000d724 T AmbaShell_Flush
+a000d75c T LoadHistory	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:749
+a000d9a0 t AmbaShell_ReplaceHistory
+a000db10 T AmbaShell_GetCmdStringFromPrompt	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:885
+a000e38c t SHELL_ExecuteCmdProc	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1251
+a000e66c T AmbaShell_Prompt	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1119
+a000e914 T AmbaShellTask	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1357
+a000eaa8 T AmbaShell_GetHeap	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1740
+a000eab8 T AmbaShell_Init	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1762
+a000eb6c T AmbaShell_Start	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:1797
+a000eca4 T ambsh_vol	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Vol.c:31
+a000ef40 t Show	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ver.c:24
+a000efc4 t ShowLinkVerInfo	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ver.c:58
+a000f008 T ambsh_ver	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Ver.c:96
+a000f1b8 T AmbaVer_SetComsvcShell	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaVer.c:16
+a000f1f0 t Exception_Print	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:97
+a000f290 T AmbaExceptionHandler	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:139
+a000f428 T AmbaMemcpy_16to32	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_16to32.asm:17
+a000f430 t Octcopy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_16to32.asm:21
+a000f4a0 t Stop	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_16to32.asm:60
+a000f4a4 T AmbaMemcpy_32to16	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to16.asm:36
+a000f4ac t Octcopy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to16.asm:40
+a000f51c t Stop	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to16.asm:79
+a000f520 T AmbaMemcpy_32to32	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to32.asm:35
+a000f528 t Octcopy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to32.asm:39
+a000f53c t Stop	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to32.asm:47
+a000f540 T AmbaMemcpy_32to8	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to8.asm:38
+a000f548 t Octcopy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to8.asm:42
+a000f638 t Stop	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_32to8.asm:113
+a000f63c T AmbaMemcpy_8to32	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_8to32.asm:37
+a000f644 t Octcopy	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_8to32.asm:41
+a000f774 t Stop	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaMemcpy_8to32.asm:128
+a000f778 t PRINT_Flush.part.0	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:178
+a000f844 t PRINT_InsertMsg.part.1	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:228
+a000f8d8 t PRINT_InsertMsg
+a000f8f0 t PRINT_SetHeader	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:298
+a000f9b8 t PRINT_SetFooter	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:337
+a000fa68 t PRINT_DecodeVarArgList	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:272
+a000fab4 T AmbaPrintk_GetRtosLastMsg	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:514
+a000fb70 T AmbaPrintk_GetDspLastMsg	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:557
+a000fc38 T AmbaPrintk_PrintfDspMsgToBuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:604
+a000ff48 t PRINT_Task	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:431
+a001011c T AmbaPrintk_Flush	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:727
+a001016c T AmbaPrintk	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:758
+a00102c0 T AmbaPrint_Init	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:825
+a001047c T AmbaPrint	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:961
+a0010528 T AmbaPrint_SetConfig	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:1255
+a001055c T AmbaIdleTaskCallbackFunctionRegister	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:74
+a001056c T AmbaWaitSysStatus	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:172
+a00105b0 T AmbaRootTaskEntry	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:46
+a0010600 T AmbaUtility_Crc32Add	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:155
+a0010638 T AmbaUtility_Crc32	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:182
+a001067c T AmbaUtility_Ascii2Unicode	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:212
+a0010690 T AmbaUtility_Unicode2Ascii	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:236
+a00106e4 T AmbaUtility_Drive2Slot	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:264
+a0010710 T AmbaUtility_Slot2Drive	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:287
+a001071c T AmbaUtility_FindWild	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:391
+a001076c T AmbaUtility_FindRepeatSep	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:418
+a00107b0 T AmbaUtility_StringToUINT32	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:447
+a00107d0 T AmbaUtility_GetTimeStart	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:467
+a00107e4 T AmbaUtility_GetTimeEnd	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:487
+a0010800 T AmbaVer_SetComsvcSys	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaVer.c:16
+a0010838 t AmbaTest_Help	/home/bingo/RD_A12/release_rtos/comsvc/AmbaTest/AmbaTest.c:72
+a0010844 T ambsh_t	/home/bingo/RD_A12/release_rtos/comsvc/AmbaTest/AmbaTest.c:36
+a001090c T AmbaVer_SetComsvcTest	/home/bingo/RD_A12/release_rtos/comsvc/AmbaTest/AmbaVer.c:16
+a0010944 T dump_h264_decode_stop_t
+a00109cc T dump_h264_encode_stop_t
+a0010a38 T dump_vin_timer_mode_t
+a0010b94 T AmbaDSP_Suspend
+a0010da8 t AmbaLL_ErrHandleInit
+a0010e48 t DSP_MsgPrint
+a0010e4c t DSP_SetupInitDataSeq
+a0010ea4 t DSP_DumpUcodeInfo.isra.0
+a00110a4 t DSP_DumpInitData.constprop.4
+a00112c0 T AmbaLL_SuspendDSP
+a0011374 T AmbaLL_BatchCmdBufferVideoAutoProcessEnable
+a001143c T AmbaLL_InitDefCfgBuffer
+a00114c8 T AmbaLL_ClrDefCfgBuffer
+a0011524 T AmbaDSP_WaitVdsp
+a00115bc T AmbaLL_DumpCmdBufferDef
+a0011630 T AmbaLL_DumpCmdBufferGen
+a0011708 T AmbaLL_DumpUcodeInfo
+a00117e4 T AmbaLL_Assert
+a0011a00 T AmbaLL_WriteGenCmdBuffer
+a0011e48 T AmbaLL_WriteGroupCmdBuffer
+a0011fa4 T AmbaLL_WriteDefCmdBuffer
+a00120dc T AmbaLL_WriteAsyncCmdBuffer
+a00121f4 t InitDspInfo
+a0012280 T AmbaDSP_WaitEncMode
+a00124c4 T AmbaLL_SetOpModeSuspend
+a0012590 T AmbaDSP_GetOpMode
+a001265c T AmbaDSP_GetEncMode
+a0012814 T AmbaDSP_GetStillEncStat
+a00129cc T AmbaDSP_GetRawCapStatus
+a0012b94 T AmbaLL_BatchCmdBufferInit
+a001300c T AmbaLL_BatchCmdBufferFlushVideo
+a00131dc T AmbaLL_BatchBufferDumpUnit
+a0013248 T AmbaLL_BatchBufferDump
+a00133ac t AmbaLL_CmdSend
+a0013400 T AmbaLL_CmdVinTimerMode
+a0013450 T AmbaLL_CmdH264EncodeStop
+a00134a8 T AmbaLL_CmdH264DecodeStop
+a00134f8 T AmbaLL_CmdAmbStopUcode
+a0013544 T AmbaLL_EventHdlrDump
+a0013740 T AmbaLL_LogInit
+a0013804 T AmbaLL_Log
+a0013940 T AmbaLL_LogShow
+a0013b68 T AmbaVer_SetDspDspKernel
+a0013ba4 T AmbaFS_fclose
+a0013c94 T AmbaFS_rename
+a0013d08 T AmbaFS_fread
+a0013d6c T AmbaFS_fwrite
+a0013dd0 T AmbaFS_fseek
+a0013e38 T AmbaFS_NextDirEnt
+a0013f50 T AmbaFS_SetVol
+a0013fa0 T AmbaFS_GetVol
+a0013ff8 T AmbaFS_GetDev
+a001408c T AmbaFS_Format
+a001410c T AmbaFS_Sync
+a001414c T AmbaFS_Mount
+a0014150 T AmbaFS_Unmount
+a0014158 T AmbaFS_Init
+a0014234 T AmbaFS_GetCodeMode
+a0014244 T AmbaFS_GetDrive
+a00142ac T AmbaFS_Chdir
+a001448c T AmbaFS_remove
+a00144f4 T AmbaFS_Move
+a0014574 T AmbaFS_FirstDirEnt
+a00146e0 T AmbaFS_Mkdir
+a0014748 T AmbaFS_Stat
+a0014928 T AmbaFS_Chmod
+a0014998 T AmbaFS_CleanDir
+a0014a20 T AmbaFS_ChmodDir
+a0014ac8 T AmbaFS_fopen
+a0014bb8 T AmbaFS_FreeFileInstance
+a0014be4 T AmbaFS_IsFat
+a0014c1c T AmbaFS_GetEnv
+a0014c28 T AmbaFS_GetError
+a0014c3c T AmbaFS_FatTypeDetermination
+a0014db0 T AmbaFS_CreateMbr
+a0014ee8 T AmbaFS_CreateBs
+a0015318 T AmbaFS_CreateFat
+a00154dc T AmbaFS_CreateBootArea
+a00157fc T AmbaFS_CreateExfatEntry
+a0015c40 T AmbaFS_GetSectorsPerFat
+a0015d40 T AmbaFS_GetFlashSectorsPerFat
+a0015df4 T AmbaFS_ParseSdaFormatParam
+a00162c0 T AmbaFS_ParseFormatParam
+a0016908 T AmbaFS_Prf2Format
+a0016a90 t NandFS_PhySimpleWrite
+a0016c74 t Nand2FS_PhySimplyWrite
+a0016c8c t Nand1FS_PhySimplyWrite
+a0016ca4 t NandFS_Init
+a0016eec t NandFS_GetDiskInfo
+a0016fe8 t Nand2FS_GetDiskInfo
+a0016ff8 t Nand1FS_GetDiskInfo
+a0017008 t Nand2FS_PhyWrite
+a0017034 t Nand1FS_PhyWrite
+a0017060 t Nand2FS_PhyRead
+a001708c t Nand1FS_PhyRead
+a00170b8 t NandFS_CheckFormat
+a0017200 t NandFS_Format.isra.0
+a00174d4 t Nand2FS_Format
+a00174dc t Nand1FS_Format
+a00174e4 t Nand2FS_DrvTblInit
+a0017500 t Nand1FS_DrvTblInit
+a001751c t Nand1FS_Mount
+a001752c t Nand1FS_Unmount
+a001753c t Nand1FS_DrvInit
+a001755c t Nand1FS_Finalize
+a0017590 t Nand2FS_Mount
+a00175a0 t Nand2FS_Unmount
+a00175b0 t Nand2FS_DrvInit
+a00175d0 t Nand2FS_Finalize
+a0017604 T AmbaFS_Nand1Init
+a001760c T AmbaFS_Nand2Init
+a0017614 T AmbaFS_NandFormatDrive
+a00176c4 t AmbaFS_NullPrFileInitDriveTable0
+a00176e0 t AmbaFS_NullPrFileInitDriveTable1
+a00176fc t AmbaFS_NullPrFileInitDriveTable2
+a0017718 t AmbaFS_NullPrFileInitDriveTable3
+a0017734 t AmbaFS_NullPrFileInitDriveTable4
+a0017750 t AmbaFS_NullPrFileInitDriveTable5
+a001776c t AmbaFS_NullPrFileInitDriveTable6
+a0017788 t AmbaFS_NullPrFileInitDriveTable7
+a00177a4 t AmbaFS_NullPrFileInitDriveTable8
+a00177c0 t AmbaFS_NullPrFileInitDriveTable9
+a00177dc t AmbaFS_NullPrFileInitDriveTable10
+a00177f8 t AmbaFS_NullPrFileInitDriveTable11
+a0017814 t AmbaFS_NullPrFileInitDriveTable12
+a0017830 T AmbaFS_NullPrFileMount
+a0017838 T AmbaFS_NullPrFileUnmount
+a0017840 T AmbaFS_NullPrFileFormat
+a0017848 T AmbaFS_NullPrFilePread
+a0017850 T AmbaFS_NullPrFilePwrite
+a0017858 T AmbaFS_NullPrFileGetDiskInfo
+a0017860 T AmbaFS_NullPrFileDriveInit
+a0017880 T AmbaFS_NullPrFileFinalize
+a00178ec T AmbaFS_NullPrFileinit
+a0017bf4 T AmbaFS_PrFileInit
+a0017d54 T AmbaFS_PfUnicodeChdir
+a0017d7c T AmbaFS_PfUnicodeFopen
+a0017dac T AmbaFS_PfUnicodeRemove
+a0017dd4 T AmbaFS_PfUnicodeRename
+a0017e04 T AmbaFS_PfUnicodeMove
+a0017e34 T AmbaFS_PfUnicodeFsfirst
+a0017e6c T AmbaFS_PfUnicodeFsnext
+a0017e94 T AmbaFS_PfUnicodeMkdir
+a0017ebc T AmbaFS_PfUnicodeFstat
+a0017eec T AmbaFS_PfUnicodeChmod
+a0017f1c T AmbaFS_PfUnicodeCleandir
+a0017f5c T AmbaFS_PfUnicodeChmoddir
+a0017fa4 T AmbaFS_Sd1Prf2FormatDrive
+a0017fb0 T AmbaFS_Sd1PrfInitDriveTable
+a0017fc0 T AmbaFS_Sd1PrfDriveInit
+a0017fcc T AmbaFS_Sd1PrfFinalize
+a0017fd8 T AmbaFS_Sd1PrfMount
+a0017fe4 T AmbaFS_Sd1PrfUnmount
+a0017ff0 T AmbaFS_Sd1PrfFormat
+a0018000 T AmbaFS_Sd1Prf2Pread
+a0018058 T AmbaFS_Sd1Prf2Pwrite
+a00180b0 T AmbaFS_Sd1PrfGetDiskInfo
+a00180c0 T AmbaFS_Sd1Pread
+a0018100 T AmbaFS_Sd1Pwrite
+a0018140 T AmbaFS_Sd1Erase
+a0018178 T AmbaFS_SdioPrf2FormatDrive
+a0018184 T AmbaFS_SdioPrfInitDriveTable
+a0018194 T AmbaFS_SdioPrfDriveInit
+a00181a0 T AmbaFS_SdioPrfFinalize
+a00181ac T AmbaFS_SdioPrfMount
+a00181b8 T AmbaFS_SdioPrfUnmount
+a00181c4 T AmbaFS_SdioPrfFormat
+a00181d4 T AmbaFS_SdioPrf2Pread
+a0018230 T AmbaFS_SdioPrf2Pwrite
+a001828c T AmbaFS_SdioPrfGetDiskInfo
+a001829c T AmbaFS_SdioPread
+a00182dc T AmbaFS_SdioPwrite
+a001831c T AmbaFS_SdioPrfErase
+a0018354 T AmbaFS_Sd2Prf2FormatDrive
+a0018360 T AmbaFS_Sd2PrfInitDriveTable
+a0018370 T AmbaFS_Sd2PrfDriveInit
+a001837c T AmbaFS_Sd2PrfFinalize
+a0018388 T AmbaFS_Sd2PrfMount
+a0018394 T AmbaFS_Sd2PrfUnmount
+a00183a0 T AmbaFS_Sd2PrfFormat
+a00183b0 T AmbaFS_Sd2Prf2Pread
+a00183dc T AmbaFS_Sd2Prf2Pwrite
+a0018408 T AmbaFS_Sd2PrfGetDiskInfo
+a0018418 T AmbaFS_Sd2Pread
+a0018430 T AmbaFS_Sd2Pwrite
+a0018448 T AmbaFS_Sd2Erase
+a0018458 T AmbaFS_SdPrf2DoEject
+a00184c4 T AmbaFS_SdPrf2CheckFormat
+a0018708 T AmbaFS_SdPrf2CheckMedia
+a0018844 T AmbaFS_SdPrf2InitDriveTable
+a0018898 T AmbaFS_SdPrf2DriveInit
+a00188e8 T AmbaFS_SdPrf2Finalize
+a0018950 T AmbaFS_SdPrf2Mount
+a0018990 T AmbaFS_SdPrf2Unmount
+a00189d0 T AmbaFS_SdPrf2Format
+a001902c T AmbaFS_SdPrf2FormatDrive
+a0019114 T AmbaFS_SdPrf2GetDiskInfo
+a00192bc T AmbaFS_SdPrf2init
+a001957c T AmbaFS_GetFSType
+a00195ec T AmbaFS_GetActiveSlot
+a0019628 T AmbaFS_SetCwd
+a0019700 T AmbaFS_GetCwd
+a0019754 T AmbaFS_UpdateActiveSlot
+a001979c T AmbaFS_Strcpy
+a00197cc T AmbaFS_Strcat
+a00197fc T AmbaVer_SetFs
+a0019838 T AmbaKAL_TaskCreate
+a0019888 T AmbaKAL_TaskDelete
+a001988c T AmbaKAL_TaskTerminate
+a0019890 T AmbaKAL_TaskResume
+a0019894 T AmbaKAL_TaskSleep
+a0019898 T AmbaKAL_TaskIdentify
+a001989c T AmbaKAL_EnterCriticalSection
+a00198c8 T AmbaKAL_ExitCriticalSection
+a00198d4 T AmbaKAL_SemCreate
+a00198e4 T AmbaKAL_SemDelete
+a00198e8 T AmbaKAL_SemTake
+a0019914 T AmbaKAL_SemGive
+a0019918 T AmbaKAL_SemQuery
+a0019950 T AmbaKAL_MutexCreate
+a0019960 T AmbaKAL_MutexTake
+a001998c T AmbaKAL_MutexGive
+a0019990 T AmbaKAL_EventFlagCreate
+a001999c T AmbaKAL_EventFlagTake
+a00199d8 T AmbaKAL_EventFlagGive
+a00199e0 T AmbaKAL_EventFlagClear
+a00199ec T AmbaKAL_MsgQueueCreate
+a0019a1c T AmbaKAL_MsgQueueDelete
+a0019a20 T AmbaKAL_MsgQueueReceive
+a0019a4c T AmbaKAL_MsgQueueSend
+a0019a78 T AmbaKAL_TimerCreate
+a0019aa8 T AmbaKAL_TimerStop
+a0019aac T AmbaKAL_TimerChange
+a0019b00 T AmbaKAL_BytePoolCreate
+a0019b28 T AmbaKAL_BytePoolAllocate
+a0019b60 T AmbaKAL_BytePoolFree
+a0019b64 T AmbaKAL_MemAllocate
+a0019bb8 T AmbaKAL_MemFree
+a0019bc0 T main
+a0019bd4 T tx_application_define
+a0019c30 T _tx_initialize_low_level
+a0019c34 T __tx_undefined
+a0019c38 T __tx_swi_interrupt
+a0019c3c T __tx_prefetch_handler
+a0019c40 T __tx_abort_handler
+a0019c44 T __tx_reserved_handler
+a0019c48 T __tx_irq_handler
+a0019c4c T __tx_irq_processing_return
+a0019c54 T __tx_fiq_handler
+a0019c58 T AmbaVer_SetKal
+a0019c58 t _tx_build_options
+a0019c58 t _tx_version_id
+a0019c94 t AipcMutexIsr
+a0019cc8 T AmbaIPC_MutexTake
+a0019e2c T AmbaIPC_MutexGive
+a0019f1c T AmbaIPC_MutexInit
+a0019fe4 T AmbaIPC_SpinLockIrqSave
+a001a020 T AmbaIPC_SpinUnlockIrqRestore
+a001a05c T AmbaIPC_SpinInit
+a001a0c4 T AmbaLink_GetSavedIntIDAddr
+a001a0c8 T AmbaLink_DisableGuestIrq
+a001a0cc T AmbaLink_EnableGuestIrq
+a001a0d0 T AmbaLink_DisableIrq
+a001a0d4 T AmbaLink_SetIrqOwner
+a001a138 T AmbaLink_InitService
+a001a18c T AmbaBoss_InitSvc
+a001a25c T AmbaBoss_SetIrqOwner
+a001a3ec T AmbaBoss_EnableGuestIrq
+a001a474 T AmbaBoss_DisableGuestIrq
+a001a4fc T AmbaBoss_DisableIrq
+a001a58c T AmbaBoss_GetSavedIntIDAddr
+a001a5a0 T AmbaBoss_Set
+a001a5b0 T AmbaBoss_GetObj
+a001a5bc T AmbaBoss_ProfilingInit
+a001a5fc T AmbaBoss_ProfilingStart
+a001a654 T AmbaVer_SetLink
+a001a690 T AmbaBufferInit	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaBuffers.c:54
+a001a714 T IdleFunction	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:59
+a001a718 T AmbaSysInitTaskEntry	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:66
+a001a900 t CallFwUpdaterMain	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:61
+a001a904 T AmbaUserSysInitPreOS	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:173
+a001a910 T AmbaUserSysInitPostOS	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:192
+a001a964 t FwUpdater_CheckImgHeader	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:316
+a001aa20 t FwUpdater_WriteFwImage	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:464
+a001aeb8 T FwUpdater_UpdateNandMetaInfo	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:242
+a001b0d8 t FirmwareUpdater.constprop.0	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:616
+a001b574 T AmbaFwUpdaterEntry	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:833
+a001b904 T AmbaFwUpdaterMain	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:879
+a001b960 T AmbaVer_SetPeripheral	/home/bingo/RD_A12/release_rtos/peripheral/AmbaVer.c:16
+a001b998 T PFWAPI_ParseOpenModeString
+a001ba98 T pf2_w_chdir
+a001bae4 T pf2_w_chmod
+a001bb3c T pf2_w_chmoddir
+a001bbcc T pf2_w_cleandir
+a001bc58 T pf2_w_fopen
+a001bce0 T pf2_w_fsfirst
+a001bd3c T pf2_w_fsnext
+a001bd4c T pf2_w_fstat
+a001bda4 T pf2_w_mkdir
+a001bdf0 T pf2_w_move
+a001be70 T pf2_w_remove
+a001bebc T pf2_w_rename
+a001bf3c T PFAPI_ParseOpenModeString
+a001c044 T PFAPI_convertError
+a001c07c T PFAPI_convertReturnValue
+a001c08c T PFAPI_convertReturnValue2NULL
+a001c09c T PFAPI_convertReturnValue4unmount
+a001c0b0 T pf2_attach
+a001c124 T pf2_chdir
+a001c170 T pf2_chmod
+a001c1c8 T pf2_chmoddir
+a001c258 T pf2_cleandir
+a001c2e4 T pf2_errnum
+a001c2f4 T pf2_fclose
+a001c308 T pf2_fopen
+a001c390 T pf2_fread
+a001c3b0 T pf2_fseek
+a001c3d0 T pf2_fsfirst
+a001c42c T pf2_fsnext
+a001c43c T pf2_fstat
+a001c494 T pf2_fwrite
+a001c4b4 T pf2_devinf
+a001c4c8 T pf2_getvol
+a001c4e0 T pf2_init_prfile2
+a001c500 T pf2_mkdir
+a001c54c T pf2_mount
+a001c560 T pf2_move
+a001c5e0 T pf2_remove
+a001c62c T pf2_rename
+a001c6ac T pf2_setupfsi
+a001c6c4 T pf2_setvol
+a001c714 T pf2_sync
+a001c728 T pf2_unmount
+a001c740 T pf_toupper
+a001c750 T pf_memcpy
+a001c7d0 T pf_memset
+a001c884 T pf_strlen
+a001c8b0 T pf_strcpy
+a001c8d8 T pf_strncpy
+a001c920 T pf_strcmp
+a001c994 T pf_strncmp
+a001ca30 T pf_w_strlen
+a001ca60 T pf_w_strcpy
+a001ca88 T pf_w_strncpy
+a001cacc T pf_w_strcmp
+a001cb40 T pf_w_strncmp
+a001cbd8 T pf_w_strchr
+a001cc10 T pf_w_strcat
+a001cc54 T PFCODE_Combine_Width
+a001cc5c T PFCODE_Divide_Width
+a001cc6c T PFSTR_SetCodeMode
+a001cc74 T PFSTR_GetCodeMode
+a001cc7c T PFSTR_GetStrPos
+a001cc90 T PFSTR_MoveStrPos
+a001cd68 T PFSTR_InitStr
+a001cddc T PFSTR_StrLen
+a001cdf8 T PFSTR_StrNumChar
+a001ceb8 T PFSTR_StrCmp
+a001cf4c T PFSTR_WStrCmp
+a001d024 T PFSTR_StrNCmp
+a001d0f4 T PFSTR_ToUpperNStr
+a001d1d4 t PFDRV_GetBPBStructFromBPBImage
+a001d2d0 T PFDRV_GetFSINFOInformation
+a001d3e0 T PFDRV_IsInserted
+a001d40c T PFDRV_IsDetected
+a001d438 T PFDRV_init
+a001d494 T PFDRV_mount
+a001d898 T PFDRV_unmount
+a001d90c T PFDRV_format
+a001da4c T PFDRV_lread
+a001dac8 T PFDRV_lwrite
+a001db44 T PFDRV_StoreVolumeLabelToBPB
+a001dd04 T PFDRV_StoreFreeCountToFSINFO
+a001dde4 T PFDRV_lerase
+a001de50 T PFDRV_set_event_callback
+a001de6c t PFDRV_EXFAT_GetBPBStructFromBSSImage
+a001df60 T PFDRV_EXFAT_GetBSSInformation
+a001e108 T PFDRV_EXFAT_StoreVolumeDirty
+a001e2a4 t pdm_bpb_calculate_common_bpb_fields
+a001e3f8 T pdm_bpb_load_string
+a001e440 T pdm_bpb_store_string
+a001e488 T pdm_bpb_get_bpb_information
+a001e814 T pdm_bpb_get_fsinfo_information
+a001e888 T pdm_bpb_check_boot_sector
+a001e99c T pdm_bpb_check_fsinfo_sector
+a001ea68 t pdm_disk_do_get_permission
+a001eb98 t pdm_disk_do_release_permission
+a001ec28 T pdm_disk_check_disk_handle
+a001ec98 T pdm_disk_open_disk
+a001ee80 T pdm_disk_get_part_permission
+a001eec4 T pdm_disk_release_part_permission
+a001ef2c T pdm_disk_physical_read
+a001efe4 T pdm_disk_physical_write
+a001f09c T pdm_disk_physical_erase
+a001f124 T pdm_disk_format
+a001f1a4 T pdm_disk_get_lba_size
+a001f1f4 T pdm_disk_get_media_information
+a001f258 T pdm_disk_check_media_insert
+a001f2a8 T pdm_disk_check_data_erase
+a001f308 T pdm_disk_set_disk
+a001f354 T pdm_disk_notify_media_eject
+a001f3bc T pdm_disk_notify_media_insert
+a001f41c T pdm_init_diskmanager
+a001f47c T pdm_open_disk
+a001f498 T pdm_open_partition
+a001f4c0 T pdm_bss_check_boot_sector
+a001f5e0 T pdm_bss_get_bss_information
+a001f914 T pdm_bss_check_main_boot_region
+a001fa3c T pdm_bss_get_erase_block_size
+a001fb6c T pdm_mbr_get_table
+a001fc84 T pdm_mbr_check_master_boot_record
+a001fe20 T pdm_mbr_get_mbr_part_table
+a001feb8 T pdm_mbr_get_epbr_part_table
+a001ffac t pdm_part_check_partition_handle
+a0020020 t pdm_part_get_start_sector
+a0020168 t pdm_part_convert_lsector_to_block
+a00202a8 T pdm_part_open_partition
+a0020410 T pdm_part_get_permission
+a0020544 T pdm_part_release_permission
+a0020608 T pdm_part_format
+a0020668 T pdm_part_logical_read
+a00207cc T pdm_part_logical_write
+a0020930 T pdm_part_logical_erase
+a00209fc T pdm_part_get_media_information
+a0020a50 T pdm_part_check_media_insert
+a0020aa4 T pdm_part_check_media_detect
+a0020b48 T pdm_part_check_data_erase
+a0020b9c T pdm_part_set_driver_error_code
+a0020bbc T pdm_part_get_driver_error_code
+a0020bdc T pdm_part_set_event_callback
+a0020c28 T pdm_part_notify_media_event
+a0020c84 T pdm_part_get_physical_block
+a0020d9c t PFCACHE_MovePageToHead
+a0020df8 t PFCACHE_DoFreeCachePage
+a0020e78 t PFCACHE_FlushPageIfNeeded
+a0020ff0 t PFCACHE_InitPageList.isra.0
+a00212c8 t PFCACHE_SearchForPage.isra.1
+a0021348 t PFCACHE_DoAllocatePage
+a00215b4 t PFCACHE_SearchForUsedPage.isra.2
+a0021618 t PFCACHE_DoWritePage
+a0021680 t PFCACHE_DoFlushCache.part.5
+a00216dc t PFCACHE_DoReadPage
+a00217fc T PFCACHE_SetCache
+a0021824 T PFCACHE_SetFATBufferSize
+a0021834 T PFCACHE_SetDataBufferSize
+a0021844 T PFCACHE_InitCaches
+a0021954 T PFCACHE_UpdateModifiedSector
+a00219e8 T PFCACHE_AllocateDataPage
+a0021a70 T PFCACHE_FreeDataPage
+a0021a98 T PFCACHE_ReadFATPage
+a0021acc T PFCACHE_ReadDataPage
+a0021b04 T PFCACHE_ReadDataPageAndFlushIfNeeded
+a0021c8c T PFCACHE_ReadDataPageExceptSectorAndFlushIfNeeded
+a0021f64 T PFCACHE_ReadDataNumSector
+a0022144 T PFCACHE_WriteFATPage
+a002215c T PFCACHE_WriteDataPage
+a0022184 T PFCACHE_WriteDataNumSectorAndFreeIfNeeded
+a00225bc T PFCACHE_SearchDataCache
+a00225e4 T PFCACHE_FlushFATCache
+a0022620 T PFCACHE_FlushDataCache
+a002265c T PFCACHE_FlushDataCacheSpecific
+a0022700 T PFCACHE_FlushAllCaches
+a0022770 T PFCACHE_FreeAllCaches
+a0022818 T PFCLUSTER_InitLastAccessCluster
+a0022820 T PFCLUSTER_UpdateLastAccessCluster
+a00228dc T PFCLUSTER_SetLastAccessCluster
+a00228ec T PFCLUSTER_AppendCluster
+a0022b48 T PFCLUSTER_AdjustCluster
+a0022edc t PFDIR_GetOpenedDir
+a0022f7c t PFDIR_CheckDirIsEmpty
+a00230a4 t PFDIR_DoRemoveDir
+a0023198 t PFDIR_ExecDirs_cleandir
+a00233b0 t PFDIR_HasOpenedFiles
+a002348c t PFDIR_HasLockedDirs
+a0023574 t PFDIR_GetEntryOfPath
+a002378c t PFDIR_ChangeAttr
+a00238a0 t PFDIR_p_fsnext.isra.4
+a0023e44 t PFDIR_HasCurrentDirs
+a0023ee4 t PFDIR_DoExecDirs_reset_iter.isra.8
+a0023f6c t PFDIR_ExecDirs_chmoddir
+a0024014 T PFDIR_InitializeAllDirs
+a0024060 T PFDIR_FinalizeAllDirs
+a00240f8 T PFDIR_fsnext
+a002419c T PFDIR_IsEntDlocked
+a0024300 t PFDIR_p_fsfirst
+a00244a8 T PFDIR_fsfirst
+a00245bc t PFDIR_DoExecDirs
+a0024c50 t PFDIR_p_chdir
+a0024ef8 T PFDIR_chdir
+a0024ff4 t PFDIR_ExecDirs
+a00252a4 T PFDIR_cleandir
+a0025548 T PFDIR_chmoddir
+a00257e4 t PFDIR_p_move.constprop.15
+a0026040 T PFDIR_move
+a00261c8 T PFDIR_rename
+a00263a0 t PFDIR_p_chmod.constprop.17
+a002641c T PFDIR_chmod
+a0026554 t PFDIR_p_mkdir.isra.13.constprop.18
+a0026e38 T PFDIR_mkdir
+a0026fe4 T PFDIR_IsEntDlockedJust
+a00270a4 t PFDIR_p_fstat
+a0027190 T PFDIR_fstat
+a0027278 t PFENT_searchEmptyTailSFN
+a00274ec t PFENT_findEmptyTailSFN
+a0027644 t PFENT_GetRootDirEnt
+a0027754 t PFENT_GetParentEnt.part.1
+a00279b4 t PFENT_IsDirTreeUnder
+a0027b94 T PFENT_CalcCheckSum
+a0027c00 T PFENT_LoadShortNameFromBuf
+a0027c2c T PFENT_loadEntryNumericFieldsFromBuf
+a0027ca8 T PFENT_LoadLFNEntryFieldsFromBuf
+a0027e8c T PFENT_storeLFNEntryFieldsToBuf
+a0027f9c T PFENT_GetEntryOfPath
+a0028024 T PFENT_GetParentEntryOfPath
+a00280b0 T PFENT_findEntry
+a00281dc T PFENT_allocateEntry
+a0028270 T PFENT_GetRootDir
+a0028284 T PFENT_CompareAttr
+a00282ec T PFENT_compareEntryName
+a0028388 T PFENT_CompareEntry
+a00284a8 T PFENT_UpdateSFNEntry
+a0028640 T PFENT_UpdateEntry
+a0028984 T PFENT_AdjustSFN
+a0028a0c T PFENT_RemoveEntry
+a0028b70 T PFENT_getcurrentDateTimeForEnt
+a0028c1c T PFENT_InitENT
+a0028da8 T PFENT_FillVoidEntryToSectors
+a0029060 T PFENT_MakeRootDir
+a00291b0 T PFENT_IsDirectoryTreeUnder
+a00291c8 T PFENT_GetParentEntry
+a00291fc T PFENT_IsSame
+a0029278 T PFENT_IsNameSame
+a00293c4 t PFENT_ITER_RecalcEntryIterator
+a00294a4 t PFENT_ITER_MakeLongFileName.isra.1
+a002951c t PFENT_ITER_GetEntry
+a00296cc T PFENT_ITER_DoFindEntry_is_search
+a0029894 T PFENT_ITER_LoadEntry
+a00298ec t PFENT_ITER_DoMoveTo
+a0029930 T PFENT_ITER_IteratorInitialize
+a0029984 T PFENT_ITER_IsAtLogicalEnd
+a0029a58 T PFENT_ITER_MoveTo
+a0029a8c t PFENT_ITER_DoAllocateEntry
+a0029d84 t PFENT_ITER_FindCluster.part.3
+a0029f40 T PFENT_ITER_SetEntryPathLen
+a002a150 T PFENT_ITER_Advance
+a002a160 T PFENT_ITER_Retreat
+a002a2f0 t PFENT_ITER_DoFindEntry
+a002a550 t PFENT_ITER_DoGetEntryOfPath
+a002aa14 T PFENT_ITER_FindEntry
+a002ab04 T PFENT_ITER_AllocateEntry
+a002ac00 T PFENT_ITER_GetEntryOfPath
+a002aca4 T PFENT_ITER_GetEntryOfPattern
+a002ad50 T PFENT_ITER_FindCluster
+a002ad68 t PFBMP_GetAllocateInfo
+a002ae94 t PFBMP_GetClusterPos
+a002af9c T PFBMP_CheckClusterIsFree
+a002b080 T PFBMP_SearchNumFreeClusterGroups
+a002b290 T PFBMP_SearchNumFreeClusters
+a002b3d4 T PFBMP_UpdateAllocationBitmap
+a002b5c4 T PFBMP_CountFreeClusters
+a002bd1c T PFBMP_UpdateNumFreeAtAllocate
+a002bf98 T PFBMP_UpdateNumFreeAtFree
+a002c1b0 T PFDIR_EXFAT_Move_UpdateEntry
+a002c42c t PFENT_EXFAT_CalcNameHash.part.0
+a002c478 T PFENT_EXFAT_IsDirTreeUnder
+a002c7a4 T PFENT_EXFAT_GetRootDirEnt
+a002c8c4 T PFENT_EXFAT_GetParentEnt
+a002c968 T PFENT_EXFAT_compareEntryName
+a002c9e0 T PFENT_EXFAT_RemoveEntry
+a002cbb0 T PFENT_EXFAT_InitENT
+a002cdd0 T PFENT_EXFAT_IsNameSame
+a002cdf0 T PFENT_EXFAT_LoadVolumeLabelFromBuf
+a002cea4 T PFENT_EXFAT_LoadFileFromBuf
+a002cf70 T PFENT_EXFAT_LoadStreamExtensionFromBuf
+a002cfb4 T PFENT_EXFAT_LoadFileNameFromBuf
+a002d014 T PFENT_EXFAT_CalcEntryChecksum
+a002d07c T PFENT_EXFAT_UpdateFileEntry
+a002d424 T PFENT_EXFAT_UpdateVolumeLabelEntry
+a002d514 t PFENT_EXFAT_InitVolumeLabelEntry
+a002d578 T PFENT_EXFAT_CalcNameHash
+a002d59c T PFENT_EXFAT_UpdateEntry
+a002d890 T PFENT_EXFAT_findEntryType
+a002d998 T PFENT_EXFAT_CalcUtcOffset
+a002d9f0 T PFENT_EXFAT_InitRootDir
+a002dcf8 t PFENT_ITER_EXFAT_GetEntry
+a002dfac T PFENT_ITER_EXFAT_DoFindEntry
+a002e344 T PFENT_ITER_EXFAT_DoAllocateEntry
+a002e8a4 T PFENT_ITER_EXFAT_DoGetEntryOfPath
+a002f044 T PFENT_ITER_EXFAT_FindEntryType
+a002f1cc T PFEXFAT_EXFAT_ReadFATEntry
+a002f334 T PFEXFAT_EXFAT_ReadFATEntryPage
+a002f4e0 T PFEXFAT_EXFAT_WriteFATEntry
+a002f584 T PFEXFAT_EXFAT_WriteFATEntryPage
+a002f734 T PFFAT_EXFAT_FreeChain
+a002fb94 T PFFAT_EXFAT_WriteContiguousClusters
+a002fc04 T PFFILE_EXFAT_createEmptyFile
+a002fd78 T PFFILE_EXFAT_UpdateChainIfNeeded
+a002fea0 t PFUPCASE_EXFAT_ReadUpcaseTable
+a0030040 t PFUPCASE_EXFAT_GetUpcaseInfo
+a00303d0 T PFUPCASE_EXFAT_ToUpperFromUnicode
+a0030738 T PFUPCASE_EXFAT_WriteInitUpcaseTable
+a00309cc T PFVOL_EXFAT_ClearDirEntryInfo
+a0030a04 T PFVOL_EXFAT_ClearAllocateBmpInfo
+a0030a20 T PFVOL_EXFAT_ClearUpCaseBuf
+a0030a50 T PFVOL_EXFAT_InitReservedArea
+a0030b70 T PFVOL_EXFAT_setvol
+a0030d54 T PFVOL_EXFAT_AllocationBitmapAccess
+a0030e48 t PFFAT_GetNearClstByClusterLink.part.1
+a0030edc t PFFAT_RefreshFSINFO.part.3
+a0030f10 T PFFAT_UpdateClusterLink
+a0030f8c T PFFAT_ClearClusterLink
+a0031020 T PFFAT_ReadFATSector
+a0031130 T PFFAT_ReadFATEntryPage
+a003116c t PFFAT_SearchNumFreeClusters
+a00312d8 t PFFAT_DoSearchFreeClusters
+a0031a20 T PFFAT_UpdateFATEntry
+a0031a40 T PFFAT_UpdateAlternateFATEntry
+a0031b1c T PFFAT_InitClstIdx
+a0031b30 T PFFAT_InitClstIdxIfNeeded
+a0031b5c T PFFAT_CountFreeClusters
+a0032250 T PFFAT_RefreshFSINFO
+a0032268 T PFFAT_WriteFATEntry
+a00322c8 t PFFAT_WriteCluster
+a0032414 t PFFAT_UpdateClusterChain
+a0032648 T PFFAT_InitFATRegion
+a00327d8 T PFFAT_MakeRootDir
+a0032834 T PFFAT_ReadFATEntry
+a0032878 t PFFAT_ReadCluster
+a0032974 T PFFAT_CountAllocatedClusters
+a0032e40 T PFFAT_GetPreviousCluster
+a0032f50 T PFFAT_GetPreviousSector
+a0033050 T PFFAT_InitHint
+a0033064 T PFFAT_SetHint
+a003306c T PFFAT_ResetFFD
+a0033134 T PFFAT_InitFFD
+a003318c T PFFAT_FinalizeFFD
+a00331a0 T PFFAT_LogicalFreeChain
+a0033258 T PFFAT_FreeChain
+a003391c t PFFAT_AllocateChain
+a003412c t PFFAT_GetClusterInChain
+a0034498 T PFFAT_GetClusterSpecified
+a0034598 t PFFAT_GetSector
+a0034820 T PFFAT_GetSectorSpecified
+a00348a8 T PFFAT_GetContinuousSector
+a0034c04 T PFFAT_GetSectorAllocated
+a0034c80 T PFFAT_AllocateNumClusters
+a0034d78 T PFFAT_SetLastAccess
+a0034d88 T PFFAT_GetValueOfEOC2
+a0034dc0 T PFFAT12_ReadFATEntry
+a0034fa0 T PFFAT12_ReadFATEntryPage
+a0035230 T PFFAT12_WriteFATEntry
+a00353b4 T PFFAT12_WriteFATEntryPage
+a0035898 T PFFAT16_ReadFATEntry
+a00359e4 T PFFAT16_ReadFATEntryPage
+a0035b78 T PFFAT16_WriteFATEntry
+a0035bf0 T PFFAT16_WriteFATEntryPage
+a0035d94 T PFFAT32_ReadFATEntry
+a0035ee4 T PFFAT32_ReadFATEntryPage
+a003607c T PFFAT32_WriteFATEntry
+a0036130 T PFFAT32_WriteFATEntryPage
+a00362d0 T PFFAT32_SearchNumFreeClusterGroups
+a00365b0 T PFFAT32_SearchNumFreeClusters
+a00367c8 T PFFAT32_DoCountFreeClusters
+a0036bc0 T PFFATFS_initializeFATFS
+a0036bc4 t PFFILE_Cursor_SetPosition
+a0036ca8 t PFFILE_IsDlocked
+a0036d58 t PFFILE_EmptyFile
+a0036e48 t PFFILE_GetSFD
+a00370ac t PFFILE_InitUFD
+a00370f8 t PFFILE_Cursor_AdvanceToRead
+a00371f4 t PFFILE_Cursor_AdvanceToWrite
+a00372e0 t PFFILE_Cursor_Read
+a0037760 t PFFILE_DoExtendFile
+a0037974 t PFFILE_Cursor_WriteBodySectors
+a0037a00 t PFFILE_Cursor_Write
+a0038090 t PFFILE_createEmptyFile.isra.3
+a00381c0 t PFFILE_p_fadjust.part.4
+a0038218 T PFFILE_Cursor_MoveToClusterEnd
+a00382b8 T PFFILE_GetOpenedFile
+a0038368 T PFFILE_IsOpened
+a00383a0 t PFFILE_p_fopen
+a003890c T PFFILE_CheckUFD
+a0038964 T PFFILE_InitializeAllFiles
+a00389a0 T PFFILE_FinalizeAllFiles
+a0038a08 T PFFILE_GetStat
+a0038ad4 T PFFILE_DoRemoveFile
+a0038bd8 t PFFILE_p_remove.constprop.12
+a0038c84 T PFFILE_remove
+a0038e4c T PFFILE_fopen
+a0039014 T PFFILE_fclose
+a003943c T PFFILE_fread
+a00397e4 T PFFILE_fwrite
+a0039e00 T PFFILE_fseek
+a003a06c T PFMOD_UpdateHandle
+a003a094 t PFPATH_GetNextCharOfFileName
+a003a17c t PFPATH_OEM_ConvertFWchar
+a003a1e0 t PFPATH_GetNextCharOfPattern
+a003a3b8 t PFPATH_DoMatchFileNameWithPattern
+a003a4ec T PFPATH_MatchUniFileNameWithPattern
+a003a5c4 T PFPATH_InitTokenOfPath
+a003a5d4 T PFPATH_GetVolumeFromPath
+a003a66c T PFPATH_putShortName
+a003a780 T PFPATH_getShortName
+a003a88c T PFPATH_getLongNameformShortName
+a003a9b4 T PFPATH_transformFromUnicodeToNormal
+a003aac8 T PFPATH_transformInUnicode
+a003ab4c T PFPATH_transformInUnicodeFromSTR
+a003abf0 T PFPATH_parseShortName
+a003b340 T PFPATH_get_tilde_of_TailSFN
+a003b460 T PFPATH_parseShortNameNumeric
+a003b588 T PFPATH_SetSearchPattern
+a003b668 T PFPATH_CheckExtShortNameSignature
+a003b6b4 T PFPATH_CheckExtShortName
+a003b9e0 T PFPATH_MatchFileNameWithPattern
+a003bbc0 T PFPATH_GetNextTokenOfPath
+a003bef4 t PFPATH_DoSplitPath.part.3
+a003c118 T PFPATH_SplitPath
+a003c130 T PFPATH_SplitPathPattern
+a003c148 T PFPATH_GetExtShortNameIndex
+a003c2d8 T PFPATH_AdjustExtShortName
+a003c364 T PFSEC_ReadFAT
+a003c3f4 T PFSEC_WriteFAT
+a003c4a4 T PFSEC_ReadData
+a003c574 T PFSEC_ReadDataSector
+a003c7d8 T PFSEC_WriteData
+a003c8f4 T PFSEC_WriteDataSector
+a003cb08 t PFVOL_InitCurrentDir
+a003cba8 t PFVOL_p_getvol
+a003cd84 t PFVOL_DoUnmountVolume
+a003ce48 t PFVOL_UnmountVolumeByEject
+a003cea0 t PFVOL_p_setvol
+a003cfec t PFVOL_MediaEventCallback
+a003d030 t PFVOL_p_mount
+a003d320 t PFVOL_CheckMediaInsert
+a003d3b8 t PFVOL_p_unmount.part.10
+a003d458 T PFVOL_InitModule
+a003d554 T PFVOL_CheckForRead
+a003d600 T PFVOL_CheckForWrite
+a003d6bc T PFVOL_CheckCurrentDir
+a003d81c T PFVOL_SetCurrentDir
+a003d8ac T PFVOL_GetCurrentDir
+a003d908 T PFVOL_GetCurrentDirStartCluster
+a003d958 T PFVOL_InitCurrentDirIdxDentLast
+a003d9ec T PFVOL_GetCurrentDirIdxDentLast
+a003da34 T PFVOL_SetCurrentDirIdxDentLast
+a003da78 T PFVOL_GetCurrentVolume
+a003db24 T PFCTX_NotifyUpdateDirectory
+a003dc1c T PFCTX_GetCurrentContext
+a003dc84 T PFVOL_GetVolumeFromDrvChar
+a003dcc0 T PFVOL_NotifyUpdateDirectory
+a003dcec T PFVOL_NotifyRemoveDirectory
+a003dd14 T PFVOL_NotifyMoveDirectory
+a003dd18 T PFVOL_getFCSP
+a003dd40 T PFVOL_LoadVolumeLabelFromBuf
+a003dd6c T PFVOL_IsDlock
+a003ddcc T PFVOL_errnum
+a003de44 T PFVOL_setvol
+a003e634 T PFVOL_getvol
+a003e754 T PFVOL_getdev
+a003e8a4 T PFVOL_attach
+a003ec40 T PFVOL_mount
+a003ed64 T PFVOL_unmount
+a003ef40 T PFVOL_setupfsi
+a003f168 T PFVOL_sync
+a003f374 T PFCODE_Ascii_OEM2Unicode
+a003f3a4 T PFCODE_Ascii_Unicode2OEM
+a003f3d8 T PFCODE_Ascii_OEMCharWidth
+a003f3e0 T PFCODE_Ascii_isOEMMBchar
+a003f3e8 T PFCODE_Ascii_UnicodeCharWidth
+a003f3f0 T PFCODE_Ascii_isUnicodeMBchar
+a003f3f8 T PF_InitLockFile
+a003f40c T PF_UnLockFile
+a003f414 T PFSYS_initializeSYS
+a003f418 T PFSYS_GetCurrentContextID
+a003f428 T PFSYS_TimeStamp
+a003f494 T AmbaVer_SetPrfile
+a003f4d0 T AmbaCSL_AhbScratchpadIsUartDmaAvailable
+a003f4f4 T AmbaCSL_FDmaGetFiFoBase
+a003f4fc T AmbaCSL_DmaStart
+a003f5ac T AmbaCSL_FDmaDescReqDsm
+a003f5d4 T AmbaCSL_DmaInit
+a003f630 T AmbaCSL_FioCmdDoneIsr
+a003f6a0 T AmbaCSL_FioDmaParseStatus
+a003f6c4 T AmbaCSL_FioParseEccRpt
+a003f6d8 T AmbaCSL_FioDmaSetup
+a003f724 T AmbaCSL_FioDmaDsmSetup
+a003f77c T AmbaCSL_GpioEnableAltFunc
+a003f808 T AmbaCSL_GpioDisableAltFunc
+a003f810 T AmbaCSL_GpioSetPinGrpFunc
+a003f868 T AmbaCSL_GpioGetPinFunc
+a003f8b4 T AmbaCSL_I2sEnableFdma
+a003f8d0 T AmbaCSL_NandEnableBch
+a003f978 T AmbaCSL_NandDisableBch
+a003f9a4 T AmbaCSL_NandReset
+a003f9d0 T AmbaCSL_NandReadID4Cmd
+a003f9fc T AmbaCSL_NandReadID4Result
+a003fa10 T AmbaCSL_NandReadID5Cmd
+a003fa48 T AmbaCSL_NandReadStatusResult
+a003fa68 T AmbaCSL_NandErase
+a003fad4 T AmbaCSL_NandReadNormal
+a003fb6c T AmbaCSL_NandReadDsm
+a003fb94 T AmbaCSL_NandProgramNormal
+a003fc34 T AmbaCSL_NandProgramDsm
+a003fc60 T AmbaCSL_NandSetTiming
+a003fc94 T AmbaCSL_PllGetRegsVal
+a003fd48 T AmbaCSL_PllSetRegsVal
+a0040130 T AmbaCSL_PllPowerDown
+a0040158 T AmbaCSL_PllGetCtrlReg
+a004017c T AmbaCSL_PllSetCtrlReg
+a004019c T AmbaCSL_PllUpdateCtrlReg
+a004020c T AmbaCSL_PllGetPostScalerReg
+a004023c T AmbaCSL_NorReset
+a004027c T AmbaCSL_NorReadStatusCmd
+a00402c0 T AmbaCSL_NorWriteEnableCmd
+a0040300 T AmbaCSL_NorWriteDisableCmd
+a0040340 T AmbaCSL_NorClearStatusCmd
+a0040380 T AmbaCSL_NorEraseBlock
+a00403d0 T AmbaCSL_NorEraseChip
+a0040410 T AmbaCSL_NorReadSetup
+a0040464 T AmbaCSL_NorProgramSetup
+a00404b4 T AmbaCSL_PwcSetDelayTime
+a00404d4 T AmbaCSL_PwcTogglePCRST
+a0040558 T AmbaCSL_PwcConfigPowerUpSequence
+a00405c8 T AmbaCSL_RctChipSoftReset
+a0040618 T AmbaCSL_RctGetUsbHostPortState
+a004066c T AmbaCSL_RctUsbHostSoftReset
+a00406b0 T AmbaCSL_RtcSetDelayTime
+a00406d0 T AmbaCSL_RtcTogglePCRST
+a0040760 T AmbaCSL_SDXferMultiBlkEN
+a00407b4 T AmbaCSL_SDSetHostBusWidth
+a00407f8 T AmbaCSL_SDSetDmaAddr
+a0040800 T AmbaCSL_SDSetBlkSZReg
+a0040828 T AmbaCSL_SDSendCmd
+a0040838 T AmbaCSL_SDWaitDatLine
+a00408a4 T AmbaCSL_SDWaitCmdLine
+a0040908 T AmbaCSL_SDClkON
+a0040930 T AmbaCSL_SDSetClk
+a0040954 T AmbaCSL_SDResetCmdLine
+a0040970 T AmbaCSL_SDResetDatLine
+a004098c T AmbaCSL_SDDisableIrq
+a0040ac8 T AmbaCSL_SDEnableIrq
+a0040c34 T AmbaCSL_SDClearIrqStatus
+a0040c40 T AmbaCSL_SDSetRdLatencyCtrl
+a0040c70 T AmbaCSL_SDResetAll
+a0040d54 T AmbaCSL_SDDisableIrqStatus
+a0040d74 T AmbaCSL_SDGetResponse
+a0040dcc T AmbaCSL_SpiClearIrqStatus
+a0040df4 T AmbaCSL_TimerInit
+a0040e1c T AmbaCSL_UartReset
+a0040e50 T AmbaCSL_UartSetDivider
+a0040e94 T AmbaCSL_UartSetFlowCtrl
+a0040ef8 T AmbaCSL_VicDisableAll
+a0040f20 T AmbaCSL_VicGetPendingInt
+a0040f6c T AmbaCSL_VicIntSetPriority
+a0040fe4 T AmbaCSL_VicIntConfig
+a0041070 t CacheExitCriticalSection
+a00410b0 t CacheEnterCriticalSection
+a00410e0 T AmbaCache_Init
+a004112c T AmbaCache_Clean
+a0041130 T AmbaCache_Invalidate
+a0041134 t DMA_Isr
+a0041148 T AmbaDMA_Init
+a00411b4 T AmbaDMA_Config
+a0041224 T AmbaDMA_Wait
+a0041254 T AmbaFIO_CmdDoneIsr
+a004126c T AmbaFIO_DmaDoneIsr
+a0041284 T AmbaFIO_Lock
+a00413b4 T AmbaFIO_Unlock
+a004147c T AmbaFIO_Init
+a00414d4 T AmbaGPIO_Init
+a004150c t I2C_Isr
+a0041520 T AmbaI2C_Init
+a0041584 T AmbaI2S_Init
+a00415b8 T AmbaINT_Init
+a00415c4 T AmbaINT_IsrHook
+a0041624 T AmbaINT_IntEnable
+a004166c t NandBbtCheckBlock
+a0041764 T AmbaNandBBT_IsBadBlock
+a00417b4 t NandBbtWrite
+a0041978 T AmbaNandBBT_Update
+a0041a24 t NandBbtCheckCreate.constprop.2
+a0041c3c T AmbaNandBBT_Scan
+a0041c78 t NandBbtSearch
+a0041dd8 T AmbaNandBBT_Exist
+a0041e0c t NandOutputBadBlock
+a0041e6c T AmbaNAND_FioCmdDoneSet
+a0041e7c T AmbaNAND_FioDmaDoneSet
+a0041e8c t NandConfigNftlPart.part.0
+a00420ec t NandCheckBlockAlloc.constprop.2
+a0042130 T AmbaNAND_GetBbtRsvBlks
+a0042164 T AmbaNAND_CalcNftlPartition
+a0042484 T AmbaNAND_UpdateNftlPartition
+a0042924 T AmbaNAND_GetPartInfo
+a0042990 T AmbaNAND_SetPartInfo
+a00429ec T AmbaNAND_SetPartInfoFromMeta
+a0042ab4 T AmbaNAND_InitNftlPart
+a0042c48 T AmbaNAND_GetMainSize
+a0042c58 T AmbaNAND_GetPagesPerBlock
+a0042c6c T AmbaNAND_Reset
+a0042d0c T AmbaNAND_Program
+a0043048 T AmbaNAND_MarkBlock
+a00431dc T AmbaNAND_Copyback
+a0043700 T AmbaNAND_Erase
+a004387c T AmbaNAND_ErasePartition
+a0043a24 T AmbaNAND_Read
+a0043d6c T AmbaNAND_ReadSector
+a0043f88 T AmbaNAND_WritePartition
+a0044228 T AmbaNAND_ReadID
+a00442dc T AmbaNAND_Init
+a00444b4 T AmbaNAND_GetPtb
+a00445b0 T AmbaNAND_GetMeta
+a0044734 T AmbaNAND_SetPtb
+a004488c T AmbaNAND_SetMeta
+a0044938 T AmbaNAND_InitPartitionLock
+a0044958 t NftlGetIMarkAddr
+a00449e8 t NftlGetTChunkAddr
+a0044a74 t NftlCreatePbaTbl
+a0044bb4 t NftlNextIChunkBlk
+a0044c0c t NftlReadIMark
+a0044c84 t NftlWriteIMark
+a0044cfc t NftlInvalidTChunk
+a0044d40 t NftlValidTChunk
+a0044d9c t NftlSaveInfoToTChunk
+a00450f0 t NftlUpdateBBInfo
+a0045154 t NftlGetUsedSecPat
+a00453f0 t NftlWritePage
+a0045650 t NftlWriteSecs
+a0045864 t NftlWriteSecsCb
+a0045ac0 t NftlWritePSecsStartBlock
+a0045c4c t NftlWritePSecsEndBlock
+a0045d34 t NftlGetPba
+a0045ddc t NftlUpdateLogicTable.isra.6
+a0045e68 t NftlUpdatePhyTable.isra.7
+a0045ef0 t NftlCreateSecsMask32.part.8
+a0045f18 t NftlCheckUsedSecs.isra.9
+a0046058 t NftlCreateSecsMask.isra.12
+a00461ec t NftlWriteUsedSecPat
+a00466ac t NftlGetLba.constprop.16
+a00467c4 t NftlCreateLbaTbl
+a0046c98 t NftlInitTrlTable.part.15
+a0046cfc t NftlSearchErasedBlock
+a0046f90 t NftlSearchErasedBlockCb
+a0047698 t NftlInit
+a0047f84 T NftlGetPartObj
+a0047fc8 T NftlCopybackByPat
+a0048118 t NftlBadBlockHandler
+a00484f0 t NftlWritePSecsNewBlock
+a0048af0 t NftlWritePSecs
+a0048c64 t NftlWriteBlock
+a0048e70 t NftlWriteBlockPSecs
+a0048f98 t NftlWriteBlockPSecsNewBlock
+a00493b4 T AmbaNFTL_EraseLogicalBlocks
+a004953c T AmbaNFTL_InitLock
+a0049598 T AmbaNFTL_IsWrProtect
+a004961c T AmbaNFTL_IsInit
+a00496a0 T AmbaNFTL_Init
+a0049734 T AmbaNFTL_Deinit
+a004980c T AmbaNFTL_ErasePart
+a00499a8 T AmbaNFTL_SyncTChunk
+a0049a5c T AmbaNFTL_Read
+a004a12c T AmbaNFTL_Write
+a004a85c T AmbaNFTL_GetTotalSecs
+a004a8ec T AmbaNFTL_GetStatus
+a004a9c4 T AmbaNFTL_GetBBMStatus
+a004aa80 T AmbaEmmcFwUpdaterSD_SetMagicCode
+a004aac8 T AmbaEMMC_MediaPartRead
+a004ab18 T AmbaEMMC_GetMeta
+a004ab7c T AmbaEMMC_SetMeta
+a004abec t AmbaNOR_SpiRead
+a004ade0 T AmbaNOR_ResetEnable
+a004ae14 T AmbaNOR_SoftReset
+a004ae7c T AmbaNOR_WriteEnable
+a004aeb0 T AmbaNOR_WriteDisable
+a004aee4 T AmbaNOR_ClearStatus
+a004af18 T AmbaNOR_ReadStatus
+a004af68 t AmbaNOR_FlashCheckToggleBit
+a004afbc t AmbaNOR_SpiWrite
+a004b1b0 T AmbaNOR_Erase
+a004b360 T AmbaNOR_Readbyte
+a004b418 T AmbaNOR_Program
+a004b5b0 T AmbaNOR_ProgBlock
+a004b7c8 T AmbaNOR_WritePartition
+a004b820 T AmbaNOR_MediaPartRead
+a004b8fc T AmbaNOR_MediaPartGetTotalSector
+a004b954 T AmbaNorFwUpdaterSD_SetMagicCode
+a004b9a0 T AmbaNOR_SetRebootClkSetting
+a004b9fc T AmbaNOR_GetPtb
+a004ba8c T AmbaNOR_GetMeta
+a004bbbc T AmbaNOR_SetMeta
+a004bc64 T AmbaPLL_Init
+a004bc70 T AmbaPLL_GetApbClk
+a004bcb0 T AmbaPLL_GetSd48Clk
+a004bcf0 T AmbaPLL_GetSdioClk
+a004bd30 T AmbaPLL_SetSd48Clk
+a004bd78 T AmbaPLL_SetSdioClk
+a004bdc0 T AmbaPLL_SetStandbyMode
+a004bdc4 T AmbaPWC_Init
+a004bddc T AmbaPWC_ForcePowerDownSequence
+a004be70 t RTC_SetSystemTime
+a004bed0 t RTC_GetSystemTime
+a004bf60 t RTC_GetLeapYear.part.0
+a004bfa0 T AmbaRTC_SetSystemTime
+a004c1ac T AmbaRTC_GetSystemTime
+a004c4dc t SdGetUhsPram
+a004c540 t SDUpdateStatus
+a004c75c t SDSendAppCmd
+a004c9bc t AmbaSD_Isr
+a004c9cc t SDModeChk
+a004ca68 t SDPowerCycle.isra.5
+a004cac8 T AmbaSD_FwContainterCheck
+a004caec T AmbaSD_GetStorageSectorCount
+a004cb04 T AmbaSD_GetHost
+a004cb08 T AmbaSD_CardINSlot
+a004cb0c T AmbaSD_GoIdleState
+a004cd78 T AmbaSD_GoPreIdleState
+a004cfe4 T AmbaSD_SendOpCondCmd1
+a004d264 T AmbaSD_AllSendCid
+a004d4e0 T AmbaSD_SendRelativeAddr
+a004d75c T AmbaSD_Switch
+a004da4c T AmbaSD_SwitchFunc
+a004dd58 t SDSetupUhsMode
+a004defc T AmbaSD_SelectCard
+a004e16c T AmbaSD_SendIFCond
+a004e3dc T AmbaSD_SendExtCsd
+a004e6c8 T AmbaSD_SendCsd
+a004e944 T AmbaSD_VoltageSwitch
+a004ec58 T AmbaSD_SendStatus
+a004eed4 T AmbaSD_SetBlockLength
+a004f150 T AmbaSD_ReadSingleBlock
+a004f484 T AmbaSD_ReadMultipleBlock
+a004f834 t SDSelfCheck
+a004f8bc T AmbaSD_SendTuningPattern
+a004fbac T AmbaSD_WriteSingleBlock
+a004fee0 T AmbaSD_WriteMultipleBlock
+a0050244 T AmbaSD_EraseWEBlkStart
+a00504c0 T AmbaSD_EraseWRBlkEnd
+a005073c T AmbaSD_EraseGroupStart
+a00509b8 T AmbaSD_EraseGroupEnd
+a0050c34 T AmbaSD_Erase
+a0050ed8 T AmbaSD_SetBusWidth
+a005118c T AmbaSD_SendSDStatus
+a0051480 T AmbaSD_SendOPCondAcmd41
+a0051768 T AmbaSD_SetClrCardDetect
+a0051a1c T AmbaSD_SendScr
+a0051c24 T AmbaSD_EraseSectror
+a0051d5c T AmbaSD_HookCallBack
+a0051d90 T AmbaSD_DelayCtrlAdjustPhy
+a0052124 t SdSetupSdmemCard
+a005269c T AmbaSD_InitCard
+a0052f8c T AmbaSD_ReadSector
+a0053380 T AmbaSD_WriteSector
+a0053790 T AmbaSD_Init
+a0053840 t SPI_SoftTimerHandler
+a0053854 t SPI_Isr
+a0053868 T AmbaSPI_Init
+a005390c T AmbaSysTimer_GetTickCount
+a005391c t SYS_PreIsr
+a0053938 t SYS_PostIsr
+a005393c T AmbaSysInfoInit
+a0053968 T AmbaSysShowTaskInfo
+a0053af8 T AmbaSysShowMutexInfo
+a0053c70 T AmbaSysShowSemaphoreInfo
+a0053dc4 T AmbaSysShowEventFlagInfo
+a0053f18 T AmbaSysShowMsgQueueInfo
+a0054070 T AmbaSysShowBytePoolInfo
+a0054194 T AmbaSysShowBlockPoolInfo
+a00542b8 T AmbaSysShowIrqInfo
+a00543ec T AmbaSysResetIrqCount
+a0054400 T AmbaSysProfile_Init
+a0054434 T AmbaSysProfile_GetTimeStamp
+a00544c0 T AmbaSysProfile_ShowStatistics
+a0054780 T AmbaSysProfile_ResetStatistics
+a00547fc T AmbaSysInitPreOS
+a0054870 T AmbaSysInitPostOS
+a00548cc T AmbaSysGetBootDevice
+a00548fc T AmbaSysSoftReset
+a0054988 T AmbaSysPowerDown
+a005498c T AmbaSysHotboot
+a00549b8 t Timer_Isr
+a0054a0c T AmbaTimer_Init
+a0054a6c T AmbaTimer_GetSysTickCount
+a0054a7c t UART_TxISR
+a0054a94 t UART_RxISR
+a0054af8 t UART_TimeOutActFunc
+a0054b40 T AmbaUART_Init
+a0054c1c T AmbaUART_Config
+a0054d28 T AmbaUART_Write
+a0054f40 T AmbaUART_Read
+a0055190 T AmbaVIN_Init
+a00551b0 t ScmGetDev
+a0055204 t UsbGetStatus
+a005526c t SdHostGetStatus
+a0055478 t NandGetStatus
+a0055530 T AmbaSCM_DeviceRegister
+a005556c T AmbaSCM_Register
+a00555c4 T AmbaSCM_DispatchEvent
+a0055618 T AmbaSCM_GetSlotStatus
+a0055680 T AmbaSCM_Read
+a00556e4 T AmbaSCM_Write
+a0055748 T AmbaSCM_Reinit
+a005579c T AmbaSCM_Insert
+a00557e8 T AmbaSCM_Eject
+a0055834 T AmbaSCM_IoStat2ndSet
+a0055888 T AmbaSCM_IoStat2ndGet
+a0055904 T AmbaSCM_Init
+a0055b10 T AmbaWDT_Init
+a0055b1c T AmbaRTSL_DebugPortSuspendDSP
+a0055b48 T AmbaRTSL_DebugPortResetDSP
+a0055b74 T AmbaRTSL_DebugPortSetSyncCounter
+a0055b9c T AmbaRTSL_FDmaDoneIsr
+a0055c08 T AmbaRTSL_DmaDoneIsr
+a0055d00 T AmbaRTSL_DmaTransfer
+a0055dbc T AmbaRTSL_DmaStop
+a0055e18 T AmbaRTSL_DmaGetTransferByteCount
+a0055e4c T AmbaRTSL_FDmaParseStatus
+a0055e7c T AmbaRTSL_DmaInit
+a0055edc T AmbaRTSL_DmaConfig
+a0055fb0 T AmbaRTSL_DramcSetArbiterPriority
+a005603c T AmbaRTSL_FioCmdDoneIsr
+a0056070 T AmbaRTSL_FioDmaDoneIsr
+a00560d0 T AmbaRTSL_FioExitRandomMode
+a00560ec T AmbaRTSL_FioGetBuf
+a00560f8 T AmbaRTSL_FioMemcpyFromAlign
+a005614c T AmbaRTSL_FioMemcpyToAlign
+a0056180 T AmbaRTSL_FioDmaSetupDev2Mem
+a00561d0 T AmbaRTSL_FioDmaSetupDev2MemDsm
+a0056358 T AmbaRTSL_FioDmaSetupMem2Dev
+a00563a8 T AmbaRTSL_FioDmaSetupMem2DevDsm
+a0056554 T AmbaRTSL_FioDmaParseStatus
+a0056560 T AmbaRTSL_FioParseEccRpt
+a0056638 T AmbaRTSL_FioResetAll
+a005669c T AmbaRTSL_FioInit
+a00566e4 t GPIO_IntHandler
+a0056768 t GPIO_Group0Isr
+a0056770 t GPIO_Group1Isr
+a0056778 t GPIO_Group2Isr
+a0056780 t GPIO_Group3Isr
+a0056788 T AmbaRTSL_GpioInit
+a0056900 T AmbaRTSL_GpioConfigInput
+a0056960 T AmbaRTSL_GpioConfigOutput
+a00569ec T AmbaRTSL_GpioGetPinInfo
+a0056b34 t I2C_IntHandler
+a0056d10 t I2C_Ch0ISR
+a0056d18 t I2C_Ch1ISR
+a0056d20 t I2C_Ch2ISR
+a0056d28 T AmbaRTSL_I2cInit
+a0056d7c T AmbaRTSL_I2sConfig
+a005708c T AmbaRTSL_I2sInit
+a005717c T AmbaRTSL_I2sEnableFdma
+a005718c T MMU_TlbSetupL1Section
+a0057268 T AmbaRTSL_MmuVirtToPhys
+a0057318 T AmbaRTSL_MmuPhysToVirt
+a00573c4 T MMU_TlbSetupL2SmallPage
+a00576d8 T AmbaRTSL_MmuTlbSetup
+a0057700 T AmbaRTSL_MmuEnable
+a00577c0 T AmbaRTSL_MmuInit
+a005791c T AmbaRTSL_NandSetIsrTarget
+a0057920 T AmbaRTSL_NandIsrCtrl
+a0057960 T AmbaRTSL_NandCalFWPartInfo
+a0057a1c T AmbaRTSL_NandGetHost
+a0057a28 T AmbaRTSL_NandGetDev
+a0057a34 T AmbaRTSL_NandReset
+a0057a38 T AmbaRTSL_NandReadIDCmd
+a0057a58 T AmbaRTSL_NandReadIDResult
+a0057a6c T AmbaRTSL_NandReadStatusResult
+a0057a70 T AmbaRTSL_NandErase
+a0057a84 T AmbaRTSL_NandRead
+a0057bcc T AmbaRTSL_NandProgram
+a0057d14 T AmbaRTSL_NandSetTiming
+a0057d50 t NandConfigTiming
+a0058470 T AmbaRTSL_NandDBDevConfig
+a00585dc T AmbaRTSL_NandSetDevInfo
+a00585f4 T AmbaRTSL_NandGetRsvBlks
+a0058678 T AmbaRTSL_NandInit
+a0058700 t AmbaRTSL_NorSendCmd
+a0058830 T AmbaRTSL_NorGetHost
+a005883c T AmbaRTSL_NorGetDev
+a0058848 T AmbaRTSL_NorReadFIFO
+a0058874 T AmbaRTSL_NorResetEnable
+a0058894 T AmbaRTSL_NorReset
+a00588b4 T AmbaRTSL_NorReadStatusCmd
+a00588dc T AmbaRTSL_NorWriteEnable
+a00588fc T AmbaRTSL_NorWriteDisable
+a005891c T AmbaRTSL_NorClearStatus
+a005893c T AmbaRTSL_NorEraseBlock
+a0058964 T AmbaRTSL_NorEraseChip
+a0058984 T AmbaRTSL_NorSpiReadDMA
+a0058abc T AmbaRTSL_NorSpiReadNoDMA
+a0058b94 T AmbaRTSL_NorSpiWriteDMA
+a0058cc0 T AmbaRTSL_NorSpiWriteNoDMA
+a0058da0 T AmbaRTSL_PllSetClkRef
+a0058df4 T AmbaRTSL_PllInit
+a0058ea8 T PLL_GetPllFreq
+a0058fc8 T PLL_GetVoutTvClkFreq
+a0059018 T PLL_GetVoutLcdClkFreq
+a0059088 T PLL_GetSdClkFreq
+a00590a4 T PLL_GetHdmiClkFreq
+a00590d8 T PLL_GetAudioClkFreq
+a005913c T PLL_GetEnetClkFreq
+a0059158 T PLL_GetSensorClkFreq
+a0059174 T PLL_GetIdspClkFreq
+a0059190 T PLL_GetDdrioClkFreq
+a00591ac T PLL_GetCoreClkFreq
+a00591c8 T PLL_GetCortexClkFreq
+a00591f4 T AmbaRTSL_PllSetAudioClkConfig
+a0059268 T AmbaRTSL_PllSetUartClkConfig
+a0059290 T AmbaRTSL_PllGetApbClk
+a00592a4 T PLL_GetUartRefFreq
+a005930c T AmbaRTSL_PllGetUartClk
+a0059330 T AmbaRTSL_PllGetSd48Clk
+a005935c T AmbaRTSL_PllGetSdioClk
+a0059388 T AmbaRTSL_CalculatePllCoeff
+a0059428 T AmbaRTSL_CalculateHdmiPllCoeff
+a00594f0 t PLL_AdjPllFreq
+a005986c t AmbaRTSL_PllSetStandbyMode.part.0
+a0059b64 T AmbaRTSL_PllSetStandbyMode
+a0059c20 T AmbaRTSL_RctTimerWait
+a0059c80 T AmbaRTSL_PllSetFreq
+a0059f28 T AmbaRTSL_PllSetAudioClk
+a0059f5c T AmbaRTSL_PllSetUartClk
+a0059fbc T AmbaRTSL_PllSetSd48Clk
+a005a038 T AmbaRTSL_PllSetSdioClk
+a005a0b4 T AmbaRTSL_PwcInit
+a005a110 T AmbaRTSL_PwcForcePseq3State
+a005a134 T AmbaRTSL_RctGetBootMode
+a005a14c T AmbaRTSL_RctChipSoftReset
+a005a150 T AmbaRTSL_RtcSetSystemTime
+a005a164 T AmbaRTSL_RtcGetSystemTime
+a005a178 t SDSetCmdReg.isra.1
+a005a1dc t SdDataDone.isra.3
+a005a244 t SdCmdDone.isra.6
+a005a2ac t AmbaRTSL_SDDoneIsr
+a005a4a0 t AmbaRTSL_SD1Isr
+a005a4a8 t AmbaRTSL_SD0Isr
+a005a4b0 T AmbaRTSL_SDPhySetConfig
+a005a5c0 T AmbaRTSL_SDPhyGetConfig
+a005a698 T AmbaRTSL_SDPhyGetSbc
+a005a6b0 T AmbaRTSL_SDPhySetSbc
+a005a75c T AmbaRTSL_SDPhySetSel
+a005a7f8 T AmbaRTSL_SDPhyGetSel
+a005a87c T AmbaRTSL_SDPhyGetVShift
+a005a894 T AmbaRTSL_SDSetRdLatencyCtrl
+a005a89c T AmbaRTSL_SDSetHiSpdEnable
+a005a8b8 T AmbaRTSL_SDSetEnableDDR
+a005a8d4 T AmbaRTSL_SDGetPostscaler
+a005a8f4 T AmbaRTSL_SDSetPostscaler
+a005a930 T AmbaRTSL_SdGetHost
+a005a958 T AmbaRTSL_SDCmdDone
+a005aa0c T AmbaRTSL_SDDataDone
+a005aa78 T AmbaRTSL_SDCardINSlot
+a005aaa4 T AmbaRTSL_SDGetWriteProtect
+a005ab04 T AmbaRTSL_SDGetBusStatus
+a005ab14 T AmbaRTSL_SDAbort
+a005ab40 T AmbaRTSL_SDSetIos
+a005aea8 t SDClkSwitch
+a005af0c T AmbaRTSL_SDWriteData
+a005b22c T AmbaRTSL_SDReadData
+a005b53c T AmbaRTSL_SDSendCmd
+a005b614 T AmbaRTSL_SDSuspend
+a005b664 T AmbaRTSL_SDResume
+a005b6d8 T AmbaRTSL_SDInit
+a005b88c t UNSTUFF_BITS
+a005b8dc T AmbaRTSL_SDDeconfigCard
+a005b95c T AmbaRTSL_SDGoIdleState
+a005b994 T AmbaRTSL_SDGoPreIdleState
+a005b9dc T AmbaRTSL_SDSendOpCondCmd1
+a005ba2c T AmbaRTSL_SDSendOpCondCmd1Done
+a005ba48 T AmbaRTSL_SDAllSendCid
+a005baa4 T AmbaRTSL_SDAllSendCidDone
+a005bbe4 T AmbaRTSL_SDSendRelativeAddr
+a005bc3c T AmbaRTSL_SDSendRelativeAddrDone
+a005bc70 T AmbaRTSL_SDSwitch
+a005bcd0 T AmbaRTSL_SDSwitchDone
+a005bcf8 T AmbaRTSL_SDSwitchFunc
+a005be08 T AmbaRTSL_SDSwitchFuncDone
+a005bfa0 T AmbaRTSL_SDSelectCard
+a005bfec T AmbaRTSL_SDSelectCardDone
+a005c014 T AmbaRTSL_SDSendIFCond
+a005c058 T AmbaRTSL_SDSendIFCondDone
+a005c0c0 T AmbaRTSL_SDSendExtCsd
+a005c16c T AmbaRTSL_SDSendExtCsdDone
+a005c194 T AmbaRTSL_SDSendCsd
+a005c1f0 T AmbaRTSL_SDSendCsdDone
+a005c4b0 T AmbaRTSL_SDVoltageSwitch
+a005c4f4 T AmbaRTSL_SDVoltageSwitchDone
+a005c520 T AmbaRTSL_SDSendStatus
+a005c57c T AmbaRTSL_SDSendStatusDone
+a005c5c8 T AmbaRTSL_SDSetBlockLength
+a005c60c T AmbaRTSL_SDSetBlockLengthDone
+a005c634 T AmbaRTSL_SDReadSingleBlock
+a005c6d8 T AmbaRTSL_SDReadSingleBlockDone
+a005c700 T AmbaRTSL_SDReadMultipleBlock
+a005c7cc T AmbaRTSL_SDReadMultipleBlockDone
+a005c7f4 T AmbaRTSL_SDSendTuningPattern
+a005c8a0 T AmbaRTSL_SDSendTuningPatternDone
+a005c8e8 T AmbaRTSL_SDWriteBlock
+a005c99c T AmbaRTSL_SDWriteBlockDone
+a005c9c4 T AmbaRTSL_SDWriteMultipleBlock
+a005ca94 T AmbaRTSL_SDEraseWEBlkStart
+a005cad8 T AmbaRTSL_SDEraseWEBlkStartDone
+a005cb00 T AmbaRTSL_SDEraseWRBlkEnd
+a005cb44 T AmbaRTSL_SDEraseWRBlkEndDone
+a005cb6c T AmbaRTSL_SDEraseGroupStart
+a005cbb0 T AmbaRTSL_SDEraseGroupStartDone
+a005cbd8 T AmbaRTSL_SDEraseGroupEnd
+a005cc1c T AmbaRTSL_SDEraseGroupEndDone
+a005cc44 T AmbaRTSL_SDErase
+a005cc94 T AmbaRTSL_SDEraseDone
+a005ccbc T AmbaRTSL_SDSendAppCmd
+a005cd0c T AmbaRTSL_SDSendAppCmdDone
+a005cd34 T AmbaRTSL_SDSetBusWidth
+a005cd78 T AmbaRTSL_SDSetBusWidthDone
+a005cda0 T AmbaRTSL_SDSendSDStatus
+a005ce44 T AmbaRTSL_SDSendSDStatusDone
+a005ce6c T AmbaRTSL_SDSendOPCondAcmd41
+a005cebc T AmbaRTSL_SDSendOPCondAcmd41Done
+a005cf14 T AmbaRTSL_SDSetClrCardDetect
+a005cf60 T AmbaRTSL_SDSetClrCardDetectDone
+a005cf88 T AmbaRTSL_SDSendScr
+a005d034 T AmbaRTSL_SDSendScrDone
+a005d0c0 t SPI_SlaveISR
+a005d0c4 t SPI_WriteFIFO
+a005d120 t SPI_ReadFIFO
+a005d17c t SPI_MasterISR
+a005d2a4 T AmbaRTSL_SpiInit
+a005d2f8 t Timer_IntHandler
+a005d354 t Timer_ISR0
+a005d35c t Timer_ISR1
+a005d364 t Timer_ISR2
+a005d36c t Timer_ISR3
+a005d374 t Timer_ISR4
+a005d37c t Timer_ISR5
+a005d384 t Timer_ISR6
+a005d38c t Timer_ISR7
+a005d3d8 T AmbaRTSL_TimerInit
+a005d460 T AmbaRTSL_TimerSet
+a005d588 T AmbaRTSL_TimerGet
+a005d638 t UART_IntHandler
+a005d7dc t UART_Chan0ISR
+a005d7e4 t UART_Chan1ISR
+a005d7ec t UART_SetDmaRx
+a005d840 T AmbaRTSL_UartInit
+a005d8e0 T AmbaRTSL_UartGetTxDmaChan
+a005d8f8 T AmbaRTSL_UartGetRxDmaChan
+a005d910 T AmbaRTSL_UartConfig
+a005dacc T AmbaRTSL_UartWrite
+a005dbd4 T AmbaRTSL_UartRead
+a005dea4 T AmbaRTSL_UartFetch1ByteFromRxRingBuf
+a005ded0 T AmbaRTSL_RctUsbHostSoftReset
+a005ded4 T AmbaRTSL_VicInit
+a005df10 T AmbaRTSL_VicIntGlobalDisable
+a005df14 T AmbaRTSL_VicIntEnable
+a005df50 T AmbaRTSL_VicIntDisable
+a005df8c T AmbaRTSL_VicIsrHook
+a005dff0 T AmbaRTSL_VicIntHandler
+a005e090 T AmbaRTSL_VicGetIntInfo
+a005e128 T AmbaRTSL_CacheFlushEntireL1DataCache
+a005e15c T AmbaRTSL_CacheInvalidateEntireL1DataCache
+a005e190 T AmbaRTSL_CacheFlushEntireDataCache
+a005e280 T AmbaRTSL_CacheInvalidateDataCacheRange
+a005e3c0 T AmbaRTSL_CacheCleanDataCacheRange
+a005e500 T AmbaRTSL_CacheFlushDataCacheRange
+a005e670 T AmbaRTSL_CacheLockInstCacheRange
+a005e6ec T AmbaRTSL_CacheUnlockInstCache
+a005e700 T AmbaRTSL_CacheUnlockDataCache
+a005e714 T AmbaRTSL_CacheEnableL2CC
+a005e7bc T AmbaRTSL_CpuGetCpuID
+a005e800 T AmbaVer_SetSoc
+a005e83c T _tx_block_pool_info_get
+a005e9dc T _tx_byte_allocate
+a005ec5c T _tx_byte_pool_cleanup
+a005ed14 T _tx_byte_pool_create
+a005ef40 T _tx_byte_pool_info_get
+a005f0e0 T _tx_byte_pool_search
+a005f27c T _tx_byte_release
+a005f530 T _tx_event_flags_cleanup
+a005f5f8 T _tx_event_flags_create
+a005f7d4 T _tx_event_flags_get
+a005fa5c T _tx_event_flags_info_get
+a005fbf4 T _tx_event_flags_set
+a006004c T _tx_execution_thread_enter
+a00600a0 T _tx_execution_thread_exit
+a0060124 T _tx_execution_isr_enter
+a00601dc T _tx_execution_isr_exit
+a0060280 T _tx_execution_thread_time_reset
+a0060290 T _tx_execution_thread_total_time_reset
+a00602a8 T _tx_execution_isr_time_reset
+a00602c0 T _tx_execution_idle_time_reset
+a00602d8 T _tx_execution_thread_time_get
+a00602e8 T _tx_execution_thread_total_time_get
+a0060300 T _tx_execution_isr_time_get
+a0060318 T _tx_execution_idle_time_get
+a0060330 T _tx_initialize_high_level
+a00603d8 T _tx_initialize_kernel_enter
+a0060438 T _tx_mutex_cleanup
+a00604f0 T _tx_mutex_thread_release
+a00605a4 T _tx_mutex_create
+a006079c T _tx_mutex_get
+a0060a70 T _tx_mutex_info_get
+a0060c10 T _tx_mutex_prioritize
+a0060e70 T _tx_mutex_priority_change
+a0060fb0 T _tx_mutex_put
+a0061478 T _tx_queue_cleanup
+a006153c T _tx_queue_create
+a0061744 T _tx_queue_delete
+a0061980 T _tx_queue_info_get
+a0061b20 T _tx_queue_receive
+a0061f60 T _tx_queue_send
+a00622f4 T _tx_semaphore_cleanup
+a00623ac T _tx_semaphore_create
+a0062590 T _tx_semaphore_delete
+a00627cc T _tx_semaphore_get
+a00629f0 T _tx_semaphore_info_get
+a0062b80 T _tx_semaphore_put
+a0062d64 T _tx_thread_context_restore
+a0062d9c t __tx_thread_not_nested_restore
+a0062dcc t __tx_thread_no_preempt_restore
+a0062ddc t __tx_thread_preempt_restore
+a0062e34 t _tx_skip_fiq_vfp_save
+a0062e68 t __tx_thread_dont_save_ts
+a0062e74 t __tx_thread_idle_system_restore
+a0062e9c T _tx_thread_context_save
+a0062ed8 t __tx_thread_not_nested_save
+a0062f10 t __tx_thread_idle_system_save
+a0062f30 T _tx_thread_create
+a0063264 T _tx_thread_delete
+a0063438 T _tx_thread_identify
+a0063584 T _tx_thread_info_get
+a0063750 T _tx_thread_initialize
+a006384c T _tx_thread_interrupt_disable
+a006385c T _tx_thread_interrupt_restore
+a0063864 T _tx_thread_resume
+a0063a84 T _tx_thread_schedule
+a0063a94 t __tx_thread_schedule_loop
+a0063b00 t _tx_skip_interrupt_vfp_restore
+a0063b04 t _tx_solicited_return
+a0063b20 t _tx_skip_solicited_vfp_restore
+a0063b2c T tx_thread_vfp_enable
+a0063b4c t __tx_no_thread_to_enable
+a0063b54 T tx_thread_vfp_disable
+a0063b74 t __tx_no_thread_to_disable
+a0063b88 T _tx_thread_shell_entry
+a0063c38 T _tx_thread_sleep
+a0063e18 T _tx_thread_stack_analyze
+a0063f00 T _tx_thread_stack_build
+a0063f78 T _tx_thread_stack_error_handler
+a0063fb0 T _tx_thread_system_preempt_check
+a00640ac T _tx_thread_system_resume
+a006455c T _tx_thread_system_return
+a0064584 t _tx_skip_solicited_vfp_save
+a00645bc t __tx_thread_dont_save_ts
+a00645cc T _tx_thread_system_suspend
+a0064c18 T _tx_thread_terminate
+a0064e6c T _tx_thread_time_slice
+a00651f4 T _tx_thread_timeout
+a0065250 T _tx_timer_activate
+a00653b8 T _tx_timer_change
+a0065514 T _tx_timer_create
+a0065730 T _tx_timer_deactivate
+a0065944 T _tx_timer_expiration_process
+a0065974 T _tx_timer_initialize
+a0065a7c T _tx_timer_interrupt
+a0065ab8 t __tx_timer_no_time_slice
+a0065adc t __tx_timer_no_timer
+a0065af8 t __tx_timer_skip_wrap
+a0065afc t __tx_timer_done
+a0065b1c t __tx_something_expired
+a0065b34 t __tx_timer_dont_activate
+a0065b48 t __tx_timer_not_ts_expiration
+a0065b4c t __tx_timer_nothing_expired
+a0065b6c T _tx_timer_system_activate
+a0065c1c T _tx_timer_system_deactivate
+a0065c80 T _tx_timer_thread_entry
+a0065e48 T _tx_trace_initialize
+a0065e9c T _tx_trace_object_register
+a0066050 T _tx_trace_object_unregister
+a00660fc T _txe_block_pool_info_get
+a0066138 T _txe_byte_allocate
+a006620c T _txe_byte_pool_create
+a006635c T _txe_byte_pool_info_get
+a0066398 T _txe_byte_release
+a00663f8 T _txe_event_flags_create
+a0066518 T _txe_event_flags_get
+a00665b0 T _txe_event_flags_info_get
+a00665e8 T _txe_event_flags_set
+a006662c T _txe_mutex_create
+a0066764 T _txe_mutex_get
+a00667fc T _txe_mutex_info_get
+a0066838 T _txe_mutex_put
+a0066890 T _txe_queue_create
+a0066a00 T _txe_queue_delete
+a0066a60 T _txe_queue_info_get
+a0066a9c T _txe_queue_receive
+a0066b14 T _txe_queue_send
+a0066b8c T _txe_semaphore_create
+a0066cb4 T _txe_semaphore_delete
+a0066d14 T _txe_semaphore_get
+a0066d7c T _txe_semaphore_info_get
+a0066db4 T _txe_semaphore_put
+a0066ddc T _txe_thread_create
+a0067020 T _txe_thread_delete
+a0067064 T _txe_thread_info_get
+a00670a8 T _txe_thread_resume
+a00670d0 T _txe_thread_terminate
+a0067114 T _txe_timer_activate
+a006713c T _txe_timer_change
+a00671a4 T _txe_timer_create
+a0067308 T _txe_timer_deactivate
+a0067330 T AmbaVer_SetThreadx
+a006736c T _ux_host_stack_endpoint_reset
+a00673c8 T _ux_host_stack_transfer_request
+a0067468 T _ux_utility_long_put
+a0067488 T _ux_utility_long_put_big_endian
+a00674ac T _ux_utility_memory_allocate
+a006761c T _ux_utility_memory_copy
+a0067640 T _ux_utility_memory_free
+a0067728 T _ux_utility_memory_free_block_best_get
+a00677d4 T _ux_utility_memory_set
+a00677f0 T _ux_utility_mutex_off
+a00677f4 T _ux_utility_mutex_on
+a00677fc T _ux_utility_semaphore_get
+a0067800 T _ux_utility_semaphore_put
+a0067804 T _ux_utility_short_put_big_endian
+a0067820 T AmbaVer_SetUsb
+a006785c T AmbaUSB_Host_Class_Storage_GetStatus
+a0067968 T AmbaUSB_Host_Class_Storage_Read
+a0067ab0 T AmbaUSB_Host_Class_Storage_Write
+a0067bf8 t Storage_FormatLun0Read
+a0067c10 t Storage_FormatLun0Write
+a0067c28 t Storage_CheckFormat
+a0067dcc T AmbaUSB_Host_Class_Prf2Pread
+a0067e00 T AmbaUSB_Host_Class_Prf2Pwrite
+a0067e34 T AmbaUSB_Host_Class_StoragePrfUnmount
+a0067e44 T AmbaUSB_Host_Class_StoragePrfMount
+a0067e54 T AmbaUSB_Host_Class_StoragePrfFinalize
+a0067e8c T AmbaUSB_Host_Class_StoragePrfDriveInit
+a0067eac T AmbaUSB_Host_Class_StoragePrfInitDriveTable
+a0067ed0 t Storage_Prf2Format.isra.0.constprop.7
+a0068114 T AmbaUSB_Host_Class_StoragePrfFormat
+a006811c T Storage_Prf2GetDiskInfo
+a0068280 T AmbaUSB_Host_Class_StoragePrfGetDiskInfo
+a0068290 T AmbaUSB_Host_Class_StoragePrf2FormatDrive
+a0068300 T AmbaUSB_Host_Class_StoragePrFile2_Init
+a0068490 T AmbaVer_SetUsbDirver
+a00684cc T _ux_host_class_storage_cbw_initialize
+a0068530 T _ux_host_class_storage_device_reset
+a0068584 T _ux_host_class_storage_media_read
+a0068644 T _ux_host_class_storage_media_write
+a00686f4 T _ux_host_class_storage_request_sense
+a00687c4 T _ux_host_class_storage_transport
+a0068884 T AmbaVer_SetUsbHostClasses
+a00688c0 T AmbaVer_SetUsbHostController
+a00688fc T atoi
+a0068904 T atol
+a006890c T __errno
+a0068918 T memchr
+a00689ac T memcmp
+a0068a0c T memmove
+a0068ad4 T memset
+a0068b78 T rand
+a0068bc0 T snprintf
+a0068c4c T sprintf
+a0068c9c T strcat
+a0068cdc T strcmp
+a0068e98 T strcpy
+a0068f54 T strlen
+a0068fb0 T strncat
+a006900c T strncmp
+a00690a4 T strncpy
+a0069118 T strtok
+a006912c T __strtok_r
+a0069190 T _strtol_r
+a00692c8 T strtol
+a00692e4 T _strtoul_r
+a006942c T strtoul
+a0069448 T _svfprintf_r
+a006a930 T _vsprintf_r
+a006a964 T vsprintf
+a006a980 T wcscat
+a006a9a8 T wcscmp
+a006a9c0 T wcscpy
+a006a9dc T wcsncpy
+a006aa14 t quorem
+a006ab50 T _dtoa_r
+a006b880 T _localeconv_r
+a006b88c T _malloc_r
+a006be30 T __malloc_lock
+a006be34 T __malloc_unlock
+a006be38 T _Balloc
+a006be88 T _Bfree
+a006be9c T __multadd
+a006bf24 T __hi0bits
+a006bf64 T __lo0bits
+a006bfbc T __i2b
+a006bfd0 T __multiply
+a006c120 T __pow5mult
+a006c1c0 T __lshift
+a006c274 T __mcmp
+a006c2bc T __mdiff
+a006c3a4 T __d2b
+a006c460 T __fpclassifyd
+a006c4b8 T _sbrk_r
+a006c4e0 T __ssprint_r
+a006c5e8 T _calloc_r
+a006c64c T _malloc_trim_r
+a006c6f4 T _free_r
+a006c8a8 T _realloc_r
+a006cca0 T _sbrk
+a006ccc0 t .udivsi3_skip_div0_test
+a006ccc0 T __aeabi_uidiv
+a006ccc0 T __udivsi3
+a006cf1c T __aeabi_uidivmod
+a006cf38 T __aeabi_idiv
+a006cf38 T __divsi3
+a006cf3e t .divsi3_skip_div0_test
+a006d1cc T __aeabi_idivmod
+a006d1e8 W __aeabi_idiv0
+a006d1e8 W __aeabi_ldiv0
+a006d1ec T __aeabi_llsr
+a006d1ec T __lshrdi3
+a006d204 T __aeabi_llsl
+a006d204 T __ashldi3
+a006d21c T __aeabi_drsub
+a006d224 T __aeabi_dsub
+a006d224 T __subdf3
+a006d228 T __adddf3
+a006d228 T __aeabi_dadd
+a006d4a0 T __aeabi_ui2d
+a006d4a0 T __floatunsidf
+a006d4c0 T __aeabi_i2d
+a006d4c0 T __floatsidf
+a006d4e4 T __aeabi_f2d
+a006d4e4 T __extendsfdf2
+a006d520 T __aeabi_ul2d
+a006d520 T __floatundidf
+a006d530 T __aeabi_l2d
+a006d530 T __floatdidf
+a006d58c T __aeabi_uldivmod
+a006d5bc T __gnu_ldivmod_helper
+a006d5ec T __gnu_uldivmod_helper
+a006d61c T __divdi3
+a006d774 T __udivdi3
+a006d880 t __memcpy_from_arm
+a006d888 t __wcscmp_from_arm
+a006d890 t __strcpy_from_arm
+a006d898 t __wcscpy_from_arm
+a006d8a0 t __wcscat_from_arm
+a006d8a8 t __strncpy_from_arm
+a006d8b0 t __strcat_from_arm
+a006d8b8 t __strcmp_from_arm
+a006d8c0 t __memset_from_arm
+a006d8c8 t __wcsncpy_from_arm
+a006d8d0 T AmbaFW_PartitionSize	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:150
+a006dd8c t .LANCHOR1
+a006dd8c t __FUNCTION__.8373
+a006de40 t .LANCHOR2
+a006de40 t __FUNCTION__.8384
+a006e570 t .LANCHOR2
+a006e570 t ab_month_name	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Date.c:31
+a006e5a0 t .LANCHOR3
+a006e5a0 t format	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Date.c:36
+a006e5f4 t .LANCHOR1
+a006e5f4 t ab_weekday_name	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Date.c:27
+a006e7dc t .LANCHOR0
+a006e9b0 t .LANCHOR7
+a006e9b0 t yy_accept	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:411
+a006ea14 t .LANCHOR10
+a006ea14 t yy_base	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:458
+a006ea80 t .LANCHOR28
+a006ea80 t __FUNCTION__.8040
+a006ea90 t .LANCHOR9
+a006ea90 t yy_meta	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:452
+a006eae4 t .LANCHOR27
+a006eae4 t __func__.8033
+a006ecf8 t .LANCHOR11
+a006ecf8 t yy_chk	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:491
+a006eda8 t .LANCHOR8
+a006eda8 t yy_def	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:468
+a006ee14 t .LANCHOR12
+a006ee14 t yy_nxt	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:478
+a006eec4 t .LANCHOR6
+a006eec4 t yy_ec	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:420
+a006f490 t .LANCHOR0
+a006f490 t month_str.7365
+a006f540 t .LANCHOR4
+a006f540 t g_nftl_str	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:38
+a006f554 t .LANCHOR3
+a006f554 t __FUNCTION__.8406
+a00701a0 t .LANCHOR2
+a00701a0 t __FUNCTION__.8326
+a00701b4 t .LANCHOR1
+a00701b4 t __FUNCTION__.8290
+a00704b8 t .LANCHOR16
+a00704b8 t yypgoto	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:539
+a00704c8 t .LANCHOR14
+a00704c8 t yyr2	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:499
+a00704ec t .LANCHOR8
+a00704ec t yypact	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:528
+a007052c t .LANCHOR15
+a007052c t yyr1	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:491
+a0070550 t .LANCHOR11
+a0070550 t yytable	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:549
+a0070668 t .LANCHOR13
+a0070668 t yydefact	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:509
+a00706a8 t .LANCHOR10
+a00706a8 t yycheck	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:566
+a007072c t .LANCHOR17
+a007072c t yydefgoto	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:520
+a007073c t .LANCHOR2
+a007073c t __func__.6484
+a0070750 t .LANCHOR9
+a0070750 t yytranslate	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:404
+a0070860 t .LANCHOR7
+a0070860 t __FUNCTION__.7697
+a0070874 t .LANCHOR5
+a0070874 t vt100_seq	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:612
+a0070e58 t .LANCHOR2
+a0070e58 t _ExceptionTag	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:87
+a0070e64 t .LANCHOR3
+a0070e64 t _ProcessorMode	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:76
+a007116c t .LANCHOR4
+a0071174 t .LANCHOR3
+a0071174 t _AmbaPrintColor	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:94
+a0071210 t .LANCHOR0
+a0071210 T _AmbaCrc32Table	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaUtility.c:29
+a008ccf8 t .LANCHOR18
+a008cd00 t .LANCHOR17
+a008cd00 t __FUNCTION__.16176
+a008cd18 t .LANCHOR28
+a008cd18 t __FUNCTION__.16041
+a008cd34 t .LANCHOR33
+a008cd34 t __FUNCTION__.16088
+a008cd50 t .LANCHOR29
+a008cd50 t __FUNCTION__.16052
+a008cd6c t .LANCHOR14
+a008cd6c t __FUNCTION__.16110
+a008cd98 t .LANCHOR19
+a008cd98 t __FUNCTION__.15848
+a008d914 t .LANCHOR16
+a008d914 t __FUNCTION__.16127
+a008d92c t .LANCHOR6
+a008d92c t __FUNCTION__.15921
+a008d940 t .LANCHOR32
+a008d940 t __FUNCTION__.16080
+a008d95c t .LANCHOR52
+a008d95c t __FUNCTION__.14600
+a008d970 t .LANCHOR65
+a008d970 t __FUNCTION__.14707
+a008d984 t .LANCHOR26
+a008d984 t __FUNCTION__.14049
+a008d990 t .LANCHOR64
+a008d990 t __FUNCTION__.14702
+a008d9a4 t .LANCHOR63
+a008d9a4 t __FUNCTION__.14697
+a008d9bc t .LANCHOR67
+a008d9bc t __FUNCTION__.14718
+a008d9d4 t .LANCHOR71
+a008d9d4 t __FUNCTION__.14742
+a008d9ec t .LANCHOR28
+a008d9ec t DspEncModeFlagPattern
+a008da18 t .LANCHOR46
+a008da18 t __FUNCTION__.14058
+a008fbf8 t .LANCHOR4
+a008fbf8 t __FUNCTION__.14443
+a0090060 t .LANCHOR7
+a0090060 t __FUNCTION__.14509
+a00906e0 t .LANCHOR3
+a00906e0 t UpCaseTable
+a0091dc0 t .LANCHOR4
+a0091dc0 t __FUNCTION__.10283
+a0091dd4 t .LANCHOR1
+a0091dd4 t __FUNCTION__.10230
+a00920bc t .LANCHOR0
+a00920bc t __FUNCTION__.10183
+a00920d0 t .LANCHOR6
+a00920d0 t __FUNCTION__.9115
+a00920e0 t .LANCHOR0
+a00920e0 t __FUNCTION__.9020
+a00920f8 t .LANCHOR2
+a00920f8 t __FUNCTION__.9303
+a0092104 t .LANCHOR13
+a0092104 t __FUNCTION__.9312
+a0092178 t .LANCHOR5
+a0092178 t __FUNCTION__.9038
+a009218c t .LANCHOR4
+a009218c t __FUNCTION__.9171
+a00921a0 t .LANCHOR4
+a00921a0 t __FUNCTION__.10165
+a0092240 t .LANCHOR5
+a0092240 t __FUNCTION__.10598
+a0092258 t .LANCHOR2
+a0092258 t __FUNCTION__.10543
+a0092270 t .LANCHOR3
+a0092270 t __FUNCTION__.10584
+a009228c t .LANCHOR6
+a009228c t __FUNCTION__.10604
+a00922a0 t .LANCHOR7
+a00922a0 t __FUNCTION__.10610
+a0092350 t .LANCHOR17
+a0092350 t __FUNCTION__.10703
+a0092364 t .LANCHOR9
+a0092364 t __FUNCTION__.10575
+a0092380 t .LANCHOR1
+a0092380 t AmbaFS_SdPrf2Table
+a00923a0 t .LANCHOR4
+a00923a0 t __FUNCTION__.10591
+a00923b8 t .LANCHOR0
+a00923b8 t __FUNCTION__.10533
+a00923dc t .LANCHOR3
+a00923dc t __func__.6927
+a00924cc t .LANCHOR4
+a00924cc t __FUNCTION__.6935
+a00924e0 t .LANCHOR2
+a00924e0 t __func__.6918
+a00924f4 t .LANCHOR1
+a00924f4 t __FUNCTION__.6639
+a009269c t .LANCHOR0
+a009269c t __func__.8961
+a0092ab8 t .LANCHOR25
+a0092ab8 t __func__.8490
+a0092ad0 t .LANCHOR7
+a0092ad0 t __func__.8401
+a0092ae4 t .LANCHOR24
+a0092ae4 t __FUNCTION__.8483
+a0092afc t .LANCHOR27
+a0092afc t __FUNCTION__.8533
+a0092fc4 t .LANCHOR5
+a0092fc4 t MediaPartString	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:53
+a0092fd8 t .LANCHOR4
+a0092fd8 t __func__.8631
+a0093010 T AmbaNAND_DevInfo	/home/bingo/RD_A12/release_rtos/peripheral/nand/AmbaNAND_S34ML04G1.c:19
+a0093044 T pf_valid_fn_char
+a00930a4 t .LANCHOR0
+a00930ac t .LANCHOR0
+a00930d4 t .LANCHOR0
+a00930e8 t .LANCHOR0
+a00930ec t .LANCHOR0
+a00930f4 t .LANCHOR0
+a00930f4 t pf_upcase_table
+a00947c0 t .LANCHOR0
+a00947c8 t .LANCHOR1
+a00947c8 t fat_special_values
+a0094818 t .LANCHOR0
+a0094824 t .LANCHOR0
+a009483c t .LANCHOR1
+a0094858 T _pAmbaDMA_Reg
+a009485c T _pAmbaFDMA_Reg
+a0094860 T pAmbaGPIO_Reg
+a0094870 T _pAmbaL2CC_Reg
+a0094874 t .LANCHOR0
+a0094874 t PllCtrlRegsAddrTable
+a0094964 T pAmbaRCT_Reg
+a0094968 t .LANCHOR0
+a0094968 T _pAmbaTimer_CtrlRegsAddrTable
+a0094988 T _pAmbaUART_Reg
+a0094990 t .LANCHOR9
+a0094990 t __FUNCTION__.6685
+a00949a0 t .LANCHOR7
+a00949a0 t __FUNCTION__.6742
+a00949b0 t .LANCHOR8
+a00949b0 t __FUNCTION__.6704
+a00949bc t .LANCHOR0
+a00949bc t __FUNCTION__.6656
+a00949d0 t .LANCHOR3
+a00949d0 t __FUNCTION__.6725
+a00949e0 t .LANCHOR15
+a00949e0 t __FUNCTION__.8503
+a00949f0 t .LANCHOR7
+a00949f0 t __FUNCTION__.8375
+a0094a04 t .LANCHOR5
+a0094a04 t __FUNCTION__.8467
+a0094a18 t .LANCHOR12
+a0094a18 t __FUNCTION__.8412
+a0094a28 t .LANCHOR9
+a0094a28 t __FUNCTION__.8092
+a0094fc4 t .LANCHOR4
+a0094fc4 t __FUNCTION__.8494
+a0094fd4 t .LANCHOR13
+a0094fd4 t __FUNCTION__.8441
+a0094fe8 t .LANCHOR8
+a0094fe8 t __FUNCTION__.8127
+a0094ff8 t .LANCHOR11
+a0094ff8 t __FUNCTION__.8388
+a0095008 t .LANCHOR17
+a0095008 t __FUNCTION__.8522
+a0095018 t .LANCHOR6
+a0095018 t __FUNCTION__.8062
+a009502c t .LANCHOR10
+a009502c t __FUNCTION__.8114
+a0095040 t .LANCHOR2
+a0095040 t __func__.6767
+a0095050 t .LANCHOR3
+a0095050 t __func__.6791
+a00951c8 t .LANCHOR5
+a00951c8 t __FUNCTION__.7239
+a00951e0 t .LANCHOR16
+a00951e0 t __FUNCTION__.7120
+a00951f4 t .LANCHOR38
+a00951f4 t __FUNCTION__.7554
+a009520c t .LANCHOR18
+a009520c t __FUNCTION__.7088
+a0095220 t .LANCHOR3
+a0095220 t __FUNCTION__.6910
+a0095230 t .LANCHOR47
+a0095230 t __FUNCTION__.7855
+a0095240 t .LANCHOR22
+a0095240 t __FUNCTION__.7182
+a0095254 t .LANCHOR12
+a0095254 t __FUNCTION__.7147
+a0095260 t .LANCHOR51
+a0095260 t __FUNCTION__.7877
+a0095274 t .LANCHOR53
+a0095274 t __FUNCTION__.7740
+a0095280 t .LANCHOR7
+a0095280 t __FUNCTION__.7014
+a0095294 t .LANCHOR54
+a0095294 t __FUNCTION__.7897
+a00952a4 t .LANCHOR14
+a00952a4 t __FUNCTION__.7030
+a00952b8 t .LANCHOR30
+a00952b8 t __FUNCTION__.7259
+a00952c8 t .LANCHOR24
+a00952c8 t __FUNCTION__.7337
+a00952e0 t .LANCHOR20
+a00952e0 t __FUNCTION__.7200
+a00952f4 t .LANCHOR8
+a00952f4 t __FUNCTION__.7059
+a0095308 t .LANCHOR9
+a0095308 t __FUNCTION__.7501
+a0095318 t .LANCHOR0
+a0095318 t __FUNCTION__.7221
+a009532c t .LANCHOR25
+a009532c t __FUNCTION__.7376
+a0095344 t .LANCHOR29
+a0095344 t __FUNCTION__.7672
+a0095350 t .LANCHOR62
+a0095350 t __FUNCTION__.7935
+a0095368 t .LANCHOR42
+a0095368 t __FUNCTION__.7821
+a0095384 t .LANCHOR58
+a0095384 t __FUNCTION__.7904
+a009539c t .LANCHOR43
+a009539c t __FUNCTION__.7827
+a00953b0 t .LANCHOR50
+a00953b0 t __FUNCTION__.7698
+a00953c0 t .LANCHOR46
+a00953c0 t __FUNCTION__.7847
+a00953d0 t .LANCHOR48
+a00953d0 t __FUNCTION__.7862
+a00953e0 t .LANCHOR4
+a00953e0 t __FUNCTION__.6920
+a00953f0 t .LANCHOR17
+a00953f0 t __FUNCTION__.6995
+a0095404 t .LANCHOR19
+a0095404 t __FUNCTION__.7138
+a0095410 t .LANCHOR45
+a0095410 t __FUNCTION__.7840
+a0095428 t .LANCHOR36
+a0095428 t __FUNCTION__.7435
+a009543c t .LANCHOR39
+a009543c t __FUNCTION__.7588
+a009544c t .LANCHOR56
+a009544c t __FUNCTION__.7300
+a009545c t .LANCHOR52
+a009545c t __FUNCTION__.7887
+a009546c t .LANCHOR23
+a009546c t __FUNCTION__.7159
+a0095484 t .LANCHOR13
+a0095484 t __FUNCTION__.7022
+a009549c t .LANCHOR59
+a009549c t __FUNCTION__.7911
+a00954b0 t .LANCHOR10
+a00954b0 t __FUNCTION__.7458
+a00954c0 t .LANCHOR34
+a00954c0 t __FUNCTION__.6812
+a00954d0 t .LANCHOR57
+a00954d0 t __FUNCTION__.7757
+a00954dc t .LANCHOR15
+a00954dc t __FUNCTION__.6980
+a00954f4 t .LANCHOR55
+a00954f4 t __FUNCTION__.6968
+a0095508 t .LANCHOR41
+a0095508 t __FUNCTION__.7622
+a0095524 t .LANCHOR40
+a0095524 t __FUNCTION__.7645
+a0095538 t .LANCHOR32
+a0095538 t __FUNCTION__.6870
+a0095548 t .LANCHOR37
+a0095548 t __FUNCTION__.7662
+a009555c t .LANCHOR49
+a009555c t __FUNCTION__.7869
+a0095570 t .LANCHOR11
+a0095570 t __FUNCTION__.7479
+a00958a0 t .LANCHOR6
+a00958a0 t __FUNCTION__.6893
+a00958b0 t .LANCHOR1
+a00958b0 t __FUNCTION__.8915
+a00958f0 t .LANCHOR11
+a00958f0 t __FUNCTION__.9278
+a0095908 t .LANCHOR4
+a0095908 t __FUNCTION__.9125
+a0095918 t .LANCHOR2
+a0095918 t __FUNCTION__.9141
+a00959a4 t .LANCHOR5
+a00959a4 t __FUNCTION__.9186
+a00959b4 t .LANCHOR8
+a00959b4 t __FUNCTION__.9208
+a00959c8 t .LANCHOR3
+a00959c8 t __FUNCTION__.9167
+a00959dc t .LANCHOR12
+a00959dc t __FUNCTION__.9286
+a00959fc t .LANCHOR3
+a00959fc t __func__.6888
+a0095a0c t .LANCHOR7
+a0095a0c t _AmbaRTC_Epoch
+a0095a60 t .LANCHOR11
+a0095a70 t .LANCHOR18
+a0095a70 t TRAN_MANT
+a0095ab0 t .LANCHOR21
+a0095ab0 t __func__.10665
+a0095ac4 t .LANCHOR12
+a0095ac4 t __FUNCTION__.9709
+a0095d1c t .LANCHOR16
+a0095d1c t TAAC_MANT
+a0095d5c t .LANCHOR19
+a0095d5c t TRAN_EXP
+a0095d7c t .LANCHOR20
+a0095d7c t g_pSdAlignBuf
+a0095d88 t .LANCHOR17
+a0095d88 t TAAC_EXP
+a0095da8 t .LANCHOR14
+a0095da8 t __FUNCTION__.9768
+a0095db8 t .LANCHOR9
+a0095db8 t _AmbaIntSenseStr
+a0095dcc t .LANCHOR10
+a0095dcc t _AmbaIntEnableStr
+a0095dd4 t .LANCHOR2
+a0095dd4 t _AmbaShell_TaskState
+a00965ac t .LANCHOR2
+a00965ac t CSWTCH.6
+a0096614 t .LANCHOR1
+a0096614 t __FUNCTION__.13163
+a0096634 t .LANCHOR0
+a0096634 t DramPriorityCtrlRegVal
+a009666c t .LANCHOR0
+a009666c t I2sClkDivTable
+a00966b4 t .LANCHOR0
+a00966b4 t TUNING_PATTERN
+a0096708 t .LANCHOR6
+a0096708 t __func__.15095
+a0096730 t .LANCHOR8
+a0096730 t __func__.15051
+a0096748 t .LANCHOR7
+a0096748 t __func__.15103
+a0096cd4 t .LANCHOR9
+a0096cd4 t __func__.15111
+a0096cf8 t .LANCHOR10
+a0096cf8 t __func__.15066
+a0096d14 t .LANCHOR3
+a0096d14 t __func__.15148
+a0096d28 t .LANCHOR4
+a0096d28 t __FUNCTION__.15213
+a0096d68 t .LANCHOR0
+a0096d68 t __func__.7539
+a0096d9c t .LANCHOR0
+a0096d9c t __func__.7539
+a0096dc0 T _ctype_
+a0096ec4 t .LANCHOR1
+a0096ec4 t zeroes.6916
+a0096f14 t .LANCHOR0
+a0096f14 t blanks.6915
+a0096f3c t .LANCHOR0
+a0096f3c t p05.5296
+a0096f48 t .LANCHOR1
+a0096f48 T __mprec_tens
+a0097010 T __mprec_bigtens
+a0097098 T __ddr_region0_ro_end
+a00970a0 t __ddr_region1_ro_end
+a00970a0 t __ddr_region1_ro_start
+a00970a0 t __ddr_region2_ro_end
+a00970a0 t __ddr_region2_ro_start
+a00970a0 t __ddr_region3_ro_end
+a00970a0 t __ddr_region3_ro_start
+a00970a0 t __ddr_region4_ro_end
+a00970a0 t __ddr_region4_ro_start
+a00970a0 t __ddr_region5_ro_end
+a00970a0 t __ddr_region5_ro_start
+a0098000 D LL_JpegEncDescBuffer
+a0098000 D __dsp_buf_start
+a009c000 D LL_H264EncDescBuffer
+a00a0000 D AmbaLL_EisCoefUpdate
+a00a0080 D AmbaLL_EisStatusUpdateInfo
+a00a00e0 D AmbaLL_DspRawCaptureInfo
+a00a0120 D AmbaLL_DramCaptureFifo
+a00a0160 D LL_Raw2RawBatchCmdBuf
+a00a0960 D LL_BatchBufferHiso
+a00a2960 D LL_BatchBufferLiso
+a00a4960 D LL_BatchBufferVideo
+a00f4960 D AmbaLL_InitData
+a00f49e0 D AmbaLL_VdspInfo
+a00f4a00 D AmbaLL_GeneralMsgFifoCtrl
+a00f4a40 D AmbaLL_DefCmdBuffer
+a00f5a40 D AmbaLL_GroupGeneralCmdBuffer
+a00f6a40 D AmbaLL_AsyncCmdBuffer
+a00f6e40 D AmbaLL_GeneralMsgBuffer
+a00f7e40 D AmbaLL_GeneralCmdBuffer
+a00fbe40 D AmbaDSP_VinMasterSyncConfigData
+a00fbe60 D AmbaDSP_VinGlobalConfigData
+a00fbe80 D AmbaDSP_VinPipConfigData
+a00fc080 D AmbaDSP_VinMainConfigData
+a00fc280 D AmbaDSP_TveConfigData
+a00fc480 D AmbaDSP_Display1Config
+a00fc5c0 D AmbaDSP_Display0Config
+a00fc640 D AmbaDSP_TveCoeffTable
+a00fc780 D AmbaDSP_DisplayCoeffTable
+a00fc840 D __dsp_buf_end
+a00fd000 d .LANCHOR2
+a00fd000 D OnlyResumeGpios	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaLinkMemoryCfg.c:273
+a00fd000 D __ddr_region0_rw_start
+a00fd020 D AmbaLink_Enable	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaLinkMemoryCfg.c:104
+a00fd024 d .LANCHOR1
+a00fd024 D KernelCmdLine	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaLinkMemoryCfg.c:121
+a00fd074 D AmbaMmuUserCtrl	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaMmuMemMap.c:273
+a00fd084 D GpioPinGrpConfig	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/bsp.c:33
+a00fd124 d .LANCHOR0
+a00fd124 d G_Amba_VerInfo	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaVerImpl.c:25
+a00fd798 d .LANCHOR1
+a00fd798 D firmfl_list	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_FwProg.c:219
+a00fd7b0 d .LANCHOR30
+a00fd7b0 D lineno	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:574
+a00fd7b4 d .LANCHOR1
+a00fd7b4 D AmbaShell_DefaultCmdListSize	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_List.c:111
+a00fd7b8 d .LANCHOR0
+a00fd7b8 D AmbaShell_DefaultCmdList	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_List.c:67
+a00fd950 d .LANCHOR0
+a00fd950 d g_str1	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:36
+a00fd968 d .LANCHOR5
+a00fd968 D ambsh_nftl_list	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Nftl.c:2014
+a00fd9f8 d .LANCHOR11
+a00fd9f8 d _AmbaPrintRtosModule	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:84
+a00fda08 d .LANCHOR9
+a00fda08 d _AmbaPrintDspModule	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:88
+a00fda38 D _AmbaRootTaskStackSize	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:22
+a00fda3c d .LANCHOR1
+a00fda3c d _IdleTaskIntervalTime	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:27
+a00fda40 d .LANCHOR0
+a00fda40 d AmbaTestCmdListHead	/home/bingo/RD_A12/release_rtos/comsvc/AmbaTest/AmbaTest.c:30
+a00fda4c d .LANCHOR2
+a00fda4c d CurDspSysState
+a00fda50 d .LANCHOR8
+a00fda50 d DSP_AsyncCmdBufferCtrl
+a00fda90 d .LANCHOR2
+a00fda90 d DSP_CmdBufferCtrl
+a00fdb78 D LL_MJpegEncDescBuffer
+a00fdb7c D LL_VideoJpegEncDescBuffer
+a00fdb80 d .LANCHOR1
+a00fdb80 D AmbaBossObj
+a00fdbcc D AmbaSSPSystemInfo	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaSSPSystemInfo.c:20
+a00fe1d8 d .LANCHOR1
+a00fe1d8 d AmbaPrintConfig.11834
+a00fe1f4 d .LANCHOR2
+a00fe1f4 d AutoExecScripts.11831
+a00fe1fc d .LANCHOR0
+a00fe1fc D pf_error_to_api_error
+a00fe2c8 d .LANCHOR0
+a00fe2c8 D pAmbaAhbScratchpad_Reg
+a00fe2cc D pAmbaSubDSP_Reg
+a00fe2d0 D pAmbaMainDSP_Reg
+a00fe2d4 D pAmbaSMEM_Reg
+a00fe2d8 D pAmbaDRAMC_Reg
+a00fe2dc d .LANCHOR0
+a00fe2dc D pAmbaDDRC_Reg
+a00fe2e0 d .LANCHOR0
+a00fe2e0 D pAmbaFIO_Reg
+a00fe2e4 d .LANCHOR0
+a00fe2e4 D pAmbaIOMUX_Reg
+a00fe2e8 D _pAmbaI2C_Reg
+a00fe2f4 D pAmbaI2S_Reg
+a00fe2f8 d .LANCHOR0
+a00fe2f8 D pAmbaNAND_Reg
+a00fe2fc d .LANCHOR0
+a00fe2fc D pAmbaNOR_Reg
+a00fe300 d .LANCHOR1
+a00fe300 D _pAmbaRTC_Reg
+a00fe304 D pAmbaSd_Reg
+a00fe30c D pAmbaSPI_Reg
+a00fe318 d .LANCHOR1
+a00fe318 D _pAmbaTimer_Reg
+a00fe31c d .LANCHOR0
+a00fe31c D _pAmbaVIC_Reg
+a00fe328 d g_MainBbtPattern
+a00fe32c d .LANCHOR6
+a00fe32c d g_MirrBbtDesc
+a00fe33c d g_MirrBbtPattern
+a00fe340 d .LANCHOR5
+a00fe340 d g_MainBbtDesc
+a00fe350 d .LANCHOR2
+a00fe350 d BBT_EXIST
+a00fe354 d .LANCHOR1
+a00fe354 D PartName
+a00fe368 D AmbaNAND_PartitionName
+a00fe3a8 d .LANCHOR1
+a00fe3a8 D g_NftlPart
+a00fe3bc d .LANCHOR6
+a00fe3bc d _AmbaRTC_DaysOfMonth
+a00fe3ec d .LANCHOR1
+a00fe3ec d g_SdCmdTimeout
+a00fe3f8 d .LANCHOR4
+a00fe3f8 D sd_data_retry
+a00fe3fc d .LANCHOR13
+a00fe3fc D g_sd_ddr50_rounddelay
+a00fe400 d .LANCHOR3
+a00fe400 d g_SdDataTimeout
+a00fe40c d .LANCHOR15
+a00fe40c d g_MmcRca
+a00fe410 d .LANCHOR3
+a00fe410 D g_ScmSlotMap
+a00fe434 d .LANCHOR0
+a00fe434 D AmbaRTSL_GpioCtrl
+a00fe6f4 d .LANCHOR0
+a00fe6f4 D AmbaRTSL_I2cCtrl
+a00fe73c d .LANCHOR3
+a00fe73c d _AmbaMMU_Ctrl
+a00fe744 d .LANCHOR1
+a00fe744 d MMU_MmioMap
+a00fe794 d .LANCHOR4
+a00fe794 d DmaReq
+a00fe7ac d .LANCHOR1
+a00fe7ac D AmbaClkDomainCtrl
+a00fe84c d .LANCHOR0
+a00fe84c d PLL_GetPllOutClkFreqTable
+a00fe878 d .LANCHOR0
+a00fe878 D AmbaRTSL_SpiCtrl
+a00fe8cc d .LANCHOR2
+a00fe8cc D _AmbaRTSL_TimerCtrl
+a00fe90c d .LANCHOR3
+a00fe90c d UART_DmaReq
+a00fe924 d .LANCHOR0
+a00fe924 D _AmbaRTSL_UartCtrl
+a00fe96c D _tx_thread_system_state
+a00fe980 d .LANCHOR0
+a00fe980 d AmbaUSB_UsbPrf2Table
+a00fe9a0 D __ctype_ptr__
+a00fe9a8 d impure_data
+a00fedd0 D _impure_ptr
+a00fedd4 d .LANCHOR3
+a00fedd4 d lconv
+a00fee0c d .LANCHOR0
+a00fee0c D __malloc_av_
+a00ff214 D __malloc_trim_threshold
+a00ff218 d .LANCHOR2
+a00ff218 D __malloc_sbrk_base
+a00ff21c D AmbaVer_LinkLibsNum	/home/bingo/RD_A12/release_rtos/output/app/fwupdater/AmbaVer_LinkInfo.c:8
+a00ff220 D pAmbaVer_LinkVer_Target	/home/bingo/RD_A12/release_rtos/output/app/fwupdater/AmbaVer_LinkInfo.c:4
+a00ff224 D pAmbaVer_LinkVer_Machine	/home/bingo/RD_A12/release_rtos/output/app/fwupdater/AmbaVer_LinkInfo.c:5
+a00ff228 D pAmbaVer_LinkVer_Date	/home/bingo/RD_A12/release_rtos/output/app/fwupdater/AmbaVer_LinkInfo.c:6
+a00ff22c D pAmbaVer_LinkLibs	/home/bingo/RD_A12/release_rtos/output/app/fwupdater/AmbaVer_LinkInfo.c:7
+a00ff278 d __ddr_region0_rw_end
+a00ff280 d .LANCHOR0
+a00ff280 d Buf.6494
+a00ff280 d __ddr_region1_rw_end
+a00ff280 d __ddr_region1_rw_start
+a00ff280 d __ddr_region2_rw_end
+a00ff280 d __ddr_region2_rw_start
+a00ff280 d __ddr_region3_rw_end
+a00ff280 d __ddr_region3_rw_start
+a00ff280 d __ddr_region4_rw_end
+a00ff280 d __ddr_region4_rw_start
+a00ff280 d __ddr_region5_rw_end
+a00ff280 d __ddr_region5_rw_start
+a00ff280 d __sbrk_start
+a00ff280 D end
+a0101280 d __sbrk_end
+a0104000 b .LANCHOR3
+a0104000 b AmbaMonitorSDStack	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaMonitor_SD.c:47
+a0104000 B __noinit_start
+a010c000 b .LANCHOR0
+a010c000 b _ExceptionStrBuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:95
+a010c100 b .LANCHOR0
+a010c100 b _AmbaPrintCtrl	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:74
+a010e0f8 b .LANCHOR6
+a010e150 b _AmbaPrint_LineBuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:73
+a010f150 b _AmbaPrintTaskStack	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:71
+a0110150 b _AmbaSysLogBuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:115
+a0130150 B _AmbaRootTaskStack	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:21
+a0131150 b .LANCHOR0
+a0131150 b LL_ErrHdlr
+a0131188 b DSP_ArmCommTaskStack
+a0135188 b DSP_ArmCommPrepareTaskStack
+a01371a0 b .LANCHOR0
+a01371a0 b EncInfo
+a0137358 b DspStatus
+a01373a8 b DecInfo
+a01373e0 B AmbaLL_3ABufferCfaDst
+a019a3e0 B AmbaLL_3ABufferCfaSrc
+a01fd3e0 B AmbaLL_3ABufferRgbDst
+a020e3e0 B AmbaLL_3ABufferRgbSrc
+a021f3e0 B AmbaLL_VinStatMainSrc
+a022c3e0 B AmbaLL_VinStatHDRSrc
+a02393e0 B AmbaLL_VinStatMainDst
+a02463e0 B AmbaLL_VinStatHDRDst
+a0252d30 b .LANCHOR37
+a02533e0 b IdspCfg
+a0253424 b AmbaDSP_MsgDispatchTaskStack
+a0257440 b .LANCHOR0
+a0257440 b LL_BatchBufferChannelVideo
+a025756c b LL_BatchBufferChannelLiso
+a02575a8 b LL_BatchBufferChannelHiso
+a02575e4 b LL_BatchBufferChannelRaw2Raw
+a0257620 b LL_BatchBufferUnitsVideo
+a0259438 b .LANCHOR1
+a025a0a0 b LL_BatchBufferUnitsLiso
+a025a128 b LL_BatchBufferUnitsHiso
+a025a1b0 b LL_BatchBufferUnitsRaw2Raw
+a025a238 b LL_BatchCmdBuffers
+a025a258 b .LANCHOR3
+a025a258 b _AmbaFsSlot
+a025a358 b .LANCHOR2
+a025a358 b g_SysAreaBuf
+a025bc00 b .LANCHOR1
+a025bc00 b g_AmbaFSObj
+a025c800 b g_NandCacheBuffer
+a0264800 b g_NandCachePage
+a0265200 b g_NandFormatBuf
+a0265bd8 b .LANCHOR7
+a0269200 b .LANCHOR0
+a0269200 b g_NullPrfObj
+a0269740 b cache_page
+a0269c40 b cache_buffer
+a026de00 b .LANCHOR8
+a026de00 b g_FormatBuf
+a0271e00 B g_pCacheBuffer
+a027de00 B g_pCachePage
+a027ee00 B g_pCacheBuffer3
+a028ae00 B g_pCachePage3
+a028be00 B g_pCacheBuffer2
+a0297e00 B g_pCachePage2
+a0298d00 B g_SdioPrfObj
+a02992e0 B g_Sd2PrfObj
+a02998c0 B g_Sd1PrfObj
+a029a000 b _HwStackABT
+a029a080 b _HwStackUND
+a029a100 b _HwStackFIQ
+a029c100 b _HwStackIRQ
+a029e100 b _HwStackSVC
+a02a0100 b _HwStackSYS
+a02a0200 b .LANCHOR0
+a02a0200 b AmbaUartRxRingBuf	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:49
+a02a0600 b AmbaPrintRingBuf.11833
+a02c0600 b _AmbaSysInitTaskStack	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:51
+a02c2600 b .LANCHOR0
+a02c2600 b _AmbaNAND_FwPartOld	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:63
+a02c2660 b DtbTempBuf	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:74
+a02e2580 b .LANCHOR2
+a02e2660 b _AmbaNAND_MetaData	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:66
+a02e2e60 b _AmbaNAND_NftlPartOld	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:62
+a02e2ec4 b CrcBuf	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:69
+a02f2540 b .LANCHOR6
+a02f2ec4 B AmbaFwUpdaterTask	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:866
+a02f2f84 b AmbaFwUpdaterStack	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:864
+a02f6fa0 b .LANCHOR1
+a02f6fa0 b CheckBuf
+a02f77a0 b g_Bbt
+a02f7fa0 b PageBuf
+a02f87a0 b SpareBuf
+a02f8820 b .LANCHOR2
+a02f8820 b g_InitMeta
+a02f8f98 b .LANCHOR4
+a02f9020 b NandDataBuffer
+a02f9820 b CheckBuf
+a02fa020 b PageBuf
+a02fa820 b SpareBuf
+a02fa8a0 b .LANCHOR1
+a02fa8a0 b PageData
+a02fc0a0 b .LANCHOR2
+a02fc0a0 b g_PbaTrlTable
+a03100a0 b g_LbaTrlTable
+a03240a0 b PageBuf
+a03268a0 b SpareBuf
+a03308a0 b BBInfo
+a03358a0 b ChunkBuf
+a03498a0 b .LANCHOR1
+a03498a0 b pNorBuf
+a034a8a0 b gEraseBuf
+a038a8a0 b PageBuf
+a038b8a0 b .LANCHOR1
+a038b8a0 b pPageBuf
+a038d400 b .LANCHOR5
+a038d400 b g_SdChkBuf
+a038d800 b g_TuningBuf
+a038dc00 b g_SdioBuf
+a038e000 b g_Sd2Buf
+a038e400 b g_Sd1Buf
+a038e800 b .LANCHOR3
+a038e800 b g_FioBuf
+a0410000 b .LANCHOR0
+a0410000 b _AmbaMMU_PageTbl
+a0495000 b _AmbaMMU_BossL2Desc
+a0498000 b .LANCHOR0
+a0498000 B AmbaLinkCtrl	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaLinkMemoryCfg.c:268
+a0498000 B __bss_start
+a0498000 B __noinit_end
+a049808c b .LANCHOR3
+a049808c B AmbaLinkTaskCtrl	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaLinkMemoryCfg.c:269
+a04980fc b .LANCHOR0
+a04980fc b MMU_RamMapInfo	/home/bingo/RD_A12/release_rtos/bsp/dragonfly/AmbaMmuMemMap.c:43
+a049818c b .LANCHOR0
+a049818c b AmbaMonitorSdCtrl	/home/bingo/RD_A12/release_rtos/comsvc/misc/AmbaMonitor_SD.c:55
+a0498278 b .LANCHOR0
+a0498278 b result	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Date.c:37
+a04982b4 b .LANCHOR16
+a04982b4 B yyin	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:372
+a04982b8 b .LANCHOR1
+a04982b8 B yytext	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:519
+a04982bc b .LANCHOR14
+a04982bc b yy_buffer_stack_top	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:285
+a04982c0 b .LANCHOR29
+a04982c0 b yy_more_flag	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:514
+a04982c4 b .LANCHOR15
+a04982c4 b yy_n_chars	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:306
+a04982c8 b .LANCHOR18
+a04982c8 b yy_did_buffer_switch_on_eof	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:317
+a04982cc b .LANCHOR5
+a04982cc b yy_last_accepting_cpos	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:505
+a04982d0 b .LANCHOR4
+a04982d0 b yy_last_accepting_state	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:504
+a04982d4 b .LANCHOR21
+a04982d4 B yyleng	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:307
+a04982d8 b .LANCHOR0
+a04982d8 b yy_start	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:312
+a04982dc b .LANCHOR3
+a04982dc b yy_c_buf_p	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:310
+a04982e0 b .LANCHOR26
+a04982e0 B my_yybuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:1937
+a04982ec b .LANCHOR2
+a04982ec b yy_more_len	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:515
+a04982f0 b .LANCHOR24
+a04982f0 b yy_init	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:311
+a04982f4 b .LANCHOR17
+a04982f4 b yy_hold_char	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:305
+a04982f8 b .LANCHOR13
+a04982f8 b yy_buffer_stack	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:287
+a04982fc b .LANCHOR23
+a04982fc b yy_buffer_stack_max	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Lexer.c:286
+a0498300 b .LANCHOR0
+a0498300 B yyparse_errmsg	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:95
+a0498400 b .LANCHOR5
+a0498400 B cmd_frees	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:98
+a0498404 b .LANCHOR3
+a0498404 b cmd	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:99
+a0498408 b .LANCHOR7
+a0498408 B yychar	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1113
+a049840c b .LANCHOR6
+a049840c B yynerrs	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1119
+a0498410 b .LANCHOR4
+a0498410 B cmd_mallocs	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:97
+a0498414 b .LANCHOR12
+a0498414 B yylval	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:1116
+a0498418 b .LANCHOR1
+a0498418 B parse_tab	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell_Tab.c:106
+a0499420 b .LANCHOR9
+a0499420 B _AmbaShell_CmdListMutex	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:62
+a0499454 b .LANCHOR2
+a0499454 B _pAmbaShellRootProc	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:60
+a0499458 b .LANCHOR3
+a0499458 b _AmbaShell_NumRawData	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:54
+a049945c b .LANCHOR6
+a049945c b g_LoadHistoryFromFile	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:741
+a0499460 b .LANCHOR8
+a0499460 b _AmbaShell_PromptBuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:52
+a049b460 b .LANCHOR0
+a049b460 b AmbaShellConfig	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:56
+a049b474 b .LANCHOR4
+a049b474 b _AmbaShell_RawBuf	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:53
+a049b4f4 b .LANCHOR1
+a049b4f4 B _AmbaShell_EnvMutex	/home/bingo/RD_A12/release_rtos/comsvc/AmbaShell/AmbaShell.c:61
+a049b528 b .LANCHOR1
+a049b528 B _AmbaCoreDumpStack	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:23
+a049b628 b .LANCHOR4
+a049b628 b _UserDefinedExceptionHandler	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaExceptionHandler.c:93
+a049b62c b .LANCHOR12
+a049b62c b _AmbaPrintTask	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:78
+a049b6ec b .LANCHOR8
+a049b6ec b _AmbaPrintInitFlag	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:75
+a049b6f0 b .LANCHOR5
+a049b6f0 b _AmbaPrintEventFlag	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:79
+a049b718 b .LANCHOR7
+a049b718 b _AmbaPrintMutex	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:80
+a049b74c b .LANCHOR10
+a049b74c b _AmbaPrintRtosMsgReadMutex	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:82
+a049b780 b .LANCHOR2
+a049b780 b _AmbaPrintRtosMsgWriteMutex	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:81
+a049b7b4 b .LANCHOR1
+a049b7b4 b AmbaPrint_ConsoleWriteCb	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaPrintk.c:76
+a049b7b8 B _AmbaRootTask	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:20
+a049b878 b .LANCHOR2
+a049b878 B AmbaSysStatusFlag	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:24
+a049b8a0 b .LANCHOR0
+a049b8a0 b _IdleTaskCallbackFunction	/home/bingo/RD_A12/release_rtos/comsvc/AmbaSys/AmbaRootTask.c:26
+a049b8a4 b .LANCHOR1
+a049b8a4 B DspSuspended
+a049b8a5 b .LANCHOR4
+a049b8a5 b DSP_ArmCommProcVideoBatch
+a049b8a6 b .LANCHOR9
+a049b8a6 b DSP_ArmCommInit
+a049b8a8 b .LANCHOR3
+a049b8a8 b DSP_ArmCommFlag
+a049b8d0 b .LANCHOR1
+a049b8d0 b LL_ErrHdlrInit
+a049b8d4 b .LANCHOR27
+a049b8d4 b DspFlagEncMode
+a049b8fc b .LANCHOR45
+a049b8fc b EncInfoInit
+a049b8fd b .LANCHOR25
+a049b8fd b DspStatusInit
+a049b900 b .LANCHOR2
+a049b900 b AmbaLL_BatchCmdBufferCtrl
+a049b908 b .LANCHOR5
+a049b908 b AmbaLL_IdspBatchInit
+a049b90c b .LANCHOR3
+a049b90c b LL_BatchCmdBufferVideo
+a049b910 b .LANCHOR0
+a049b910 b CmdLog
+a049b9b4 b .LANCHOR0
+a049b9b4 b AmbaLL_EventHandler
+a049cb94 b .LANCHOR1
+a049cb94 b Log
+a049cbe0 b .LANCHOR0
+a049cbe0 b LogBuf
+a04ccbe0 b .LANCHOR4
+a04ccbe0 b g_AmbaFSFile
+a04cccd0 b .LANCHOR0
+a04cccd0 B g_AmbaFSMutex
+a04ccd04 b .LANCHOR2
+a04ccd04 b g_AmbaFSCodeMode
+a04ccd08 b .LANCHOR1
+a04ccd08 b g_AmbaFSEnv
+a04d1c40 b .LANCHOR1
+a04d1c40 b g_PrFileObject
+a04d1c78 b .LANCHOR0
+a04d1c78 b g_PrfInitDone
+a04d1c7c b .LANCHOR0
+a04d1c7c b lock_set
+a04d1f4c b .LANCHOR0
+a04d1f4c b lock_set
+a04d1f54 b .LANCHOR0
+a04d1f54 B pAmbaGlobalBoss
+a04d1f58 b AmbaBossEarly
+a04d2030 b .LANCHOR0
+a04d2030 b AmbaBossProfile
+a06524ec b .LANCHOR4
+a06524ec B AmbaDSP_TotalUsedNonCachedMem	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaBuffers.c:37
+a06524f0 b .LANCHOR1
+a06524f0 B AmbaBytePool_Cached	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaBuffers.c:28
+a0652524 b .LANCHOR3
+a0652524 B AmbaBytePool_NonCached	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaBuffers.c:29
+a0652558 b .LANCHOR2
+a0652558 B AmbaDSP_TotalNonCachedMemSize	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaBuffers.c:36
+a065255c b .LANCHOR0
+a065255c B AmbaDSP_TotalCacheMemSize	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaBuffers.c:35
+a0652560 b .LANCHOR3
+a0652560 b _AmbaSysInitTask	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaUserSysCtrl.c:50
+a0652800 b .LANCHOR3
+a0652800 b FwImgHeader	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:71
+a0652a00 b .LANCHOR1
+a0652a00 b _AmbaNAND_PartTable	/home/bingo/RD_A12/release_rtos/app/fwupdater/AmbaFirmwareUpdater.c:65
+a0653a00 b .LANCHOR0
+a0653a00 B pdm_disk_set
+a06541bc b .LANCHOR0
+a06541bc b custom_get_free_clusters_func
+a06541c0 V G_vol_label_mixed_char
+a06541c8 b .LANCHOR0
+a06541c8 B pf_vol_set
+a068eab8 B pf_sys_set
+a068eabc b .LANCHOR0
+a068eabc b PwcDelayMS
+a068eac0 b .LANCHOR0
+a068eac0 b RtcDelayMS
+a068eac4 b .LANCHOR0
+a068eac4 B AmbaSPI_ReadClear
+a068eac8 b .LANCHOR0
+a068eac8 b _AmbaCache_Sem
+a068eae8 b .LANCHOR0
+a068eae8 B _AmbaDMA_Ctrl
+a068ecb0 b .LANCHOR0
+a068ecb0 B AmbaFio_CmdDoneCallBack
+a068ecb4 b .LANCHOR2
+a068ecb4 B g_AmbaFio
+a068ecec b .LANCHOR1
+a068ecec B AmbaFio_DmaDoneCallBack
+a068ecf0 b .LANCHOR0
+a068ecf0 B AmbaGPIO_Mutex
+a068edc0 b .LANCHOR0
+a068edc0 B AmbaI2C_Ctrl
+a068ee84 b .LANCHOR0
+a068ee84 B AmbaINT_Mutex
+a068eeb8 b .LANCHOR0
+a068eeb8 B g_NandOP
+a068ef24 b .LANCHOR0
+a068ef24 B NandPartitionMutex
+a068ef60 b .LANCHOR35
+a068ef60 b g_PartObj
+a0690f00 b .LANCHOR0
+a0690f00 B EmmcPartitionMutex
+a0690f34 b .LANCHOR0
+a0690f34 B g_NorOP
+a0690f94 b .LANCHOR10
+a0690f94 B g_AmbaNorMediaOP
+a0690fcc b .LANCHOR0
+a0690fcc B NorPartitionMutex
+a0691000 b .LANCHOR0
+a0691000 B AmbaPLL_Mutex
+a0691034 b .LANCHOR0
+a0691034 B _AmbaPWC_Mutex
+a0691068 b .LANCHOR1
+a0691068 b _AmbaRtcLastSetSystemTime
+a069106c b .LANCHOR3
+a069106c b _AmbaRTC_SysTimeTAI
+a06914ac b .LANCHOR0
+a06914ac B _AmbaRTC_Mutex
+a06914e0 b .LANCHOR2
+a06914e0 b _AmbaRtcLastSetTickCount
+a06914e4 b .LANCHOR4
+a06914e4 b _AmbaRTC_SysTimeUTC
+a0691924 b .LANCHOR8
+a0691924 B AmbaSD_SigEjectCallBack
+a0691928 b .LANCHOR7
+a0691928 B AmbaSD_SigInsertCallBack
+a069192c b .LANCHOR22
+a069192c B SD_HOST
+a0691934 b .LANCHOR2
+a0691934 b g_Emmc_BusWidth
+a0691938 b .LANCHOR6
+a0691938 b g_SdMutex
+a069196c b .LANCHOR0
+a069196c b g_AmbaSD_EventFlag
+a0691994 b .LANCHOR0
+a0691994 B AmbaSPI_Ctrl
+a0691adc b .LANCHOR3
+a0691adc b _AmbaMutexInfo
+a0691af4 b .LANCHOR1
+a0691af4 b _AmbaTaskInfo
+a0691b14 b .LANCHOR4
+a0691b14 b _AmbaSemInfo
+a0691b28 b .LANCHOR0
+a0691b28 b _AmbaIrqCount
+a0691ca8 b .LANCHOR5
+a0691ca8 b _AmbaEventFlagsInfo
+a0691cbc b .LANCHOR6
+a0691cbc b _AmbaMsgQueueInfo
+a0691cd4 b .LANCHOR8
+a0691cd4 b _AmbaBlockPoolInfo
+a0691cec b .LANCHOR7
+a0691cec b _AmbaBytePoolInfo
+a0691d04 b .LANCHOR1
+a0691d04 b _AmbaSysProfile_ElapsedTimeStart
+a0691d08 b .LANCHOR2
+a0691d08 b _AmbaSysProfile_ThreadTime
+a0692108 b .LANCHOR0
+a0692108 b LastTimeStamp.6576
+a069210c b .LANCHOR0
+a069210c b _AmbaTimerCtrl
+a06921e8 b .LANCHOR0
+a06921e8 B _AmbaUART_Ctrl
+a0692380 b .LANCHOR0
+a0692380 b VinMutex
+a06923b4 b .LANCHOR5
+a06923b4 b g_ScmSdDev
+a0692494 b .LANCHOR6
+a0692494 b g_SCMUsbDev
+a0692504 b .LANCHOR4
+a0692504 b g_ScmNandDev
+a0692734 b .LANCHOR0
+a0692734 b g_AmbaSCM_Ctrl
+a0692864 b .LANCHOR0
+a0692864 B _AmbaWDT_Ctrl
+a06928c0 b .LANCHOR1
+a06928c0 B _AmbaRTSL_DmaIsrCallBack
+a06928c4 b .LANCHOR0
+a06928c4 B AmbaRTSL_DmaCtrl
+a0692904 b .LANCHOR5
+a0692904 b g_MainDmaRpt
+a0692908 b .LANCHOR0
+a0692908 B AmbaRTSL_FioCmdIsrCallBack
+a0692920 b .LANCHOR4
+a0692920 b g_MainDmaReq
+a0692940 b .LANCHOR1
+a0692940 B AmbaRTSL_FioDmaIsrCallBack
+a0692944 b .LANCHOR7
+a0692944 b g_SpareDmaRpt
+a0692960 b .LANCHOR6
+a0692960 b g_SpareDmaReq
+a0692980 b .LANCHOR2
+a0692980 B g_AmbaRTSL_FioCtrl
+a0692b90 b .LANCHOR1
+a0692b90 B AmbaRTSL_GpioIsrCallBack
+a0692b94 b .LANCHOR1
+a0692b94 B AmbaRTSL_I2cIsrCallBack
+a0692b98 b .LANCHOR1
+a0692b98 B AmbaRTSL_I2sCtrl
+a0692ba0 b .LANCHOR3
+a0692ba0 b DummyWriteSpareBuffer
+a0692c20 b .LANCHOR0
+a0692c20 B AmbaNAND_FwPartInfo
+a0692c70 B AmbaNAND_NftlPartInfo
+a0692cd8 b .LANCHOR2
+a0692cd8 b DummyWriteMainBuffer
+a06934d8 b .LANCHOR2
+a06934d8 B AmbaNOR_FwPartInfo
+a0693528 B AmbaNOR_MediaPartInfo
+a0693550 b .LANCHOR1
+a0693550 b g_AmbaRTSL_NorHost
+a0693614 B AmbaEMMC_MediaPartInfo
+a0693640 b .LANCHOR0
+a0693640 b SdHostAmb
+a0693a70 b .LANCHOR2
+a0693a70 B AmbaRTSL_SDEjectCallBack
+a0693a74 b .LANCHOR1
+a0693a74 B AmbaRTSL_SDIsrCallBack
+a0693a78 b .LANCHOR3
+a0693a78 B AmbaRTSL_SDInsertCallBack
+a0693a7c B AmbaEMMC_FwPartInfo
+a0693acc b .LANCHOR1
+a0693acc B AmbaRTSL_SpiIsrCallBack
+a0693ad0 b .LANCHOR1
+a0693ad0 B AmbaKAL_TimerTickCounter
+a0693ad4 b .LANCHOR3
+a0693ad4 b _AmbaRTSL_TimerConfig
+a0693b54 b .LANCHOR0
+a0693b54 B _AmbaRTSL_TimerIsrCallBack
+a0693b58 b .LANCHOR2
+a0693b58 B _AmbaRTSL_UartTxIsrCallBack
+a0693b5c b .LANCHOR1
+a0693b5c B _AmbaRTSL_UartRxIsrCallBack
+a0693b60 b .LANCHOR1
+a0693b60 B _AmbaPreIsrCallBack
+a0693b64 b .LANCHOR0
+a0693b64 B AmbaVIC_IsrTable
+a0693ce4 b .LANCHOR2
+a0693ce4 B _AmbaPostIsrCallBack
+a0693ce8 b .LANCHOR1
+a0693ce8 B _AmbaRTSL_CacheExitCriticalSectionCallBack
+a0693cec b .LANCHOR0
+a0693cec B _AmbaRTSL_CacheEnterCriticalSectionCallBack
+a0693cf0 b .LANCHOR0
+a0693cf0 B _tx_execution_idle_time_last_start
+a0693cf4 b .LANCHOR3
+a0693cf4 B _tx_execution_isr_time_last_start
+a0693cf8 b .LANCHOR1
+a0693cf8 B _tx_execution_idle_time_total
+a0693cfc b .LANCHOR4
+a0693cfc B _tx_execution_isr_time_total
+a0693d00 b .LANCHOR2
+a0693d00 B _tx_execution_thread_time_total
+a0693d04 b .LANCHOR4
+a0693d04 B _tx_event_flags_created_ptr
+a0693d08 b .LANCHOR11
+a0693d08 B _tx_mutex_created_count
+a0693d0c b .LANCHOR6
+a0693d0c B _tx_block_pool_created_ptr
+a0693d10 b .LANCHOR9
+a0693d10 B _tx_byte_pool_created_count
+a0693d14 b .LANCHOR7
+a0693d14 B _tx_block_pool_created_count
+a0693d18 b .LANCHOR3
+a0693d18 B _tx_queue_created_count
+a0693d1c b .LANCHOR1
+a0693d1c B _tx_semaphore_created_count
+a0693d20 b .LANCHOR0
+a0693d20 B _tx_semaphore_created_ptr
+a0693d24 b .LANCHOR2
+a0693d24 B _tx_queue_created_ptr
+a0693d28 b .LANCHOR5
+a0693d28 B _tx_event_flags_created_count
+a0693d2c b .LANCHOR10
+a0693d2c B _tx_mutex_created_ptr
+a0693d30 b .LANCHOR8
+a0693d30 B _tx_byte_pool_created_ptr
+a0693d34 b .LANCHOR0
+a0693d34 B _tx_initialize_unused_memory
+a0693d38 B _tx_thread_preempted_map_active
+a0693d3c b .LANCHOR10
+a0693d3c B _tx_thread_application_stack_error_handler
+a0693d40 b .LANCHOR7
+a0693d40 B _tx_thread_created_count
+a0693d44 B _tx_thread_priority_map_active
+a0693d48 b .LANCHOR6
+a0693d48 B _tx_thread_created_ptr
+a0693d4c b .LANCHOR4
+a0693d4c B _tx_thread_highest_priority
+a0693d50 b .LANCHOR0
+a0693d50 B _tx_thread_current_ptr
+a0693d54 b .LANCHOR1
+a0693d54 B _tx_thread_execute_ptr
+a0693d58 b .LANCHOR9
+a0693d58 B _tx_thread_mutex_release
+a0693d5c b .LANCHOR11
+a0693d5c B _tx_build_options
+a0693d60 b .LANCHOR3
+a0693d60 B _tx_thread_preempted_maps
+a0693d80 b .LANCHOR5
+a0693d80 B _tx_thread_priority_list
+a0694180 b .LANCHOR2
+a0694180 B _tx_thread_priority_maps
+a06941a0 b .LANCHOR8
+a06941a0 B _tx_thread_preempt_disable
+a06941a4 b .LANCHOR3
+a06941a4 B _tx_timer_expired
+a06941a8 b .LANCHOR4
+a06941a8 B _tx_timer_list
+a0694228 b .LANCHOR5
+a0694228 B _tx_timer_list_start
+a069422c b .LANCHOR0
+a069422c B _tx_timer_system_clock
+a0694230 b .LANCHOR7
+a0694230 B _tx_timer_list_end
+a0694234 b .LANCHOR1
+a0694234 B _tx_timer_time_slice
+a0694238 b .LANCHOR10
+a0694238 B _tx_timer_stack_size
+a069423c b .LANCHOR9
+a069423c B _tx_timer_thread_stack_area
+a069463c b .LANCHOR11
+a069463c B _tx_timer_priority
+a0694640 b .LANCHOR2
+a0694640 B _tx_timer_expired_time_slice
+a0694644 b .LANCHOR13
+a0694644 B _tx_timer_created_ptr
+a0694648 b .LANCHOR8
+a0694648 B _tx_timer_stack_start
+a069464c b .LANCHOR12
+a069464c B _tx_timer_thread
+a069470c b .LANCHOR6
+a069470c B _tx_timer_current_ptr
+a0694710 b .LANCHOR14
+a0694710 B _tx_timer_created_count
+a0694714 B _tx_trace_registry_search_start
+a0694718 b .LANCHOR1
+a0694718 B _tx_trace_registry_start_ptr
+a069471c B _tx_trace_event_enable_bits
+a0694720 B _tx_trace_simulated_time
+a0694724 b .LANCHOR5
+a0694724 B _tx_trace_buffer_current_ptr
+a0694728 b .LANCHOR2
+a0694728 B _tx_trace_registry_end_ptr
+a069472c b .LANCHOR3
+a069472c B _tx_trace_buffer_start_ptr
+a0694730 B _tx_trace_full_notify_function
+a0694734 B _tx_trace_available_registry_entries
+a0694738 b .LANCHOR0
+a0694738 B _tx_trace_control_header_ptr
+a069473c b .LANCHOR4
+a069473c B _tx_trace_buffer_end_ptr
+a0694740 B _ux_system
+a0694744 b .LANCHOR5
+a0694744 B StorageMediainfo
+a069475c b .LANCHOR0
+a069475c B storage
+a0694760 b .LANCHOR3
+a0694760 b StorageMutex
+a0694800 b .LANCHOR5
+a0694800 B g_pUsbCacheBuffer
+a06a0800 b .LANCHOR1
+a06a0800 b FileSysSlot
+a06a0820 b .LANCHOR2
+a06a0820 b g_FormatBuf
+a06a4a00 b .LANCHOR6
+a06a4a00 B g_pUsbCachePage
+a06a5a00 B g_Usb1PrfObj
+a06a5fe0 b .LANCHOR5
+a06a5fe0 B __malloc_max_total_mem
+a06a5fe4 b .LANCHOR4
+a06a5fe4 B __malloc_max_sbrked_mem
+a06a5fe8 b .LANCHOR1
+a06a5fe8 B __malloc_top_pad
+a06a5fec b .LANCHOR3
+a06a5fec B __malloc_current_mallinfo
+a06a6014 b .LANCHOR0
+a06a6014 b heap_end.4079
+a06a6018 B __bss_end
+a06a6018 B errno
+a0700000 B __ucode_orcode_start
+a0700000 B __ucode_start
+a0b80000 B __ucode_orcme_start
+a0b80000 b __ucode_orcode_end
+a0c00000 B __ucode_orcmd_start
+a0c00000 b __ucode_orcme_end
+a0c80000 B __ucode_default_data_start
+a0c80000 b __ucode_orcmd_end
+a0d00000 B __non_cache_heap_start
+a0d00000 b __ucode_default_data_end
+a0d00000 B __ucode_end
+a1d00000 B __cache_heap_start
+a1d00000 B __non_cache_heap_end
+dc000000 B __cache_heap_end
+dc000000 B __linux_start
+e0000000 b __ddr_end
+e0000000 B __linux_end

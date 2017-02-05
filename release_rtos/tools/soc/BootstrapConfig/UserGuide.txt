@@ -1,0 +1,9 @@
+Ambarella Bootstrap Binary Editor (BootstrapConfig tool) - User Guide
+---------------------------------------------------------------------
+The tool is used to create DRAM parameters for Ambarella chips. The DRAM parameters is configurated according to DRAM Type, Timing, DDR clock Tuning, DDR controller Parameters and misc. Please follow the belowing steps to complete the DRAM configuration file:
+
+1. Please prepare DRAM specification and completed part number according to your board configuration.
+2. If you have a reference DRAM parameter file (e.g., ASM or INI file), please press "Load DRAM Configuration" button to import these settings directly.
+3. Please fill the fields in the Dram Type and Timing parts according to DRAM specification documents.
+4. In DDR clock Tuning, DDR controller Parameters and misc. parts, it go with the Ambarella chips designed. If you need to change these setting, please reference the sample or consult Ambarella support team to get help.
+5. After checking the given setting, press "Save DRAM Configuration" button to export the DRAM configuration.

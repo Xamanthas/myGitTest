@@ -1,0 +1,14 @@
+menuconfig BUILD_SVC_FRAMEWORK
+        bool "Build SVC Framework"
+        default n
+
+if BUILD_SVC_FRAMEWORK
+config BUILD_SVC_FRAMEWORK_IMAGE
+	bool "Build Image Framework"
+	default y
+
+config BUILD_SVC_FRAMEWORK_TSMUXER
+	bool "Build TS Muxer"
+	default n
+
+endif

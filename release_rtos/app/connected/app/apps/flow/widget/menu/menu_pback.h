@@ -1,0 +1,124 @@
+/**
+  * @file src/app/apps/flow/widget/menu/connectedcam/menu_pback.h
+  *
+  * Header of Playback-related Menu Items
+  *
+  * History:
+  *    2013/11/22 - [Martin Lai] created file
+  *
+  * Copyright (C) 2013, Ambarella, Inc.
+  *
+  * All rights reserved. No Part of this file may be reproduced, stored
+  * in a retrieval system, or transmitted, in any form, or by any means,
+  * electronic, mechanical, photocopying, recording, or otherwise,
+  * without the prior consent of Ambarella, Inc.
+  */
+#ifndef APP_WIDGET_MENU_PBACK_H_
+#define APP_WIDGET_MENU_PBACK_H_
+
+__BEGIN_C_PROTO__
+
+/*************************************************************************
+ * playback menu definitions
+ ************************************************************************/
+// pback item
+typedef enum _MENU_PBACK_ITEM_ID_e_ {
+    MENU_PBACK_FILE_PROTECTION = 0,
+    MENU_PBACK_VIDEO_PLAY_OPTION,
+    MENU_PBACK_PHOTO_PLAY_OPTION,
+    MENU_PBACK_SLIDESHOW,
+    MENU_PBACK_SLIDE_SHOW_EFFECT,
+    MENU_PBACK_REAL_MOVIE_EDIT,
+    MENU_PBACK_DELETE_FILE,
+    MENU_PBACK_POSTPROC,
+    MENU_PBACK_POSTPROC_SAVE,
+    MENU_PBACK_SOUND_PLAY_OPTION,
+    MENU_PBACK_SOUND_BACKGROUND,
+    MENU_PBACK_ITEM_NUM
+} MENU_PBACK_ITEM_ID_e;
+
+// file protection sel
+typedef enum _MENU_PBACK_FILE_PROTECTION_SEL_ID_e_ {
+    MENU_PBACK_FILE_PROTECTION_MULTI = 0,
+    MENU_PBACK_FILE_PROTECTION_ALL,
+    MENU_PBACK_FILE_PROTECTION_UNPROTECT_ALL,
+    MENU_PBACK_FILE_PROTECTION_SEL_NUM
+} MENU_PBACK_FILE_PROTECTION_SEL_ID_e;
+
+// play option sel
+typedef enum _MENU_PBACK_VIDEO_PLAY_OPTION_SEL_ID_e_ {
+    MENU_PBACK_VIDEO_PLAY_OPTION_ONE = 0,
+    MENU_PBACK_VIDEO_PLAY_OPTION_ALL,
+    MENU_PBACK_VIDEO_PLAY_OPTION_REPEAT_ONE,
+    MENU_PBACK_VIDEO_PLAY_OPTION_REPEAT_ALL,
+    MENU_PBACK_VIDEO_PLAY_OPTION_SEL_NUM
+} MENU_PBACK_VIDEO_PLAY_OPTION_SEL_ID_e;
+
+// photo play option sel
+typedef enum _MENU_PBACK_PHOTO_PLAY_OPTION_SEL_ID_e_ {
+    MENU_PBACK_PHOTO_PLAY_OPTION_NO_REPEAT = 0,
+    MENU_PBACK_PHOTO_PLAY_OPTION_REPEAT,
+    MENU_PBACK_PHOTO_PLAY_OPTION_SEL_NUM
+} MENU_PBACK_PHOTO_PLAY_OPTION_SEL_ID_e;
+
+typedef enum _MENU_PBACK_SLIDESHOW_SEL_ID_e_ {
+    MENU_PBACK_SLIDESHOW_OFF = 0,
+    MENU_PBACK_SLIDESHOW_ON,
+    MENU_PBACK_SLIDESHOW_SEL_NUM
+} MENU_PBACK_SLIDESHOW_SEL_ID_e;
+
+// slide show effect option sel
+typedef enum _MENU_PBACK_SLIDESHOW_EFFECT_SEL_ID_e_ {
+    MENU_PBACK_SLIDE_SHOW_EFFECT_FADING = 0,
+    MENU_PBACK_SLIDE_SHOW_EFFECT_FLYING,
+    MENU_PBACK_SLIDE_SHOW_EFFECT_SEL_NUM
+} MENU_PBACK_SLIDESHOW_EFFECT_SEL_ID_e;
+
+// real movie edit sel
+typedef enum _MENU_PBACK_REAL_MOVIE_EDIT_SEL_ID_e_ {
+    MENU_PBACK_REAL_MOVIE_EDIT_CROP = 0,
+    MENU_PBACK_REAL_MOVIE_EDIT_PARTIAL_DEL,
+    MENU_PBACK_REAL_MOVIE_EDIT_DIVIDE,
+    MENU_PBACK_REAL_MOVIE_EDIT_MERGE,
+    MENU_PBACK_REAL_MOVIE_EDIT_SEL_NUM
+} MENU_PBACK_REAL_MOVIE_EDIT_SEL_ID_e;
+
+// delete file sel
+typedef enum _MENU_PBACK_DELETE_FILE_SEL_ID_e_ {
+    MENU_PBACK_DELETE_FILE_ONE = 0,
+    MENU_PBACK_DELETE_FILE_ALL,
+    MENU_PBACK_DELETE_FILE_SEL_NUM
+} MENU_PBACK_DELETE_FILE_SEL_ID_e;
+
+// postprocess save
+typedef enum _MENU_PBACK_POSTPROC_SEL_ID_e_ {
+    MENU_PBACK_POSTPROC_RER = 0,    // Red-eye removal
+    MENU_PBACK_POSTPROC_DL,            // Dynamic lighting
+    MENU_PBACK_POSTPROC_SEL_NUM
+} MENU_PBACK_POSTPROC_SEL_ID_e;
+
+// postprocess save sel
+typedef enum _MENU_PBACK_POSTPROC_SAVE_SEL_ID_e_ {
+    MENU_PBACK_POSTPROC_SAVE_SAVE = 0,
+    MENU_PBACK_POSTPROC_SAVE_REPLACE,
+    MENU_PBACK_POSTPROC_SAVE_SEL_NUM
+} MENU_PBACK_POSTPROC_SAVE_SEL_ID_e;
+
+// sound play option sel
+typedef enum _MENU_PBACK_SOUND_PLAY_OPTION_SEL_ID_e_ {
+    MENU_PBACK_SOUND_PLAY_OPTION_ONE = 0,
+    MENU_PBACK_SOUND_PLAY_OPTION_ALL,
+    MENU_PBACK_SOUND_PLAY_OPTION_REPEAT_ONE,
+    MENU_PBACK_SOUND_PLAY_OPTION_REPEAT_ALL,
+    MENU_PBACK_SOUND_PLAY_OPTION_SEL_NUM
+} MENU_PBACK_SOUND_PLAY_OPTION_SEL_ID_e;
+
+typedef enum _MENU_PBACK_SOUND_BACKGROUND_SEL_ID_e_ {
+    MENU_PBACK_SOUND_BACKGROUND_LOGO = 0,
+    MENU_PBACK_SOUND_BACKGROUND_PHOTO,
+    MENU_PBACK_SOUND_BACKGROUND_SEL_NUM
+} MENU_PBACK_SOUND_BACKGROUND_SEL_ID_e;
+
+__END_C_PROTO__
+
+#endif /* APP_WIDGET_MENU_PBACK_H_ */

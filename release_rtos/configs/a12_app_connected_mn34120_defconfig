@@ -1,0 +1,356 @@
+#
+# Automatically generated file; DO NOT EDIT.
+# Ambarella SDK Configuration
+#
+
+#
+# Chip Configuration
+#
+# CONFIG_SOC_A9 is not set
+CONFIG_SOC_A12=y
+
+#
+# Build Configuration
+#
+
+#
+# Ambarella Build Targets
+#
+# CONFIG_BUILD_AMBA_SSP_UNITTEST is not set
+# CONFIG_BUILD_AMBA_MW_UNITTEST is not set
+CONFIG_BUILD_AMBA_APP=y
+
+#
+# Load Script
+#
+#CONFIG_BUILD_AMBA_APP_NAME_LDS="app/amba_app_partial_load.lds"
+CONFIG_BUILD_AMBA_APP_NAME_LDS="app/amba_app.lds"
+
+
+#
+# CPU Options
+#
+
+#
+# ARM CPU ARCH
+#
+CONFIG_CPU_32v6K=y
+CONFIG_CPU_32v7=y
+CONFIG_MMU=y
+CONFIG_AEABI=y
+CONFIG_CPU_V7=y
+CONFIG_VFP_V3=y
+# CONFIG_VFP_SOFT is not set
+CONFIG_CPU_V7_CA9=y
+CONFIG_CC_CXX_SUPPORT=y
+
+#
+# GCC Options
+#
+CONFIG_DEBUG_INFO=y
+# CONFIG_CC_OPTIMIZE_0 is not set
+# CONFIG_CC_OPTIMIZE_1 is not set
+CONFIG_CC_OPTIMIZE_2=y
+# CONFIG_CC_OPTIMIZE_3 is not set
+CONFIG_FRAME_WARN=0
+CONFIG_CC_W_MISSING_BRACES=y
+
+#
+# System Configuration
+#
+
+#
+# Board Support Package
+#
+
+#
+# Board support package
+#
+CONFIG_BSP_DRAGONFLY=y
+# CONFIG_BSP_TAROKO is not set
+
+#
+# Peripheral
+#
+
+#
+# DRAM Config
+#
+CONFIG_DDR_SIZE=0x40000000
+# CONFIG_DRAM_DDR3_K4B4G1646BHCK0_16BIT_396MHZ is not set
+# CONFIG_DRAM_DDR3_K4B4G1646BHCK0_16BIT_600MHZ is not set
+# CONFIG_DRAM_DDR3_K4B4G1646BHCK0_32BIT_396MHZ is not set
+CONFIG_DRAM_DDR3_K4B4G1646BHCK0_32BIT_600MHZ=y
+# CONFIG_DRAM_LPDDR2_MT42L128M32D1GU is not set
+# CONFIG_DRAM_LPDDR2_MT42L256M32D4 is not set
+# CONFIG_DRAM_LPDDR3_K4E8E304EDEGCE is not set
+
+#
+# Sbrg Driver
+#
+# CONFIG_SBRIDGE_TI913914 is not set
+
+#
+# Sensor Driver
+#
+CONFIG_SENSOR_MN34120=y
+# CONFIG_SENSOR_SONY_IMX117 is not set
+# CONFIG_SENSOR_OV4689 is not set
+# CONFIG_SENSOR_TI913914_OV2710 is not set
+# CONFIG_SENSOR_SONY_IMX206 is not set
+
+#
+# YUV input Driver
+#
+# CONFIG_YUVINPUT_TI5150 is not set
+
+#
+# LCD Driver
+#
+CONFIG_LCD_WDF9648W=y
+# CONFIG_LCD_T20P52 is not set
+
+#
+# NAND Driver
+#
+# CONFIG_NAND_CT49248DD962D1 is not set
+CONFIG_NAND_S34ML04G1=y
+# CONFIG_NAND_S34ML02G1 is not set
+# CONFIG_NAND_K9F2G08U0C is not set
+
+#
+# NOR Driver
+#
+# CONFIG_NOR_S25FL256S is not set
+
+#
+# Audio codec Driver
+#
+CONFIG_AUDIO_TITLV320AIC3256=y
+# CONFIG_AUDIO_WM8974 is not set
+
+#
+# MISC Drivers
+#
+CONFIG_EXPGPIO=y
+CONFIG_EXPGPIO_TI_TCA9539=y
+CONFIG_IRDA=y
+# CONFIG_IRDA_SONY is not set
+# CONFIG_IRDA_PHILIPS is not set
+CONFIG_IRDA_PANASONIC=y
+# CONFIG_IRDA_NEC is not set
+CONFIG_ENABLE_AMBALINK=y
+
+#
+# Ambalink Configuration
+#
+CONFIG_AMBALINK_MEM_SIZE=0x04000000
+CONFIG_AMBALINK_SHARED_MEM_SIZE=0x00600000
+CONFIG_AMBALINK_CMDLINE="ubi.mtd=8 root=ubi0:linux rootfstype=ubifs console=ttyS1 nr_cpus=1 maxcpus=0"
+CONFIG_AMBALINK_RPMSG_SIZE=2048
+CONFIG_AMBALINK_RPMSG_NUM=2048
+CONFIG_AMBALINK_VRING_SIZE=0xa000
+CONFIG_AMBALINK_RPMSG_PROFILE_SIZE=0xa000
+
+#
+# Firmware Programmer
+#
+
+#
+# Bootstrap Partition
+#
+CONFIG_BST="${KBUILD_AMBA_OUT_DIR}/amba_bst.bin"
+CONFIG_BST_VIF="1.0.0"
+
+#
+# Bootloader Partition
+#
+CONFIG_BLD="${KBUILD_AMBA_OUT_DIR}/amba_bld.bin"
+CONFIG_BLD_VIF="1.0.0"
+CONFIG_BLD_LOADADDR=0x10000000
+
+#
+# SD Firmware Update Partition
+#
+CONFIG_PBA="${KBUILD_AMBA_OUT_DIR}/amba_pba.bin"
+CONFIG_PBA_VIF="1.0.0"
+CONFIG_PBA_LOADADDR=0xA0001000
+
+#
+# RTOS System Partition
+#
+CONFIG_SYS="${KBUILD_AMBA_OUT_DIR}/amba_app.bin"
+CONFIG_SYS_VIF="1.0.0"
+CONFIG_SYS_LOADADDR=0xA0001000
+
+#
+# DSP uCode Partition
+#
+CONFIG_DSP="${FWPROG_OUT_DIR}/dsp.bin"
+CONFIG_DSP_VIF="1.0.0"
+CONFIG_DSP_LIST_FILE="${srctree}/vendors/ambarella/ucode/x99/ucode.list"
+
+#
+# System ROM Partition
+#
+CONFIG_ROM="${FWPROG_OUT_DIR}/rom.bin"
+CONFIG_ROM_VIF="1.0.0"
+CONFIG_ROM_LIST_FILE="${srctree}/app/connected/app/rom/romfs_mn34120.list"
+
+#
+# Linux Kernel Partition
+#
+CONFIG_LNX="${srctree}/linux_image/Image"
+CONFIG_LNX_VIF="1.0.0"
+CONFIG_LNX_LOADADDR=0x3c608000
+CONFIG_DTB="${srctree}/linux_image/dtb_debug.bin"
+
+#
+# Linux Root FS Partition
+#
+CONFIG_RFS="${srctree}/linux_image/rootfs.ubi"
+CONFIG_RFS_VIF="1.0.0"
+
+#
+# System Build Selection
+#
+# CONFIG_BUILD_GPL_LIB is not set
+CONFIG_BUILD_FOSS_LIB=y
+CONFIG_BUILD_FOSS_GPSD=y
+
+#
+# Modules Configuration
+#
+
+#
+# Application
+#
+
+#
+# Application
+#
+CONFIG_APP=y
+CONFIG_APP_CONNECTED=y
+
+#
+# Connected camera application
+#
+
+#
+# Connected camera application
+#
+CONFIG_APP_CONNECTED_APP=y
+CONFIG_APP_CONNECTED_APPLIB=y
+
+#
+# Connected camera application library
+#
+
+#
+# Connected camera application library
+#
+CONFIG_APP_CONNECTED_APPLIB_ALL=y
+CONFIG_APP_CONNECTED_STAMP=y
+#CONFIG_APP_CONNECTED_PARTIAL_LOAD=y
+CONFIG_APP_CONNECTED_AMBA_LINK=y
+CONFIG_APP_DSP_WORKBUFFER_SIZE=180
+
+#
+# Audio
+#
+CONFIG_AUDIO_SYS=y
+
+#
+# Common Service
+#
+
+#
+# Common Service
+#
+CONFIG_COMSVC_AMBASHELL=y
+CONFIG_COMSVC_AMBASYS=y
+CONFIG_COMSVC_AMBATEST=y
+CONFIG_COMSVC_FWUPDATE=y
+CONFIG_COMSVC_MISC=y
+
+#
+# Image Services
+#
+
+#
+# Image Services
+#
+CONFIG_IMG_SCHEDULER=y
+CONFIG_IMG_PROC=y
+CONFIG_IMG_CALIBRATION=y
+CONFIG_IMG_ITUNER=y
+CONFIG_IMG_UTILS=y
+
+#
+# Middleware
+#
+
+#
+# Middleware
+#
+# CONFIG_BUILD_MW_UNITTEST is not set
+CONFIG_BUILD_MW_FLOW=y
+
+#
+# Codec
+#
+
+#
+# Codecs
+#
+CONFIG_BUILD_MW_CODEC_VIDEOENC=y
+CONFIG_BUILD_MW_CODEC_AUDIOENC=y
+CONFIG_BUILD_MW_SERVICE=y
+
+#
+# DCF
+#
+
+#
+# Design rule for Camera File system
+#
+CONFIG_BUILD_MW_CFS=y
+CONFIG_BUILD_MW_NET=y
+
+#
+# Net
+#
+
+#
+# Net
+#
+CONFIG_MW_NET_CTRL=y
+CONFIG_MW_NET_EVENTNOTIFIER=y
+CONFIG_MW_NET_FIFO=y
+CONFIG_MW_NET_UTILITY=y
+
+#
+# System Support Package
+#
+CONFIG_BUILD_SSP_AMBOOT=y
+CONFIG_BUILD_SSP_DSP=y
+CONFIG_BUILD_SSP_FS=y
+CONFIG_BUILD_SSP_KAL=y
+CONFIG_BUILD_SSP_LINK=y
+CONFIG_BUILD_SSP_PRFILE2_EXFAT=y
+CONFIG_BUILD_SSP_SOC=y
+CONFIG_BUILD_SSP_SVC=y
+CONFIG_BUILD_SSP_THREADX=y
+# CONFIG_SSP_THREADX_SMP is not set
+CONFIG_BUILD_SSP_USB=y
+
+#
+# Unit Test
+#
+# CONFIG_BUILD_SSP_UNITTEST is not set
+
+#
+# Video Analytic
+#
+CONFIG_VA_ADAS=y
+CONFIG_BUILD_VA_ADAS=y

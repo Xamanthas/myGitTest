@@ -1,0 +1,1 @@
+cmd_ssp/amboot/bld/libamboot_bld.a := rm -f ssp/amboot/bld/libamboot_bld.a; /usr/local/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar rcsD ssp/amboot/bld/libamboot_bld.a ssp/amboot/bld/AmbaNonOS_Shell.o ssp/amboot/bld/AmbaVer.o
